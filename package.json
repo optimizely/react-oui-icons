@@ -1,0 +1,42 @@
+{
+  "name": "react-oui-icons",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/optimizely/react-oui-icons.git"
+  },
+  "keywords": [
+    "oui",
+    "icons",
+    "components",
+    "optimizely",
+    "react",
+    "ui"
+  ],
+   "author": "Iñaki Aranzadi <inaki.aranzadi@optimizely.com> ",
+  "contributors": [
+    {
+      "name": "Dave Rau",
+      "email": "dave.rau@optimizely.com"
+    },
+    {
+      "name": "Jack Schlotthauer",
+      "email": "jack.schlotthauer@optimizely.com"
+    }
+  ],
+  "license": "ISC"
+}

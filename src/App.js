@@ -10,7 +10,13 @@ class App extends Component {
   render() {
     const iconsElements = icons.map( (icon, index) => {
       return <div key={index} className="icon-box">
-        <Icon description={icon} name={icon} width="50" height="50"/>
+        <Icon 
+          className="icon"
+          description={icon} 
+          name={icon} 
+          width="24" 
+          height="24"
+        />
       </div>
     });
     return (

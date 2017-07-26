@@ -75,6 +75,7 @@ const Icon = ({
   className,
   description,
   fill,
+  stroke,
   fillRule,
   height,
   name,
@@ -88,6 +89,7 @@ const Icon = ({
   const props = {
     className,
     fill,
+    stroke,
     fillRule,
     height: height || icon.height,
     name: `${name}`,

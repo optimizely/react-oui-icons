@@ -5,6 +5,10 @@
 
 }
 
+svg {
+  stroke: none;
+}
+
 .icon-container {
   display: flex;
   flex-wrap: wrap;

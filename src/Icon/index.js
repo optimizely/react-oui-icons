@@ -75,30 +75,28 @@ const Icon = ({
   className,
   description,
   fill,
-  stroke,
   fillRule,
-  height,
   name,
   role,
+  size,
   style,
-  width,
   // ...other
 }) => {
   const icon = findIcon(`${name}`);
-
+  if(size === 'small') { size = '16'}
+  else if( size === 'medium') { size = '24'}
   const props = {
     className,
     fill,
-    stroke,
     fillRule,
-    height: height || icon.height,
+    height: size,
     name: `${name}`,
     role,
     style,
     viewBox: icon.viewBox,
-    width: width || icon.width
+    width: size,
   };
-
+  
   const svgContent = icon ? svgShapes(icon.svgData) : '';
 
   return (

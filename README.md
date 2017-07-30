@@ -13,7 +13,7 @@ This implementation consists of a Icon React Component that will generate an inl
 
 ## Using the icons
 
-1. **Download the package:** Run `npm install --save oui-icons` to include the latest icons in your project.
+1. **Download the package:** Run `yarn add oui-icons` to include the latest icons in your project.
 
 2. **Using an icon:** You can use one of the icons in the HTML with:
 

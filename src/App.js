@@ -9,7 +9,7 @@ import TextField from './components/TextField';
 
 class App extends Component {
   state = {
-    size: "24",
+    size: "small",
     color: "#666"
   }
 
@@ -24,10 +24,8 @@ class App extends Component {
           className="icon"
           description={icon} 
           name={icon} 
-          width={this.state.size} 
-          height={this.state.size}
-          viewbox="0 0 30 30"
-          stroke={this.state.color}
+          size={this.state.size} 
+          fill={this.state.color}
         />
       </div>
     });
@@ -38,7 +36,7 @@ class App extends Component {
         </div>
         <div className="side-panel">
           <TextField 
-            type="number"
+            type="text"
             label="change size"
             name="size"
             value={this.state.size} 

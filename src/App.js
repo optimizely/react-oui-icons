@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { icons } from './config';
 import './App.css';
 
-import Icon from './Icon';
+import Icon from './node_modules/components/Icon';
 import TextField from './components/TextField';
 
 
@@ -39,6 +39,7 @@ class App extends Component {
             type="text"
             label="change size"
             name="size"
+            placeholder="small is the default"
             value={this.state.size} 
             onChange={this._handleChange}
           />

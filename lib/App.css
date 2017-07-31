@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+
+}
+
+svg {
+  stroke: none;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.icon-box {
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 5px;
+  padding: 20px 10px;
+  text-align: center;
+  width: 100px; 
+}
+
+.icon {
+  align-self: center;
+}
+
+.side-panel {
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 5px;
+  min-width: 300px;
+  padding: 40px 20px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

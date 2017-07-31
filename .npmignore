@@ -1,13 +1,10 @@
+config
 node_modules
-public
 scripts
 src
 
-package.json
 yarn.lock
 
-.babelrc
-.config
 .DS_Store
 .env
 

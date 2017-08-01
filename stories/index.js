@@ -2,19 +2,24 @@ import React from 'react';
 import { icons } from '../src/config';
 
 import { storiesOf } from '@storybook/react';
-// import { action } from '@storybook/addon-actions';
-// import { linkTo } from '@storybook/addon-links';
+import { withKnobs, text, select } from '@storybook/addon-knobs';
 
 import Icon from '../src/Icon';
 
-storiesOf('Button', module)
-  .add('with text', () => {      
+const stories = storiesOf('Icons', module);
+
+// this add knobs to test component with diff props
+stories.addDecorator(withKnobs);
+
+stories.add('all icons', () => {      
         const iconsElements = icons.map( (icon, index) => {
           return <div key={index} style={ styles.iconBox }>
             <Icon 
               style={styles.icon}
               description={icon} 
-              name={icon} 
+              name={icon}
+              fill={ text('color', '') } 
+              size={ select('size', { small: 'small', medium: 'medium' }, 'small') }
             />
           </div>
         });

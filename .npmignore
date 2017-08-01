@@ -1,0 +1,12 @@
+config
+node_modules
+scripts
+src
+
+yarn.lock
+
+.DS_Store
+.env
+
+npm-debug.log*
+yarn-debug.log*

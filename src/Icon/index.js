@@ -7,12 +7,11 @@ const propTypes = {
   description: PropTypes.string.isRequired,
   fill: PropTypes.string,
   fillRule: PropTypes.string,
-  height: PropTypes.string,
   name: PropTypes.string.isRequired,
   role: PropTypes.string,
+  size: PropTypes.string,
   style: PropTypes.object,
   viewBox: PropTypes.string,
-  width: PropTypes.string,
 };
 
 export function findIcon(name, iconsObj = icons) {
@@ -78,13 +77,14 @@ const Icon = ({
   fillRule,
   name,
   role,
-  size,
+  size = 'small',
   style,
   // ...other
 }) => {
   const icon = findIcon(`${name}`);
   if(size === 'small') { size = '16'}
   else if( size === 'medium') { size = '24'}
+  else { size = '16'}
   const props = {
     className,
     fill,

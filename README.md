@@ -68,9 +68,3 @@ This implementation consists of a Icon React Component that will generate an inl
   * `npm version patch` - version includes a backwards-compatible bug fix or tweak. This includes small icon style modifications.
   * `npm version minor` - version includes a backwards compatible new "feature" such as a new icon.
   * `npm version major` - version contains a non-backwards compatible breaking change such as a renamed or deleted icon.
-## To do's
-
-- [ ] register as a npm package
-- [ ] write some test
-- [ ] add documentation
-- [ ] add storybook for visual UI testing

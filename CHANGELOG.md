@@ -6,7 +6,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
-## 0.2.2 - 2017-08-02
+## 0.2.0 - 2017-08-02
 
 - [Feature] Add new size option
 - [Feature] React Icon component base on OUI design system

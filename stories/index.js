@@ -19,7 +19,7 @@ stories.add('all icons', () => {
               description={icon} 
               name={icon}
               fill={ text('color', '') } 
-              size={ select('size', { small: 'small', medium: 'medium' }, 'small') }
+              size={ select('size', { small: 'small', medium: 'medium', large: 'large' }, 'small') }
             />
           </div>
         });

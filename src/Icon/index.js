@@ -77,13 +77,14 @@ const Icon = ({
   fillRule,
   name,
   role,
-  size = 'small',
+  size = 'medium',
   style,
   // ...other
 }) => {
   const icon = findIcon(`${name}`);
-  if(size === 'small') { size = '16'}
-  else if( size === 'medium') { size = '24'}
+  if(size === 'small') { size = '12'}
+  else if( size === 'medium') { size = '16'}
+  else if( size === 'large') { size = '24'}
   else { size = '16'}
   const props = {
     className,

@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import glamorous from 'glamorous';
+
 import icons from './icons';
 
 const propTypes = {
@@ -81,6 +83,12 @@ const Icon = ({
   style,
   // ...other
 }) => {
+  const Svg = glamorous.svg({
+    ':hover': {
+      fill: 'red',
+    },
+  });
+
   const icon = findIcon(`${name}`);
   if(size === 'small') { size = '12'}
   else if( size === 'medium') { size = '16'}
@@ -101,10 +109,10 @@ const Icon = ({
   const svgContent = icon ? svgShapes(icon.svgData) : '';
 
   return (
-    <svg {...props}>
+    <Svg {...props}>
       <title>{description}</title>
       {svgContent}
-    </svg>
+    </Svg>
   );
 };
 

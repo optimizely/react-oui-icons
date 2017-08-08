@@ -1,6 +1,6 @@
 {
   "name": "react-oui-icons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib/index.js",
   "private": false,
   "dependencies": {
@@ -25,6 +25,7 @@
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "0.11.2",
     "fs-extra": "3.0.1",
+    "glamorous": "^4.1.0",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "object-assign": "4.1.1",

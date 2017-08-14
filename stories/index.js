@@ -15,7 +15,6 @@ stories.add('all icons', () => {
         const iconsElements = icons.map( (icon, index) => {
           return <div key={index} style={ styles.iconBox }>
             <Icon 
-              style={styles.icon}
               description={icon} 
               name={icon}
               fill={ text('color', '') } 
@@ -32,6 +31,16 @@ stories.add('all icons', () => {
         );
       }
   );
+
+  stories.add('one icon', () => {      
+    return (
+      <Icon 
+      description='accounts icon'
+      name='accounts'
+    />
+    );
+  }
+)
 
 
 const styles = {

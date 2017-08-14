@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import glamorous from 'glamorous';
 
-import icons from './icons';
+import icons from './icons.json';
 
 const propTypes = {
   className: PropTypes.string,
@@ -16,58 +16,23 @@ const propTypes = {
   viewBox: PropTypes.string,
 };
 
-export function findIcon(name, iconsObj = icons) {
-  const icon = iconsObj.filter(obj => obj.name === name);
-
-  if (icon.length === 0) {
-    return false;
-  } else if (icon.length > 1) {
-    throw new Error('Multiple icons found...');
-  } else {
-    return icon[0];
-  }
+function findIcon(name, iconsObj = icons) {
+  const icon = iconsObj.filter(obj => obj.title.split(' ').join('-') === name);
+  if(icon.length > 1) throw new Error('More that one icons was found with same name');
+  const iconObj = icon.length === 0 ? false : icon[0];
+  return iconObj;
 }
 
-
-export function getSvgData(iconName) {
-  const name = findIcon(iconName);
-  return name ? name.svgData : false;
-}
-
-
-export function svgShapes(svgData) {
-  const svgElements = Object.keys(svgData)
-    .filter(key => svgData[key])
-    .map(svgProp => {
-      const data = svgData[svgProp];
-
-      if (svgProp === 'circles') {
-        return data.map(circle => {
-          const circleProps = {
-            cx: circle.cx,
-            cy: circle.cy,
-            r: circle.r,
-          };
-
-          return <circle {...circleProps} />;
-        });
-      } else if (svgProp === 'ellipses') {
-        return data.map(ellipse => {
-          const ellipseProps = {
-            cx: ellipse.cx,
-            cy: ellipse.cy,
-            rx: ellipse.rx,
-            ry: ellipse.ry,
-          };
-
-          return <ellipse {...ellipseProps} />;
-        });
-      } else if (svgProp === 'paths') {
-        return data.map(path => <path d={path.d} />);
-      }
-
-      return '';
-    });
+function buildSvg(iconData) {
+  const svgElements = iconData.map( (prop, index) => {
+    if(prop.name === 'g') { return buildSvg(prop.childs) }
+    else if(prop.name === 'path') { 
+      return <path {...prop.attrs} /> 
+    }
+    else if(prop.name === 'circle') { 
+      return <circle {...prop.attrs} />
+    }
+  });
 
   return svgElements;
 }
@@ -84,16 +49,14 @@ const Icon = ({
   // ...other
 }) => {
   const Svg = glamorous.svg({
+    'stroke': 'black',
+    'fill': 'none',
     ':hover': {
-      fill: 'red',
+      'stroke': 'red',
     },
   });
 
   const icon = findIcon(`${name}`);
-  if(size === 'small') { size = '12'}
-  else if( size === 'medium') { size = '16'}
-  else if( size === 'large') { size = '24'}
-  else { size = '16'}
   const props = {
     className,
     fill,
@@ -106,18 +69,17 @@ const Icon = ({
     width: size,
   };
   
-  const svgContent = icon ? svgShapes(icon.svgData) : '';
+  const content = icon ? buildSvg(icon.childs) : '';
+  const attrs = icon.attrs;
 
   return (
-    <Svg {...props}>
-      <title>{description}</title>
-      {svgContent}
+    <Svg {...attrs}>
+      <title>{icon.title}</title>
+      { content }
     </Svg>
   );
 };
 
 Icon.propTypes = propTypes;
-
-export { icons };
 
 export default Icon;

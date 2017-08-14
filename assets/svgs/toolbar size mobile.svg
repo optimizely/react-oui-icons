@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>toolbar size mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toolbar-size-mobile" stroke="#000000">
+            <rect id="Rectangle-5" x="6.5" y="3.5" width="11" height="18" rx="2"></rect>
+            <path d="M6.5,7.5 L17.5,7.5" id="Line" stroke-linecap="square"></path>
+            <path d="M6.5,18.5 L17.5,18.5" id="Line" stroke-linecap="square"></path>
+            <path d="M10.5,5.5 L13.5,5.5" id="Line-2" stroke-linecap="square"></path>
+            <circle id="Oval-3" cx="12" cy="20" r="1"></circle>
+        </g>
+    </g>
+</svg>

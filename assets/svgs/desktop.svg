@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="desktop" stroke="#000000">
+            <path d="M22.5,17.912 C22.5,18.789 21.8581739,19.5 21.0652174,19.5 L1.93478261,19.5 C1.14278261,19.5 0.5,18.789 0.5,17.912 L0.5,3.088 C0.5,2.211 1.14278261,1.5 1.93478261,1.5 L21.0652174,1.5 C21.8581739,1.5 22.5,2.211 22.5,3.088 L22.5,17.912 Z" id="Stroke-239" stroke-linecap="round"></path>
+            <path d="M5.5,21.5 L17.5,21.5" id="Stroke-240" stroke-linecap="round"></path>
+            <path d="M11.5,19.5 L11.5,21.5" id="Stroke-241" stroke-linecap="round"></path>
+            <path d="M12,17.5 C12,17.776 11.776,18 11.5,18 C11.224,18 11,17.776 11,17.5 C11,17.224 11.224,17 11.5,17 C11.776,17 12,17.224 12,17.5 Z" id="Stroke-242"></path>
+            <path d="M0.5,15.5 L23,15.5" id="Stroke-243"></path>
+        </g>
+    </g>
+</svg>

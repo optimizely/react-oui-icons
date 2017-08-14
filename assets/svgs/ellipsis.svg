@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ellipsis</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ellipsis" fill="#000000">
+            <path d="M7,12 C7,13.657 5.657,15 4,15 C2.343,15 1,13.657 1,12 C1,10.343 2.343,9 4,9 C5.657,9 7,10.343 7,12" id="Fill-169"></path>
+            <path d="M15.5,12 C15.5,13.657 14.157,15 12.5,15 C10.843,15 9.5,13.657 9.5,12 C9.5,10.343 10.843,9 12.5,9 C14.157,9 15.5,10.343 15.5,12" id="Fill-170"></path>
+            <path d="M23.5,12 C23.5,13.657 22.157,15 20.5,15 C18.843,15 17.5,13.657 17.5,12 C17.5,10.343 18.843,9 20.5,9 C22.157,9 23.5,10.343 23.5,12" id="Fill-171"></path>
+        </g>
+    </g>
+</svg>

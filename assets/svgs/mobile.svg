@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="mobile" stroke="#000000">
+            <path d="M5.5,2.41304348 C5.5,1.35704348 6.396,0.5 7.5,0.5 L16.5,0.5 C17.604,0.5 18.5,1.35704348 18.5,2.41304348 L18.5,20.5869565 C18.5,21.6429565 17.604,22.5 16.5,22.5 L7.5,22.5 C6.396,22.5 5.5,21.6429565 5.5,20.5869565 L5.5,2.41304348 Z" id="Stroke-249" stroke-linecap="round"></path>
+            <path d="M5.5,4.5 L18.5,4.5" id="Stroke-250" stroke-linecap="round"></path>
+            <path d="M5.5,18.5 L18.5,18.5" id="Stroke-251" stroke-linecap="round"></path>
+            <path d="M14.5,20.5 L9.5,20.5" id="Stroke-252" stroke-linecap="round"></path>
+            <path d="M12,2 C12.276,2 12.5,2.224 12.5,2.5 C12.5,2.776 12.276,3 12,3 C11.724,3 11.5,2.776 11.5,2.5 C11.5,2.224 11.724,2 12,2 Z" id="Stroke-253"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>collapse</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="collapse" stroke="#000000">
+            <path d="M15,9 L23,1" id="Stroke-229"></path>
+            <polyline id="Stroke-230" points="19.5 9.5 14.5 9.5 14.5 4.5"></polyline>
+            <path d="M1,23 L9,15" id="Stroke-231"></path>
+            <polyline id="Stroke-232" points="9.5 19.5 9.5 14.5 4.5 14.5"></polyline>
+            <path d="M15,15 L23,23" id="Stroke-233"></path>
+            <polyline id="Stroke-234" points="14.5 19.5 14.5 14.5 19.5 14.5"></polyline>
+            <path d="M1,1 L9,9" id="Stroke-235"></path>
+            <polyline id="Stroke-236" points="4.5 9.5 9.5 9.5 9.5 4.5"></polyline>
+        </g>
+    </g>
+</svg>

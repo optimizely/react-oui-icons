@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>parent selector</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="parent-selector" stroke="#000000">
+            <path d="M6.5,4.5 L6.5,15.0512903 C6.5,17.9332258 9.84448485,19.5 12.7322424,19.5 L22.5,19.5" id="Stroke-186"></path>
+            <polyline id="Stroke-187" points="2 10 6.5 4.5 11 10"></polyline>
+        </g>
+    </g>
+</svg>

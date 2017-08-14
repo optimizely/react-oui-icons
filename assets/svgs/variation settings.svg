@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>variation settings</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="variation-settings" stroke="#000000">
+            <path d="M22.5,20.0331304 C22.5,20.5850435 22.0724348,21.5434783 21.5434783,21.5434783 L1.45652174,21.5434783 C0.927565217,21.5434783 0.5,20.5850435 0.5,20.0331304 L0.5,1.50052174 C0.5,0.948608696 0.927565217,0.5 1.45652174,0.5 L21.5434783,0.5 C22.0724348,0.5 22.5,0.948608696 22.5,1.50052174 L22.5,20.0331304 Z" id="Stroke-159"></path>
+            <path d="M17.5,7.5 L19.5,7.5" id="Stroke-160"></path>
+            <path d="M3.4,7.5 L11.5,7.5" id="Stroke-161"></path>
+            <path d="M11.5,15.5 L19.5,15.5" id="Stroke-162"></path>
+            <path d="M3.5,15.5 L5.5,15.5" id="Stroke-163"></path>
+            <path d="M17,7.5 C17,8.881 15.881,10 14.5,10 C13.119,10 12,8.881 12,7.5 C12,6.119 13.119,5 14.5,5 C15.881,5 17,6.119 17,7.5 Z" id="Stroke-164"></path>
+            <path d="M11,15.5 C11,16.881 9.881,18 8.5,18 C7.119,18 6,16.881 6,15.5 C6,14.119 7.119,13 8.5,13 C9.881,13 11,14.119 11,15.5 Z" id="Stroke-165"></path>
+        </g>
+    </g>
+</svg>

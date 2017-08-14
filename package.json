@@ -38,6 +38,7 @@
     "react-error-overlay": "^1.0.9",
     "style-loader": "0.18.2",
     "styled-components": "^2.1.1",
+    "svgson": "^2.1.0",
     "sw-precache-webpack-plugin": "0.11.3",
     "url-loader": "0.5.9",
     "webpack": "2.6.1",
@@ -61,7 +62,8 @@
     "lib": "babel src/ --out-dir lib --copy-files",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "svgson": "svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json"
   },
   "repository": {
     "type": "git",

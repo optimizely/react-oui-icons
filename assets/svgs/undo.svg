@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>undo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="undo" stroke="#000000">
+            <path d="M13.6333333,20.5 L16.522,20.5 C19.8232,20.5 22.5,17.037 22.5,13.5 C22.5,9.963 19.8232,6.5 16.522,6.5 L1,6.5" id="Stroke-137"></path>
+            <polyline id="Stroke-138" points="6 2 1 6.5 6 11"></polyline>
+        </g>
+    </g>
+</svg>

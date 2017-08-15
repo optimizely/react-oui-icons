@@ -5,9 +5,9 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="feature-flag" fill-rule="nonzero" fill="#000000">
-            <path d="M4.5,23.5 C4.224,23.5 4,23.276 4,23 L4,1 C4,0.724 4.224,0.5 4.5,0.5 C4.776,0.5 5,0.724 5,1 L5,23 C5,23.276 4.776,23.5 4.5,23.5 Z" id="Shape"></path>
-            <path d="M4.5,14.5 C4.404,14.5 4.309,14.473 4.226,14.418 C4.085,14.325 4,14.168 4,14 L4,1 C4,0.832 4.085,0.675 4.226,0.582 C4.367,0.489 4.545,0.476 4.699,0.541 L19.699,7.041 C19.882,7.12 20,7.301 20,7.5 C20,7.699 19.882,7.88 19.699,7.959 L4.699,14.459 C4.635,14.486 4.567,14.5 4.5,14.5 Z M5,1.762 L5,13.239 L18.242,7.5 L5,1.762 Z" id="Shape"></path>
+        <g id="feature-flag" stroke="#000000">
+            <polygon id="Triangle" stroke-linejoin="round" points="4.5 1 19.5 7.5 4.5 14"></polygon>
+            <path d="M4.5,1.5 L4.5,23" id="Line" stroke-linecap="round"></path>
         </g>
     </g>
 </svg>

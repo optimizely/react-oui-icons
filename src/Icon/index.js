@@ -25,13 +25,16 @@ function findIcon(name, iconsObj = icons) {
 
 function buildSvg(iconData) {
   const svgElements = iconData.map( (prop, index) => {
-    if(prop.name === 'g') { return buildSvg(prop.childs) }
-    else if(prop.name === 'path') { 
+    if(prop.name === 'path') { 
       return <path {...prop.attrs} /> 
     }
     else if(prop.name === 'circle') { 
       return <circle {...prop.attrs} />
     }
+    else if(prop.name === 'rect') { 
+      return <rect {...prop.attrs} />
+    }
+    else if(prop.name === 'g') { return buildSvg(prop.childs) }
   });
 
   return svgElements;
@@ -44,7 +47,7 @@ const Icon = ({
   fillRule,
   name,
   role,
-  size = 'medium',
+  size = 24,
   style,
   // ...other
 }) => {
@@ -70,10 +73,9 @@ const Icon = ({
   };
   
   const content = icon ? buildSvg(icon.childs) : '';
-  const attrs = icon.attrs;
 
   return (
-    <Svg {...attrs}>
+    <Svg {...props}>
       <title>{icon.title}</title>
       { content }
     </Svg>

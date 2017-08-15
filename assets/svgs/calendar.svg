@@ -13,7 +13,7 @@
             <path d="M1.5,6.5 L21.5,6.5" id="Stroke-66" stroke-linecap="square"></path>
             <polyline id="Stroke-67" stroke-linecap="round" points="8.526 18.156 8.526 10.5 6.5 12.232"></polyline>
             <path d="M6,18.5 L11,18.5" id="Stroke-68" stroke-linecap="round"></path>
-            <polyline id="Stroke-69" stroke-linecap="round" points="14.8506 18.348 17.7146 10.5 12.9996 10.5 12.9996 11"></polyline>
+            <polyline id="Stroke-69" stroke-linecap="round" points="15 18 17.7146 10.5 12.9996 10.5 12.9996 11"></polyline>
         </g>
     </g>
 </svg>

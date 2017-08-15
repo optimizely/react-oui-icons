@@ -1,5 +1,5 @@
 import React from 'react';
-import { icons } from '../src/config';
+import icons from '../src/Icon/icons.json';
 
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text, select } from '@storybook/addon-knobs';
@@ -15,10 +15,10 @@ stories.add('all icons', () => {
         const iconsElements = icons.map( (icon, index) => {
           return <div key={index} style={ styles.iconBox }>
             <Icon 
-              description={icon} 
-              name={icon}
+              style={styles.icon}
+              description={icon.title} 
+              name={icon.title.split(' ').join('-')}
               fill={ text('color', '') } 
-              size={ select('size', { small: 'small', medium: 'medium', large: 'large' }, 'small') }
             />
           </div>
         });
@@ -31,16 +31,6 @@ stories.add('all icons', () => {
         );
       }
   );
-
-  stories.add('one icon', () => {      
-    return (
-      <Icon 
-      description='accounts icon'
-      name='accounts'
-    />
-    );
-  }
-)
 
 
 const styles = {

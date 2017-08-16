@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>exit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="exit" stroke="#000000">
+            <path d="M13.499,16 L13.499,19.65 C13.499,20.58 12.746,21.334 11.816,21.334 L4.183,21.334 C3.253,21.334 2.5,20.58 2.5,19.65 L2.5,4.183 C2.5,3.254 3.253,2.5 4.183,2.5 L11.816,2.5 C12.746,2.5 13.499,3.254 13.499,4.183 L13.499,8" id="Stroke-320"></path>
+            <path d="M8.5,11.5 L22,11.5" id="Stroke-321"></path>
+            <polyline id="Stroke-322" points="19 8 22 11.5 19 15"></polyline>
+        </g>
+    </g>
+</svg>

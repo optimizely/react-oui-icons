@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>preferences</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="preferences" stroke="#000000">
+            <polygon id="Path-18" stroke-linejoin="round" points="18.5 3 22.25 0.5 23.5 1.75 21 5.5"></polygon>
+            <path d="M9.5,14.5 L19.5,4.5" id="Line-6" stroke-linecap="square"></path>
+            <path d="M7,13 L11,17" id="Path" stroke-linecap="round"></path>
+            <path d="M10,16 L3.08228792,23.0569494 C2.49155384,23.6476835 1.53378465,23.6476835 0.943050564,23.0569494 C0.352316479,22.4662154 0.352316479,21.5084462 0.943050564,20.9177121 L8,14" id="Path-19"></path>
+            <path d="M9.49935482,11.5999999 L5.99935482,8.0999999 C1.99935482,8.76666657 0.213640536,7.01666657 0.642211965,2.8499999 L2.64221196,4.5999999 L4.64221196,4.5999999 M4.6500001,4.56221198 L4.6500001,2.56221198 L2.9000001,0.562211982 C7.06666676,0.133640553 8.81666676,1.91935484 8.1500001,5.91935484 L11.6500001,9.41935484" id="Combined-Shape" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M14.5,12.25 L18,15.75 C22,15.0833333 23.7857143,16.8333333 23.3571429,21 L21.3571429,19.25 L19.3571429,19.25 M19.3500004,19.2571425 L19.3500004,21.2571425 L21.1000004,23.2571425 C16.9333337,23.6857139 15.1833337,21.8999996 15.8500004,17.8999996 L12.3500004,14.3999996" id="Combined-Shape" stroke-linecap="square" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

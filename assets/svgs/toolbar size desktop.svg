@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>toolbar size desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toolbar-size-desktop" stroke="#000000">
+            <rect id="Rectangle-3" x="4.5" y="5.5" width="15" height="10" rx="0.5"></rect>
+            <rect id="Rectangle-3" x="2.5" y="3.5" width="19" height="15" rx="2"></rect>
+            <circle id="Oval-2" cx="12" cy="17" r="1"></circle>
+            <polygon id="Path-3" points="9.88757324 19 9.07995605 21.864624 15.0134277 21.864624 14.2298584 19"></polygon>
+            <path d="M6.5,21.9433594 L17.5,21.9433594" id="Line-3" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>experiment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="experiment" stroke="#000000">
+            <path d="M8.5,2 L8.5,12 L5.32195443,16.0287042 L2.28756966,20.1256769 C1.91514015,20.6340149 1.92124555,21.2224763 2.20921701,21.6836305 C2.49718846,22.1447848 3.04260437,22.478632 3.73251479,22.4795222 L11.7397494,22.4902053 L19.7490192,22.4999982 C20.4307891,22.5008884 20.9802753,22.1750536 21.272317,21.7219117 C21.5643587,21.2687697 21.5969208,20.6874305 21.2438251,20.177312 L18.3773389,15.9298854 L15.5108527,12 L15.5108527,2 C13.9591543,2.66666667 12.78887,3 12,3 C11.21113,3 10.0444633,2.66666667 8.5,2 Z" id="Stroke-329" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Stroke-330" points="8.437 2 7.593 2 6.5 2.50830043"></polyline>
+            <polyline id="Stroke-331" points="15.5 2 16.3453072 2 17.4400001 2.50830043"></polyline>
+            <circle id="Oval" cx="12.5" cy="14.5" r="1"></circle>
+            <circle id="Oval-4" cx="11.75" cy="8.75" r="1.25"></circle>
+            <circle id="Oval-5" cx="14.25" cy="19" r="1"></circle>
+        </g>
+    </g>
+</svg>

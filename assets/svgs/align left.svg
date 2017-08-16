@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>align left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="align-left" stroke="#000000">
+            <path d="M1,22.5 L23,22.5" id="Stroke-19"></path>
+            <path d="M1,1.5 L21,1.5" id="Stroke-20"></path>
+            <path d="M1,4.5 L17,4.5" id="Stroke-21"></path>
+            <path d="M1,7.5 L19,7.5" id="Stroke-22"></path>
+            <path d="M1,10.5 L23,10.5" id="Stroke-23"></path>
+            <path d="M1,13.5 L20,13.5" id="Stroke-24"></path>
+            <path d="M1,16.5 L17,16.5" id="Stroke-25"></path>
+            <path d="M1,19.5 L20,19.5" id="Stroke-26"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>events</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="events" stroke="#000000">
+            <polyline id="Stroke-223" stroke-linejoin="round" points="0.4997 13.6229866 3.24467224 13.6229866 5.46430096 11.0349895 7.68392968 16.2120302 12.1231871 10 15.4531535 17.2470197 17.6727822 13.6229866 23.4997 13.6229866"></polyline>
+            <path d="M22.781,21.3181818 L1.219,21.3181818 C0.822,21.3181818 0.5,20.994311 0.5,20.5951675 L0.5,3.22301435 C0.5,2.82387081 0.822,2.5 1.219,2.5 L22.781,2.5 C23.178,2.5 23.5,2.82387081 23.5,3.22301435 L23.5,20.5951675 C23.5,20.994311 23.178,21.3181818 22.781,21.3181818 Z" id="Stroke-224" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M0.4997,6.5 L23.4997,6.5" id="Stroke-225" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M3,4.25 C2.862,4.25 2.75,4.362 2.75,4.5 C2.75,4.638 2.862,4.75 3,4.75 C3.138,4.75 3.25,4.638 3.25,4.5 C3.25,4.362 3.138,4.25 3,4.25" id="Fill-226" stroke-width="0.5" fill="#D8D8D8"></path>
+            <path d="M5,4.25 C4.862,4.25 4.75,4.362 4.75,4.5 C4.75,4.638 4.862,4.75 5,4.75 C5.138,4.75 5.25,4.638 5.25,4.5 C5.25,4.362 5.138,4.25 5,4.25" id="Fill-226" stroke-width="0.5" fill="#D8D8D8"></path>
+            <path d="M7,4.25 C6.862,4.25 6.75,4.362 6.75,4.5 C6.75,4.638 6.862,4.75 7,4.75 C7.138,4.75 7.25,4.638 7.25,4.5 C7.25,4.362 7.138,4.25 7,4.25" id="Fill-226" stroke-width="0.5" fill="#D8D8D8"></path>
+        </g>
+    </g>
+</svg>

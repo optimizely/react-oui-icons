@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>orientation landscape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="orientation-landscape" stroke="#000000">
+            <path d="M5.5,7.41304348 C5.5,6.35704348 6.32707692,5.5 7.34615385,5.5 L15.6538462,5.5 C16.6729231,5.5 17.5,6.35704348 17.5,7.41304348 L17.5,25.5869565 C17.5,26.6429565 16.6729231,27.5 15.6538462,27.5 L7.34615385,27.5 C6.32707692,27.5 5.5,26.6429565 5.5,25.5869565 L5.5,7.41304348 Z" id="Stroke-374" stroke-linecap="round" stroke-linejoin="round" transform="translate(11.500000, 16.500000) rotate(-90.000000) translate(-11.500000, -16.500000) "></path>
+            <path d="M4.5,22.4898522 L4.5,11" id="Stroke-375" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.5,22.4898522 L18.5,11" id="Stroke-376" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M20.5,15 L20.5,18.8299507" id="Stroke-377" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M2.48000002,16 C2.21518238,16 2,16.2151824 2,16.48 C2,16.7448177 2.21518238,16.96 2.48000002,16.96 C2.74481765,16.96 2.96000004,16.7448177 2.96000004,16.48 C2.96000004,16.2151824 2.74481765,16 2.48000002,16 Z" id="Stroke-378" transform="translate(2.480000, 16.480000) rotate(-90.000000) translate(-2.480000, -16.480000) "></path>
+            <path d="M22.7044081,11.7150002 L13.1844761,11.7150002 C12.141812,11.7150002 11.2955919,10.9568463 11.2955919,10.0226925 L11.2955919,2.40730784 C11.2955919,1.473154 12.141812,0.715000153 13.1844761,0.715000153 L21.1321318,0.715000153" id="Stroke-379" opacity="0.3" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.000000, 6.215000) scale(-1, 1) rotate(90.000000) translate(-17.000000, -6.215000) "></path>
+            <path d="M17,10 L17,-1" id="Stroke-380" opacity="0.3" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.000000, 4.500000) rotate(90.000000) translate(-17.000000, -4.500000) "></path>
+            <path d="M16.5,2.48000002 C16.5,2.74481765 16.7151824,2.96000004 16.98,2.96000004 C17.2448177,2.96000004 17.46,2.74481765 17.46,2.48000002 C17.46,2.21518238 17.2448177,2 16.98,2 C16.7151824,2 16.5,2.21518238 16.5,2.48000002 Z" id="Stroke-381" opacity="0.3"></path>
+        </g>
+    </g>
+</svg>

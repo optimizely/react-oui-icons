@@ -18,7 +18,7 @@ stories.add('all icons', () => {
               style={styles.icon}
               description={icon.title} 
               name={icon.title.split(' ').join('-')}
-              fill={ text('color', '') } 
+              stoke={ text('color', '') } 
             />
           </div>
         });

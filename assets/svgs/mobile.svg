@@ -10,7 +10,7 @@
             <path d="M5.5,4.5 L18.5,4.5" id="Stroke-250" stroke-linecap="round"></path>
             <path d="M5.5,18.5 L18.5,18.5" id="Stroke-251" stroke-linecap="round"></path>
             <path d="M14.5,20.5 L9.5,20.5" id="Stroke-252" stroke-linecap="round"></path>
-            <path d="M12,2 C12.276,2 12.5,2.224 12.5,2.5 C12.5,2.776 12.276,3 12,3 C11.724,3 11.5,2.776 11.5,2.5 C11.5,2.224 11.724,2 12,2 Z" id="Stroke-253"></path>
+            <path d="M12,2.25 C12.138,2.25 12.25,2.362 12.25,2.5 C12.25,2.638 12.138,2.75 12,2.75 C11.862,2.75 11.75,2.638 11.75,2.5 C11.75,2.362 11.862,2.25 12,2.25 Z" id="Stroke-253" stroke-width="0.5"></path>
         </g>
     </g>
 </svg>

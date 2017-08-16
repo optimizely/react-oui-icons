@@ -43,13 +43,12 @@ function buildSvg(iconData) {
 const Icon = ({
   className,
   description,
-  fill,
-  fillRule,
   name,
   role,
   size = 24,
+  stroke,
   style,
-  // ...other
+  ...other
 }) => {
   const Svg = glamorous.svg({
     'stroke': 'black',
@@ -62,14 +61,14 @@ const Icon = ({
   const icon = findIcon(`${name}`);
   const props = {
     className,
-    fill,
-    fillRule,
     height: size,
     name: `${name}`,
     role,
+    stroke,
     style,
     viewBox: icon.viewBox,
     width: size,
+    other
   };
   
   const content = icon ? buildSvg(icon.childs) : '';

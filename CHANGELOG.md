@@ -5,8 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+- [Patch] fixing semantic sizing 
 
-## 0.3.1 - 2017-08-16
+## 0.3.0 - 2017-08-16
 - [Feature] ability to generate a single json file from `*.svg` on `/svgs` dir
 - [Feature] migrate all the svgs from illustrator to sketch
 - [Patch] redrawing of fill oriented icons to stroke oriented

@@ -18,7 +18,7 @@ stories.add('all icons', () => {
               style={styles.icon}
               description={icon.title} 
               name={icon.title.split(' ').join('-')}
-              stroke={ text('color', 'black') } 
+              fill={ text('color', 'black') } 
               size={ select('size', {small: 'small', medium: 'medium', large: 'large'},'medium') }
             />
           </div>

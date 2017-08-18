@@ -53,7 +53,7 @@ const Icon = ({
   name,
   role,
   size = 'medium',
-  stroke = 'black',
+  stroke = 'none',
   style
 }) => {
   const icon = findIcon(`${name}`);

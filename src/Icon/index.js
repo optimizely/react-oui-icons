@@ -6,7 +6,7 @@ import icons from './icons.json';
 
 const propTypes = {
   className: PropTypes.string,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   fill: PropTypes.string,
   fillRule: PropTypes.string,
   name: PropTypes.string.isRequired,
@@ -55,8 +55,7 @@ const Icon = ({
   role,
   size = 'medium',
   stroke = 'black',
-  style,
-  ...other
+  style
 }) => {
   const icon = findIcon(`${name}`);
   let sizeNumber;
@@ -71,6 +70,7 @@ const Icon = ({
 
   const props = {
     className,
+    desc: description || `icon for ${name}`,
     fill,
     height: sizeNumber,
     name: `${name}`,
@@ -78,8 +78,7 @@ const Icon = ({
     stroke,
     style,
     viewBox: icon.attrs.viewBox,
-    width: sizeNumber,
-    other
+    width: sizeNumber
   };
   
   const content = icon ? buildSvg(icon.childs) : '';
@@ -87,6 +86,7 @@ const Icon = ({
   return (
     <svg {...props}>
       <title>{icon.title}</title>
+      <desc>{ props.desc }</desc>
       { content }
     </svg>
   );

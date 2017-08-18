@@ -48,8 +48,7 @@ function buildSvg(iconData) {
 
 const Icon = ({
   className,
-  color,
-  description,
+  description = 'icon',
   fill = 'none',
   name,
   role,
@@ -70,7 +69,6 @@ const Icon = ({
 
   const props = {
     className,
-    desc: description || `icon for ${name}`,
     fill,
     height: sizeNumber,
     name: `${name}`,
@@ -86,7 +84,7 @@ const Icon = ({
   return (
     <svg {...props}>
       <title>{icon.title}</title>
-      <desc>{ props.desc }</desc>
+      <desc>{ description }</desc>
       { content }
     </svg>
   );

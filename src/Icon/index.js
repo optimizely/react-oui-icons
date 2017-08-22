@@ -49,7 +49,7 @@ function buildSvg(iconData) {
 const Icon = ({
   className,
   description = 'icon',
-  fill = 'none',
+  fill = 'black',
   name,
   role,
   size = 'medium',

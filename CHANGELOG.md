@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
+## 0.5.1 - 2017-08-22
+- [Patch] fix bug related to fill default color
+
 ## 0.5.0 - 2017-08-22
 - [Feature] using outline version of icons
 

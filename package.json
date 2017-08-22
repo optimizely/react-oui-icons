@@ -1,6 +1,6 @@
 {
   "name": "react-oui-icons",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "lib/index.js",
   "private": false,
   "dependencies": {
@@ -38,6 +38,7 @@
     "react-error-overlay": "^1.0.9",
     "style-loader": "0.18.2",
     "styled-components": "^2.1.1",
+    "svgo": "^0.7.2",
     "svgson": "^2.1.0",
     "sw-precache-webpack-plugin": "0.11.3",
     "url-loader": "0.5.9",

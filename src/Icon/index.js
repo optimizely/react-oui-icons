@@ -6,7 +6,7 @@ import icons from './icons.json';
 
 const propTypes = {
   className: PropTypes.string,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   fill: PropTypes.string,
   fillRule: PropTypes.string,
   name: PropTypes.string.isRequired,
@@ -26,12 +26,18 @@ function findIcon(name, iconsObj = icons) {
 function buildSvg(iconData) {
   const svgElements = iconData.map( (prop, index) => {
     if(prop.name === 'path') { 
+      delete prop.attrs.stroke;
+      delete prop.attrs.fill;
       return <path {...prop.attrs} /> 
     }
     else if(prop.name === 'circle') { 
+      delete prop.attrs.stroke;
+      delete prop.attrs.fill;
       return <circle {...prop.attrs} />
     }
     else if(prop.name === 'rect') { 
+      delete prop.attrs.stroke;
+      delete prop.attrs.fill;
       return <rect {...prop.attrs} />
     }
     else if(prop.name === 'g') { return buildSvg(prop.childs) }
@@ -42,42 +48,45 @@ function buildSvg(iconData) {
 
 const Icon = ({
   className,
-  description,
+  description = 'icon',
+  fill = 'none',
   name,
   role,
-  size = 24,
-  stroke,
-  style,
-  ...other
+  size = 'medium',
+  stroke = 'none',
+  style
 }) => {
-  const Svg = glamorous.svg({
-    'stroke': 'black',
-    'fill': 'none',
-    ':hover': {
-      'stroke': 'red',
-    },
-  });
-
   const icon = findIcon(`${name}`);
+  let sizeNumber;
+
+  if(size === 'small') {
+    sizeNumber = '12'
+  } else if(size === 'medium') {
+    sizeNumber = '16'
+  } else if(size === 'large') {
+    sizeNumber = '24'
+  }
+
   const props = {
     className,
-    height: size,
+    fill,
+    height: sizeNumber,
     name: `${name}`,
     role,
     stroke,
     style,
-    viewBox: icon.viewBox,
-    width: size,
-    other
+    viewBox: icon.attrs.viewBox,
+    width: sizeNumber
   };
   
   const content = icon ? buildSvg(icon.childs) : '';
 
   return (
-    <Svg {...props}>
+    <svg {...props}>
       <title>{icon.title}</title>
+      <desc>{ description }</desc>
       { content }
-    </Svg>
+    </svg>
   );
 };
 

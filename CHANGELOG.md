@@ -4,7 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
-## Unreleased
+## 0.5.0 - 2017-08-22
+- [Feature] using outline version of icons
+
+## 0.4.0 - 2017-08-16
 - [Patch] fixing semantic sizing 
 
 ## 0.3.0 - 2017-08-16

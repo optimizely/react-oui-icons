@@ -58,12 +58,15 @@ describe('<Icon/> Component', () => {
     expect(component.contains(<desc>ab</desc>)).toEqual(true);
   });
 
-  it('will contain <title> with name of the icon', () => {
+  it('should contain <title> with name of the icon', () => {
     const component = shallow(
       <Icon
         name="ab"
       />);
     expect(component.contains(<title>ab</title>)).toEqual(true);
   });
+  // 
 
+  // const component = shallow(<Icon name='bell' />)
+  // console.log(component);
 });

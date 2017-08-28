@@ -37,7 +37,6 @@
     "react-dom": "^15.6.1",
     "react-error-overlay": "^1.0.9",
     "style-loader": "0.18.2",
-    "styled-components": "^2.1.1",
     "svgo": "^0.7.2",
     "svgson": "^2.1.0",
     "sw-precache-webpack-plugin": "0.11.3",
@@ -48,6 +47,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
+    "@storybook/addon-info": "^3.2.9",
     "@storybook/addon-knobs": "^3.2.0",
     "@storybook/react": "^3.2.0",
     "babel-cli": "^6.24.1",
@@ -55,6 +55,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "enzyme": "^2.9.1",
+    "styled-components": "^2.1.2",
     "react-test-renderer": "^15.6.1"
   },
   "scripts": {

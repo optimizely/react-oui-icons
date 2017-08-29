@@ -4,7 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
-## 0.5.2 - 2017-08-29
+## 0.5.6 - 2017-08-29
 - [Patch] Add Readme addon to storybook
 
 ## 0.5.1 - 2017-08-22

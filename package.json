@@ -13,7 +13,7 @@
     "babel-runtime": "6.23.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
-    "css-loader": "0.28.4",
+    "css-loader": "^0.28.5",
     "dotenv": "4.0.0",
     "eslint": "3.19.0",
     "eslint-config-react-app": "^1.0.5",
@@ -36,7 +36,7 @@
     "react-dev-utils": "^3.0.2",
     "react-dom": "^15.6.1",
     "react-error-overlay": "^1.0.9",
-    "style-loader": "0.18.2",
+    "style-loader": "^0.18.2",
     "svgo": "^0.7.2",
     "svgson": "^2.1.0",
     "sw-precache-webpack-plugin": "0.11.3",
@@ -55,8 +55,11 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "enzyme": "^2.9.1",
-    "styled-components": "^2.1.2",
-    "react-test-renderer": "^15.6.1"
+    "raw-loader": "^0.5.1",
+    "react-test-renderer": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "storybook-readme": "^3.0.6",
+    "styled-components": "^2.1.2"
   },
   "scripts": {
     "start": "node scripts/start.js",

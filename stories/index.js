@@ -9,10 +9,15 @@ import { withInfo } from '@storybook/addon-info';
 import Icon from '../src/Icon';
 import './style.css';
 
+import IconReadme from '../src/Icon/README.md';
+import withReadme from 'storybook-readme/with-readme';
+
 const stories = storiesOf('Icons', module);
 
-// this add knobs to test component with diff props
-stories.addDecorator(withKnobs);
+// this add some decorators for making addons available
+stories
+  .addDecorator(withKnobs)
+  .addDecorator(withReadme(IconReadme));
 
 stories.add('all icons', () => {      
         const iconsElements = icons.map( (icon, index) => {

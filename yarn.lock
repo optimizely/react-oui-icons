@@ -7044,7 +7044,7 @@ svgo@^0.7.0, svgo@^0.7.2:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
-svgson@^2.1.0:
+svgson@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/svgson/-/svgson-2.1.0.tgz#971f52180e8d2483bbf5023e7c864726a9ee4ea3"
   dependencies:

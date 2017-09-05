@@ -4,7 +4,6 @@
   "main": "lib/index.js",
   "private": false,
   "dependencies": {
-    "file-loader": "0.11.2",
     "fs-extra": "3.0.1",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.0.0",
@@ -23,7 +22,7 @@
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.0.0",
-    "glamorous": "^4.1.0",
+    "file-loader": "0.11.2",
     "svgo": "^0.7.2",
     "svgson": "2.1.0",
     "sw-precache-webpack-plugin": "0.11.3",

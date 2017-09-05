@@ -7,7 +7,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
-## 0.5.7 - 2017-09-05
+## 0.5.8 - 2017-09-05
 - [Patch] Delete unused glamorous package
 
 ## 0.5.7 - 2017-09-01

@@ -2,11 +2,13 @@ config
 node_modules
 scripts
 src
+stories
 
 yarn.lock
 
 .DS_Store
 .env
+.storybook
 
 npm-debug.log*
 yarn-debug.log*

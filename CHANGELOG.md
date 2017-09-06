@@ -7,6 +7,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 0.5.9 - 2017-09-06
+- [Patch] Npmignore some storybook related dirs.
+
 ## 0.5.8 - 2017-09-05
 - [Patch] Delete unused glamorous package
 

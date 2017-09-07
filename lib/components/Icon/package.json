@@ -1,5 +1,0 @@
-{
-    "private" : true,
-    "name" : "Icon",
-    "main" : "./Icon/index.js"
-}

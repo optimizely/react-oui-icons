@@ -1,20 +1,16 @@
 {
   "name": "react-oui-icons",
   "version": "0.5.9",
-  "main": "lib/index.js",
+  "main": "lib/react-oui-icons.js",
   "private": false,
   "dependencies": {
     "fs-extra": "3.0.1",
     "object-assign": "4.1.1",
-    "postcss-flexbugs-fixes": "3.0.0",
-    "postcss-loader": "2.0.6",
     "promise": "7.1.1",
     "react": "^15.6.1",
     "react-dev-utils": "^3.0.2",
     "react-dom": "^15.6.1",
-    "react-error-overlay": "^1.0.9",
-    "style-loader": "^0.18.2",
-    "url-loader": "0.5.9"
+    "react-error-overlay": "^1.0.9"
   },
   "devDependencies": {
     "autoprefixer": "7.1.1",
@@ -24,6 +20,7 @@
     "babel-loader": "7.0.0",
     "file-loader": "0.11.2",
     "svgo": "^0.7.2",
+    "style-loader": "^0.18.2",
     "svgson": "2.1.0",
     "sw-precache-webpack-plugin": "0.11.3",
     "extract-text-webpack-plugin": "2.1.2",
@@ -61,9 +58,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "lib": "babel src/ --out-dir lib --copy-files",
+    "lib": "webpack --optimize-minimize",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -86,10 +81,6 @@
     {
       "name": "Dave Rau",
       "email": "dave.rau@optimizely.com"
-    },
-    {
-      "name": "Jack Schlotthauer",
-      "email": "jack.schlotthauer@optimizely.com"
     }
   ],
   "license": "ISC",

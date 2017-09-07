@@ -39,7 +39,12 @@ function buildSvg(iconData) {
       delete prop.attrs.fill;
       return <rect {...prop.attrs} />
     }
-    else if(prop.name === 'g') { return buildSvg(prop.childs) }
+    else if(prop.name === 'g') { 
+      return buildSvg(prop.childs) 
+    }
+    else { 
+      return null; 
+    }
   });
 
   return svgElements;

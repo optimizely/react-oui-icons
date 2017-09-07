@@ -7,6 +7,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 0.6.0 - 2017-09-07
+- [Feature] Webpack optimized build.  
+
 ## 0.5.9 - 2017-09-06
 - [Patch] Npmignore some storybook related dirs.
 

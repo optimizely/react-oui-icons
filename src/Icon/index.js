@@ -24,26 +24,26 @@ function findIcon(name, iconsObj = icons) {
 
 function buildSvg(iconData) {
   const svgElements = iconData.map( (prop, index) => {
-    if(prop.name === 'path') { 
+    if(prop.name === 'path') {
       delete prop.attrs.stroke;
       delete prop.attrs.fill;
-      return <path {...prop.attrs} /> 
+      return <path {...prop.attrs} />
     }
-    else if(prop.name === 'circle') { 
+    else if(prop.name === 'circle') {
       delete prop.attrs.stroke;
       delete prop.attrs.fill;
       return <circle {...prop.attrs} />
     }
-    else if(prop.name === 'rect') { 
+    else if(prop.name === 'rect') {
       delete prop.attrs.stroke;
       delete prop.attrs.fill;
       return <rect {...prop.attrs} />
     }
-    else if(prop.name === 'g') { 
-      return buildSvg(prop.childs) 
+    else if(prop.name === 'g') {
+      return buildSvg(prop.childs)
     }
-    else { 
-      return null; 
+    else {
+      return null;
     }
   });
 
@@ -82,11 +82,13 @@ const Icon = ({
     viewBox: icon.attrs.viewBox,
     width: sizeNumber
   };
-  
+
   const content = icon ? buildSvg(icon.childs) : '';
 
   return (
-    <svg {...props}>
+    <svg
+      data-oui-component={ true }
+      {...props}>
       <title>{icon.title}</title>
       <desc>{ description }</desc>
       { content }

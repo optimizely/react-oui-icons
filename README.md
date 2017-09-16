@@ -16,7 +16,7 @@ This implementation consists of a Icon React Component that will generate an inl
 2. **Using an icon:** You can use one of the icons in the HTML with:
 
     ```javascript
-    import Icon from './Icon';
+    import Icon from 'react-oui-icons';
     
     ...
 
@@ -24,12 +24,22 @@ This implementation consists of a Icon React Component that will generate an inl
       name="search"
       description="search" 
       size="medium"
+      fill="black"
     />
 
     ...
     ```
 
 [View all the icons](https://github.com/optimizely/react-oui-icons).
+
+## Storybook
+`react-oui-icons` uses [Storybook](https://storybook.js.org/)! You can view all of the icons through the Storybook interface by running:
+
+```
+yarn run storybook
+```
+    
+It will start a local webserver served at `http://localhost:6006/`.
 
 ## Adding and editing icons
 

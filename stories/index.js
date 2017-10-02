@@ -3,14 +3,9 @@ import icons from '../src/Icon/icons.json';
 import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text, select } from '@storybook/addon-knobs';
-import { withInfo } from '@storybook/addon-info';
 
 import Icon from '../src/Icon';
 import './style.css';
-
-import IconReadme from '../src/Icon/README.md';
-import withReadme from 'storybook-readme/with-readme';
 
 const Container = styled.div`
   display: flex;
@@ -25,11 +20,6 @@ const styles = {
 }
 
 const stories = storiesOf('Icons', module);
-
-// this add some decorators for making addons available
-stories
-  .addDecorator(withKnobs)
-  .addDecorator(withReadme(IconReadme));
 
 stories.add('all icons', () => {      
         const iconsElements = icons.map( (icon, index) => {
@@ -63,8 +53,8 @@ stories.add('all icons', () => {
               style={styles.icon}
               description={icon.title} 
               name={icon.title.split(' ').join('-')}
-              fill={ text('color', 'black') } 
-              size={ select('size', {small: 'small', medium: 'medium', large: 'large'},'medium') }
+              fill='black'
+              size='medium'
             />
           </Box>
         });
@@ -78,12 +68,12 @@ stories.add('all icons', () => {
       }
   );
 
-stories.add('icon docs', withInfo('react <Icon /> component')( () => {      
+stories.add('icon docs', () => {      
   return (
     <Icon name='bell' size='large' />
   );
 }
-));
+);
 
 stories.add('animated icon', () => {      
   return (

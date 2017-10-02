@@ -7,7 +7,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
-## 0.7.0 - 2017-10-03
+## 0.8.0 - 2017-10-03
 - [Feature] Syncing back with Optimizely React version. 
 - [Patch] Add key to shapes creation through the iteration process. (#11)
 

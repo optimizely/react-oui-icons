@@ -12,6 +12,18 @@ import './style.css';
 import IconReadme from '../src/Icon/README.md';
 import withReadme from 'storybook-readme/with-readme';
 
+const Container = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`
+
+const styles = {
+  icon: {
+    alignSelf: "center",
+  }
+}
+
 const stories = storiesOf('Icons', module);
 
 // this add some decorators for making addons available
@@ -79,14 +91,3 @@ stories.add('animated icon', () => {
   );
 });
 
-const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-`
-
-const styles = {
-  icon: {
-    alignSelf: "center",
-  }
-}

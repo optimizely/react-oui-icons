@@ -27,17 +27,17 @@ function buildSvg(iconData) {
     if(prop.name === 'path') {
       delete prop.attrs.stroke;
       delete prop.attrs.fill;
-      return <path {...prop.attrs} />
+      return <path {...prop.attrs} key={ `path-${index}` } />
     }
     else if(prop.name === 'circle') {
       delete prop.attrs.stroke;
       delete prop.attrs.fill;
-      return <circle {...prop.attrs} />
+      return <circle {...prop.attrs} key={ `circle-${index}` } />
     }
     else if(prop.name === 'rect') {
       delete prop.attrs.stroke;
       delete prop.attrs.fill;
-      return <rect {...prop.attrs} />
+      return <rect {...prop.attrs} key={ `rect-${index}` } />
     }
     else if(prop.name === 'g') {
       return buildSvg(prop.childs)

@@ -7,6 +7,10 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 0.7.0 - 2017-10-03
+- [Feature] Syncing back with Optimizely React version. 
+- [Patch] Add key to shapes creation through the iteration process. (#11)
+
 ## 0.6.1 - 2017-09-08
 - [Patch] Add attribute for map react components in implementation. (#9)
 

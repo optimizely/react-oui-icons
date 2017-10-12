@@ -1,6 +1,6 @@
 {
   "name": "react-oui-icons",
-  "version": "0.6.1",
+  "version": "0.8.0",
   "main": "lib/react-oui-icons.js",
   "private": false,
   "dependencies": {

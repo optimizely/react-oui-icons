@@ -399,6 +399,121 @@
   {
     "name": "svg",
     "attrs": {
+      "width": "11",
+      "height": "11",
+      "viewBox": "0 0 11 11",
+      "xmlns": "http://www.w3.org/2000/svg"
+    },
+    "childs": [
+      {
+        "name": "title",
+        "attrs": {},
+        "childs": [
+          {
+            "text": "status/mixed"
+          }
+        ]
+      },
+      {
+        "name": "g",
+        "attrs": {
+          "fill": "none",
+          "fillRule": "evenodd"
+        },
+        "childs": [
+          {
+            "name": "path",
+            "attrs": {
+              "d": "M5.5 0v11a5.5 5.5 0 0 1 0-11z",
+              "fill": "#00C479"
+            }
+          },
+          {
+            "name": "path",
+            "attrs": {
+              "d": "M5.5 11V0a5.5 5.5 0 0 1 0 11z",
+              "fill": "#E0E0E0"
+            }
+          }
+        ]
+      }
+    ],
+    "title": "checkmark-mixed"
+  },
+  {
+    "name": "svg",
+    "attrs": {
+      "width": "11",
+      "height": "11",
+      "viewBox": "0 0 11 11",
+      "xmlns": "http://www.w3.org/2000/svg"
+    },
+    "childs": [
+      {
+        "name": "title",
+        "attrs": {},
+        "childs": [
+          {
+            "text": "status/not running"
+          }
+        ]
+      },
+      {
+        "name": "path",
+        "attrs": {
+          "d": "M5.5 11a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z",
+          "fill": "#E0E0E0"
+        }
+      }
+    ],
+    "title": "checkmark-not-running"
+  },
+  {
+    "name": "svg",
+    "attrs": {
+      "width": "11",
+      "height": "11",
+      "viewBox": "0 0 11 11",
+      "xmlns": "http://www.w3.org/2000/svg"
+    },
+    "childs": [
+      {
+        "name": "title",
+        "attrs": {},
+        "childs": [
+          {
+            "text": "status/running"
+          }
+        ]
+      },
+      {
+        "name": "g",
+        "attrs": {
+          "fill": "none"
+        },
+        "childs": [
+          {
+            "name": "path",
+            "attrs": {
+              "d": "M5.5 11a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z",
+              "fill": "#00C479"
+            }
+          },
+          {
+            "name": "path",
+            "attrs": {
+              "d": "M3.205 5.72a.66.66 0 0 0-.91.956L3.77 8.082a.66.66 0 0 0 .894.016l4.43-3.938a.66.66 0 1 0-.878-.987L4.242 6.707 3.205 5.72z",
+              "fill": "#FFF"
+            }
+          }
+        ]
+      }
+    ],
+    "title": "checkmark-running"
+  },
+  {
+    "name": "svg",
+    "attrs": {
       "baseProfile": "tiny",
       "xmlns": "http://www.w3.org/2000/svg",
       "viewBox": "0 0 24 24"

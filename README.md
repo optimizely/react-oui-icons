@@ -17,12 +17,12 @@ This implementation consists of a Icon React Component that will generate an inl
 
     ```javascript
     import Icon from 'react-oui-icons';
-    
+
     ...
 
-    <Icon 
+    <Icon
       name="search"
-      description="search" 
+      description="search"
       size="medium"
       fill="black"
     />
@@ -38,11 +38,11 @@ This implementation consists of a Icon React Component that will generate an inl
 ```
 yarn run storybook
 ```
-    
+
 It will start a local webserver served at `http://localhost:6006/`.
 
 ## Adding and editing icons
 
-1. Add the icon to the appropriate folder in `src/Icon/icons`.
-2. Enter the icon internal data to the appropriate folder in `src/Icon/icons.js`.
-3. Then follow our contributing instructions posted [here](https://github.com/optimizely/oui/blob/devel/CONTRIBUTING.md)
+1. Add icons to `assets/svgs/`.
+2. Run `yarn svgson` to update the icon internal data file in `src/Icon/icons.js`.
+3. Create a [new release of OUI](https://github.com/optimizely/oui/blob/devel/CONTRIBUTING.md)

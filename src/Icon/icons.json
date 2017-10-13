@@ -416,10 +416,6 @@
       },
       {
         "name": "g",
-        // "attrs": {
-        //   "fill": "none",
-        //   "fillRule": "evenodd"
-        // }, for some reason this is happening, there must be a problem with the export
         "childs": [
           {
             "name": "path",

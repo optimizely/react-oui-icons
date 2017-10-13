@@ -21,7 +21,7 @@ const styles = {
 
 const stories = storiesOf('Icons', module);
 
-stories.add('all icons', () => {      
+stories.add('all icons', () => {
         const iconsElements = icons.map( (icon, index) => {
           const Box = styled.div`
           border: 1px dashed #ccc;
@@ -49,9 +49,9 @@ stories.add('all icons', () => {
           }
         `
           return <Box key={index} style={ styles.iconBox }>
-            <Icon 
+            <Icon
               style={styles.icon}
-              description={icon.title} 
+              description={icon.title}
               name={icon.title.split(' ').join('-')}
               fill='black'
               size='medium'
@@ -68,16 +68,21 @@ stories.add('all icons', () => {
       }
   );
 
-stories.add('icon docs', () => {      
+stories.add('icon docs', () => {
   return (
     <Icon name='bell' size='large' />
   );
 }
 );
 
-stories.add('animated icon', () => {      
+stories.add('animated icon', () => {
   return (
     <Icon className='rotating' name='settings' size='large' />
   );
 });
 
+stories.add('checkmark mix', () => {
+  return (
+    <Icon name='checkmark-mixed' size='large' />
+  );
+});

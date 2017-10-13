@@ -416,10 +416,6 @@
       },
       {
         "name": "g",
-        "attrs": {
-          "fill": "none",
-          "fillRule": "evenodd"
-        },
         "childs": [
           {
             "name": "path",

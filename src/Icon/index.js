@@ -34,7 +34,6 @@ function buildSvg(iconData) {
       return <rect {...prop.attrs} key={ `rect-${index}` } />
     }
     else if(prop.name === 'g') {
-      console.log(prop.attrs);
       return buildSvg(prop.childs)
     }
     else {

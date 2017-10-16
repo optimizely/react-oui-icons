@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import { storiesOf } from '@storybook/react';
 
 import Icon from '../src/Icon';
-import './style.css';
 
 const Container = styled.div`
   display: flex;
@@ -74,12 +73,6 @@ stories.add('icon docs', () => {
   );
 }
 );
-
-stories.add('animated icon', () => {
-  return (
-    <Icon className='rotating' name='settings' size='large' />
-  );
-});
 
 stories.add('checkmark mix', () => {
   return (

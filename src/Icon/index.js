@@ -65,7 +65,7 @@ const Icon = ({
 
   const svgClass = `oui-icon display--inline oui-icon--${sizeNumber}`
   const props = {
-    svgClass,
+    className: svgClass,
     fill,
     height: sizeNumber,
     name: `${name}`,

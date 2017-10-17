@@ -4,7 +4,6 @@ import React from 'react';
 import icons from './icons.json';
 
 const propTypes = {
-  className: PropTypes.string,
   description: PropTypes.string,
   fill: PropTypes.string,
   fillRule: PropTypes.string,
@@ -45,7 +44,6 @@ function buildSvg(iconData) {
 }
 
 const Icon = ({
-  className,
   description = 'icon',
   fill = 'black',
   name,
@@ -65,8 +63,9 @@ const Icon = ({
     sizeNumber = '24'
   }
 
+  const svgClass = `oui-icon display--inline oui-icon--${sizeNumber}`
   const props = {
-    className,
+    className: svgClass,
     fill,
     height: sizeNumber,
     name: `${name}`,

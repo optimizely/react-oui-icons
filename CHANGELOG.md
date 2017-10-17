@@ -6,6 +6,8 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+## 1.0.2 - 2017-10-17
+- [Patch] Build lib for release.
 - [Patch] Upgrade React and ReactDOM to 16.
 
 ## 1.0.0 - 2017-10-16

@@ -6,7 +6,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
-## 0.8.0 - 2017-10-16
+- [Patch] Upgrade React and ReactDOM to 16.
+
+## 1.0.0 - 2017-10-16
 - [Feature] Upgrade React and ReactDOM to 16.
 - [Feature] Add readme notes about adding new icons.
 - [Feature] Add three new checkmark icons for Environments status switcher.

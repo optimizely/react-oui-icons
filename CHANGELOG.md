@@ -6,6 +6,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+- [Breaking] Exclude react, react-dom, and prop-types from exported code (moved to peerDependencies).
+- [Infra] Use babel to build instead of webpack
+
 ## 1.0.2 - 2017-10-17
 - [Patch] Build lib for release.
 - [Patch] Upgrade React and ReactDOM to 16.

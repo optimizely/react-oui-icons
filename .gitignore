@@ -1,6 +1,7 @@
 /node_modules
 /coverage
 /build
+/storybook-static
 
 .DS_Store
 .env

@@ -1,67 +1,9 @@
 {
   "name": "react-oui-icons",
-  "version": "1.0.1",
-  "main": "lib/react-oui-icons.js",
+  "version": "2.0.0",
+  "main": "index.js",
+  "module": "src/index.js",
   "private": false,
-  "dependencies": {
-    "fs-extra": "3.0.1",
-    "object-assign": "4.1.1",
-    "promise": "7.1.1"
-  },
-  "devDependencies": {
-    "@storybook/addon-actions": "^3.2.12",
-    "@storybook/addon-info": "^3.2.12",
-    "@storybook/addon-knobs": "^3.2.12",
-    "@storybook/addon-options": "^3.2.12",
-    "@storybook/react": "^3.2.12",
-    "autoprefixer": "7.1.1",
-    "babel-cli": "^6.24.1",
-    "babel-core": "6.25.0",
-    "babel-eslint": "7.2.3",
-    "babel-jest": "20.0.3",
-    "babel-loader": "7.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-react-app": "^3.0.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-runtime": "6.23.0",
-    "case-sensitive-paths-webpack-plugin": "2.1.1",
-    "chalk": "1.1.3",
-    "css-loader": "^0.28.5",
-    "dotenv": "4.0.0",
-    "enzyme": "^2.9.1",
-    "eslint": "3.19.0",
-    "eslint-config-react-app": "^1.0.5",
-    "eslint-loader": "1.7.1",
-    "eslint-plugin-flowtype": "2.34.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "5.0.3",
-    "eslint-plugin-react": "7.1.0",
-    "extract-text-webpack-plugin": "2.1.2",
-    "file-loader": "0.11.2",
-    "html-webpack-plugin": "2.29.0",
-    "jest": "21.2.1",
-    "raw-loader": "^0.5.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-dev-utils": "^3.0.2",
-    "react-error-overlay": "^1.0.9",
-    "react-test-renderer": "^16.0.0",
-    "styled-components": "^2.1.2",
-    "svgo": "^0.7.2",
-    "svgson": "2.1.0",
-    "sw-precache-webpack-plugin": "0.11.3",
-    "webpack": "2.6.1",
-    "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "2.0.3"
-  },
-  "scripts": {
-    "lib": "webpack --optimize-minimize",
-    "test": "node scripts/test.js --env=jsdom",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "svgson": "svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/optimizely/react-oui-icons.git"
@@ -79,9 +21,73 @@
     {
       "name": "Dave Rau",
       "email": "dave.rau@optimizely.com"
+    },
+    {
+      "name": "James Fox",
+      "email": "james@optimizely.com"
+    },
+    {
+      "name": "Michael Fields",
+      "email": "michael.fields@optimizely.com"
     }
   ],
   "license": "ISC",
+  "scripts": {
+    "build": "rm -Rf ./build && mkdir build && npx babel ./src --ignore index.test.js --out-file ./build/index.js --source-maps && cp ./package.json ./build/package.json && cp -R ./src ./build/src",
+    "test": "node scripts/test.js --env=jsdom",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "svgson": "svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json"
+  },
+  "dependencies": {
+    "promise": "7.1.1",
+    "whatwg-fetch": "2.0.3"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-info": "^3.2.12",
+    "@storybook/addon-knobs": "^3.2.12",
+    "@storybook/addon-options": "^3.2.12",
+    "@storybook/react": "^3.2.12",
+    "ajv": "^6.1.1",
+    "autoprefixer": "7.1.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-plugin-inline-json-import": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^3.0.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "6.23.0",
+    "chalk": "1.1.3",
+    "dotenv": "4.0.0",
+    "enzyme": "^2.9.1",
+    "eslint": "3.19.0",
+    "eslint-config-react-app": "^1.0.5",
+    "eslint-plugin-flowtype": "2.34.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-react": "7.1.0",
+    "fs-extra": "3.0.1",
+    "jest": "21.2.1",
+    "object-assign": "4.1.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dev-utils": "^3.0.2",
+    "react-dom": "^16.0.0",
+    "react-error-overlay": "^1.0.9",
+    "react-test-renderer": "^16.0.0",
+    "styled-components": "^2.1.2",
+    "svgo": "^0.7.2",
+    "svgson": "2.1.0"
+  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"

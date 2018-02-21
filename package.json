@@ -40,6 +40,9 @@
     "build-storybook": "build-storybook",
     "svgson": "svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json"
   },
+  "files": [
+    "dist", "src"
+  ],
   "peerDependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.0.0",

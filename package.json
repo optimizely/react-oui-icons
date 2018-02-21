@@ -34,7 +34,7 @@
   "license": "ISC",
   "scripts": {
     "build": "npm run babel && gulp svg:combined",
-    "babel": "npx babel ./src --ignore *test.js --out-dir ./dist",
+    "babel": "babel ./src --ignore *test.js --out-dir ./dist",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

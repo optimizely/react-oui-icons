@@ -1,6 +1,6 @@
 {
   "name": "react-oui-icons",
-  "version": "2.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "src/index.js",
   "private": false,
@@ -33,15 +33,17 @@
   ],
   "license": "ISC",
   "scripts": {
-    "build": "rm -Rf ./dist && mkdir ./dist && npm run babel && gulp svg:combined",
+    "build": "npm run babel && gulp svg:combined",
     "babel": "npx babel ./src --ignore *test.js --out-dir ./dist",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "svgson": "svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json"
+    "svgson": "svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json",
+    "release": "release-it --no-npm.publish --src.tagName='v%s'"
   },
   "files": [
-    "dist", "src"
+    "dist",
+    "src"
   ],
   "peerDependencies": {
     "prop-types": "^15.6.0",
@@ -81,13 +83,14 @@
     "gulp-svgo": "^1.0.3",
     "jest": "21.2.1",
     "object-assign": "4.1.1",
-    "prop-types": "^15.6.0",
     "promise": "7.1.1",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dev-utils": "^3.0.2",
     "react-dom": "^16.0.0",
     "react-error-overlay": "^1.0.9",
     "react-test-renderer": "^16.0.0",
+    "release-it": "^7.0.2",
     "styled-components": "^2.1.2",
     "svgo": "^0.7.2",
     "svgson": "2.1.0",

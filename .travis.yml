@@ -1,0 +1,22 @@
+language: node_js
+cache: yarn
+sudo: false
+before_deploy:
+- rm -rfv dist
+- yarn build
+deploy:
+- provider: npm
+  skip_cleanup: true
+  api_key:
+    secure: lHK9LAw3CJ+yEpdLLU6qgfWtjm9l8MoWQVsvx9z2uVSUtKguZMgT6oD8Y660h40TxtSnD4B/+2ST/50++k+tAN/2AFAoH5N5dpQdR7wzzF+hmuYkz/zRpL0MXuc+Nj3GpORaq4gSOMT3mH8BCAXFNI7jtBdvGF89N3Ag7u1zsMU=
+  email:
+    secure: cKTOKErgXo7WcyaqQFzBIGBpEz5X+MwtN/wHXNmLDU6BJ98IKfRcOS2oY8jG/JFoy+EQDdC8iwLfN7+z8gysMoVVbZYm/sKKLg2UXEBCe02p1mJlPDh/o/E+9ofNe1PMv/o1j4CY3YBfaVA+HB7WCGyKivu6tFgFOuoxbPdOleA=
+  on:
+    tags: true
+notifications:
+  slack:
+    rooms:
+    # - secure: OdYo05A7wbHvUS8VHV2ZVQ2Gjd2ubdB3ZcqaASJOxnq/JwDMJcmaT/MBOHSPA1vZe7DlXeCe20WssBEbmtoGY0out3kVdUomLge8CXf3imrKuOgg/K8zglf8g13BNHhaPqEBIa5eST0YdLxC1r0pKng+SDkOoX3xIwkCdeBKFPQ=
+    - secure: gXwvemMvpSuku/2/f3sJc+z2PLhE2Srz2C9Im9jnY01W7VUgIXvu7UFeymkKi6UdF/hmsj+wCaDDXWJA8lenuGou2W/+OuP6e6Eu91hf9VqUha9Jx/5x+I8k8ThNvEp+UlWLLelftnKZK1Dus55GhPZf5CcPU+ifu85yjbXCL68=
+    on_success: always
+    on_pull_requests: false

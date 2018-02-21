@@ -5,18 +5,16 @@ before_deploy:
 - rm -rfv dist
 - yarn build
 deploy:
-- provider: npm
-  skip_cleanup: true
+  provider: npm
+  email: eng@optimizely.com
   api_key:
-    secure: lHK9LAw3CJ+yEpdLLU6qgfWtjm9l8MoWQVsvx9z2uVSUtKguZMgT6oD8Y660h40TxtSnD4B/+2ST/50++k+tAN/2AFAoH5N5dpQdR7wzzF+hmuYkz/zRpL0MXuc+Nj3GpORaq4gSOMT3mH8BCAXFNI7jtBdvGF89N3Ag7u1zsMU=
-  email:
-    secure: cKTOKErgXo7WcyaqQFzBIGBpEz5X+MwtN/wHXNmLDU6BJ98IKfRcOS2oY8jG/JFoy+EQDdC8iwLfN7+z8gysMoVVbZYm/sKKLg2UXEBCe02p1mJlPDh/o/E+9ofNe1PMv/o1j4CY3YBfaVA+HB7WCGyKivu6tFgFOuoxbPdOleA=
+    secure: mz9nQ5clttxj+pStmcuiBiPqAZHJzPFaSplax9fAUfdUj6+3BHppkMFvNpp5ereFHZvMPYls7BTxEpQkEaaOB/FZrSUXbrxdika2gW4UjmzKIPue+zdsA7fq7mQ/ncGDLxfQ8KmB19lriBbW8bLjSim9rHmBaxDkq5Ucwa/ZHZ5l/B7WQYCqtUFSJIOje1fNkBRTOssX0LByqPb9o2DSmaOjWhX8E4/b8JrCeBXOXw44Uv6aCsafmi6q4VShpakMRPBFRxWP+7gTiD0am4X6YgYW33nJLS0mNj2OFLm0o6f25o/kgu22pneVus3Srp68eMDYq+C7DXCqFrh8b5W3VQ4i6Biy2PK54K7F5I+BnR8KZ2twbQCCPMlbja6sdpTx/ct/LA7UJIiYWACFusuo6X5DZNgwomcnJwptb8s3sjmJrgyHq9fuKHgQ7QlnToy35QJUG6YXW/F+AFE+hAhie6hR0EJUvfvhQSoqM8sL5Pro1JpJlUGCadaiYMCmS+/3BWKIZiAlpHHLhe2ItBVAJIyhL1DmcrgSVIHffNmgSfvtWzV52fEwtcxggah77VjtMXACNeZ+zkDpLc1adP1WZbBWYJNRgS7EMR0hWvM5ICAxQZ5YOoUJ0tlr80OOZAWCsCpqbTVKJHHxv8ffssW7oSywZs8aqaA5gnTR1hKXfDs=
   on:
     tags: true
+    repo: optimizely/react-oui-icons
 notifications:
   slack:
     rooms:
-    # - secure: OdYo05A7wbHvUS8VHV2ZVQ2Gjd2ubdB3ZcqaASJOxnq/JwDMJcmaT/MBOHSPA1vZe7DlXeCe20WssBEbmtoGY0out3kVdUomLge8CXf3imrKuOgg/K8zglf8g13BNHhaPqEBIa5eST0YdLxC1r0pKng+SDkOoX3xIwkCdeBKFPQ=
     - secure: gXwvemMvpSuku/2/f3sJc+z2PLhE2Srz2C9Im9jnY01W7VUgIXvu7UFeymkKi6UdF/hmsj+wCaDDXWJA8lenuGou2W/+OuP6e6Eu91hf9VqUha9Jx/5x+I8k8ThNvEp+UlWLLelftnKZK1Dus55GhPZf5CcPU+ifu85yjbXCL68=
     on_success: always
     on_pull_requests: false

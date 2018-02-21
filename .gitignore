@@ -1,7 +1,7 @@
-/node_modules
-/coverage
-/build
-/storybook-static
+node_modules
+coverage
+dist
+storybook-static
 
 .DS_Store
 .env

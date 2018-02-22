@@ -7,10 +7,13 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 2.0.1 - 2018-02-21
+- [Fix] Deploy `/dist/**` directory correctly. 
+
 ## 2.0.0 - 2018-02-21
 - [Breaking] Exclude react, react-dom, and prop-types from exported code (moved to peerDependencies).
-- [Added] Export ES5 Icon component as package.main, ES6 Icon Component as package.module
-- [Added] Export a single combined SVG file of all the SVGs in use at dist/svg/svg-symbols.svg
+- [Added] Export ES5 Icon Component as `package.main`, ES6 Icon Component as `package.module`
+- [Added] Export a single combined SVG file of all the SVGs in use at `dist/svg/svg-symbols.svg`
 - [Infra] Use babel to build instead of webpack
 
 ## 1.0.2 - 2017-10-17

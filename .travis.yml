@@ -1,6 +1,9 @@
 language: node_js
 cache: yarn
 sudo: false
+branches:
+  except:
+  - master
 before_deploy:
 - rm -rfv dist
 - yarn build

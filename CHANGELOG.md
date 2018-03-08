@@ -6,6 +6,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+- [Added] Feature-test icon.
 
 ## 2.0.1 - 2018-02-21
 - [Fix] Deploy `/dist/**` directory correctly. 

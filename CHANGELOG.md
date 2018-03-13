@@ -6,10 +6,11 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+- [Breaking] Remove width/height attributes on svgs.
 - [Added] Feature-test icon.
 
 ## 2.0.1 - 2018-02-21
-- [Fix] Deploy `/dist/**` directory correctly. 
+- [Fix] Deploy `/dist/**` directory correctly.
 
 ## 2.0.0 - 2018-02-21
 - [Breaking] Exclude react, react-dom, and prop-types from exported code (moved to peerDependencies).

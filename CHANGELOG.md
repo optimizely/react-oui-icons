@@ -6,10 +6,13 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+- [Fix] Feature-test icon with black fill and center within view box.
+
+## 2.0.3 - 2018-03-09
 - [Added] Feature-test icon.
 
 ## 2.0.1 - 2018-02-21
-- [Fix] Deploy `/dist/**` directory correctly. 
+- [Fix] Deploy `/dist/**` directory correctly.
 
 ## 2.0.0 - 2018-02-21
 - [Breaking] Exclude react, react-dom, and prop-types from exported code (moved to peerDependencies).

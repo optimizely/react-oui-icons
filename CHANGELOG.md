@@ -6,7 +6,10 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
-- [Fix] Feature-test icon with black fill and center within view box.
+
+## 2.0.3 - 2018-03-22
+- [Added] Program-management icon
+- [Fix] Feature-test icon with black fill and center within view box
 
 ## 2.0.3 - 2018-03-09
 - [Added] Feature-test icon.

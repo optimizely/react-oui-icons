@@ -23,7 +23,7 @@ const stories = storiesOf('Icons', module);
 stories.add('all icons', () => {
         const iconsElements = icons.map( (icon, index) => {
           const Box = styled.div`
-          border: 1px dashed #ccc;
+          border: 1px solid #eee;
           border-radius: 8px;
           box-sizing: border-box;
           display: flex;
@@ -34,17 +34,18 @@ stories.add('all icons', () => {
           text-align: center;
           width: 100px;
           &:after {
-            color: white;
+            color: #666;
             transition: all 0.4s ease;
             content: '${icon.title}';
             font-family: Helvetica;
-            font-size: 0.5rem;
+            font-size: 0.6rem;
             max-width: 90px;
             position: absolute;
             margin-top: 70px;
+            opacity: 0;
           }
           &:hover:after {
-            color: #666;
+            opacity: 1;
           }
         `
           return <Box key={index} style={ styles.iconBox }>
@@ -67,15 +68,20 @@ stories.add('all icons', () => {
       }
   );
 
-stories.add('icon docs', () => {
+stories.add('large icon', () => {
   return (
     <Icon name='bell' size='large' />
   );
-}
-);
+});
 
 stories.add('checkmark mix', () => {
   return (
     <Icon name='checkmark-mixed' size='large' />
+  );
+});
+
+stories.add('program management', () => {
+  return (
+    <Icon name='program-management' size='large' />
   );
 });

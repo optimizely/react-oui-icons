@@ -7,7 +7,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
-## 2.0.3 - 2018-03-22
+## 2.0.4 - 2018-03-22
 - [Added] Program-management icon
 - [Fix] Feature-test icon with black fill and center within view box
 

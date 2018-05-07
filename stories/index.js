@@ -1,9 +1,8 @@
 import React from 'react';
 import icons from '../src/Icon/icons.json';
 import styled from 'styled-components';
-
+import { withKnobs, text } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
-
 import Icon from '../src/Icon';
 
 const Container = styled.div`
@@ -12,13 +11,8 @@ const Container = styled.div`
   justify-content: space-around;
 `
 
-const styles = {
-  icon: {
-    alignSelf: "center",
-  }
-}
-
 const stories = storiesOf('Icons', module);
+stories.addDecorator(withKnobs);
 
 stories.add('all icons', () => {
         const iconsElements = icons.map( (icon, index) => {
@@ -29,6 +23,7 @@ stories.add('all icons', () => {
           display: flex;
           height: 100px;
           justify-content: center;
+          align-items: center;
           margin: 5px;
           padding: 20px 10px
           text-align: center;
@@ -41,19 +36,18 @@ stories.add('all icons', () => {
             font-size: 0.6rem;
             max-width: 90px;
             position: absolute;
-            margin-top: 70px;
-            opacity: 0;
+            margin-top: 3em;
+            opacity: 0.6;
           }
           &:hover:after {
             opacity: 1;
           }
         `
-          return <Box key={index} style={ styles.iconBox }>
+          return <Box key={index}>
             <Icon
-              style={styles.icon}
               description={icon.title}
               name={icon.title.split(' ').join('-')}
-              fill='black'
+              fill={ text('color', 'hotpink') }
               size='medium'
             />
           </Box>
@@ -70,7 +64,7 @@ stories.add('all icons', () => {
 
 stories.add('large icon', () => {
   return (
-    <Icon name='bell' size='large' />
+    <Icon name='bell' size='large' fill={ text('color', 'hotpink') } />
   );
 });
 

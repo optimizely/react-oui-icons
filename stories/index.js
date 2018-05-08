@@ -1,7 +1,8 @@
 import React from 'react';
 import icons from '../src/Icon/icons.json';
 import styled from 'styled-components';
-import { withKnobs, text } from '@storybook/addon-knobs';
+import { withKnobs, text, select } from '@storybook/addon-knobs';
+import { withInfo } from '@storybook/addon-info';
 import { storiesOf } from '@storybook/react';
 import Icon from '../src/Icon';
 
@@ -20,7 +21,7 @@ const styles = {
 const stories = storiesOf('Icons', module);
 stories.addDecorator(withKnobs);
 
-stories.add('all icons', () => {
+stories.add('all icons', withInfo()(() => {
         const iconsElements = icons.map( (icon, index) => {
           const Box = styled.div`
           border: 1px solid #eee;
@@ -54,6 +55,7 @@ stories.add('all icons', () => {
               description={icon.title}
               name={icon.title.split(' ').join('-')}
               size='medium'
+              fill={ text('color', 'hotpink') }
             />
           </Box>
         });
@@ -65,7 +67,15 @@ stories.add('all icons', () => {
           </div>
         );
       }
+  ));
+
+stories.add('Colored icon', () => {
+  return (
+    <h2 className="background--brand color--brand">
+      Test Me Out <Icon name='bell' size='large' />
+    </h2>
   );
+});
 
 stories.add('large icon', () => {
   return (

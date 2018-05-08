@@ -11,6 +11,12 @@ const Container = styled.div`
   justify-content: space-around;
 `
 
+const styles = {
+  icon: {
+    alignSelf: "center",
+  }
+}
+
 const stories = storiesOf('Icons', module);
 stories.addDecorator(withKnobs);
 
@@ -36,7 +42,7 @@ stories.add('all icons', () => {
             font-size: 0.6rem;
             max-width: 90px;
             position: absolute;
-            margin-top: 3em;
+            margin-top: 70px;
             opacity: 0.6;
           }
           &:hover:after {
@@ -47,7 +53,6 @@ stories.add('all icons', () => {
             <Icon
               description={icon.title}
               name={icon.title.split(' ').join('-')}
-              fill={ text('color', 'hotpink') }
               size='medium'
             />
           </Box>

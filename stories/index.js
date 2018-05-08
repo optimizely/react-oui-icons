@@ -42,7 +42,7 @@ stories.add('all icons', () => {
             font-size: 0.6rem;
             max-width: 90px;
             position: absolute;
-            margin-top: 70px;
+            margin-top: 2.5em;
             opacity: 0.6;
           }
           &:hover:after {

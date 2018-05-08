@@ -32,6 +32,9 @@ function buildSvg(iconData) {
     else if(prop.name === 'rect') {
       return <rect {...prop.attrs} key={ `rect-${index}` } />
     }
+    else if(prop.name === 'ellipse') {
+      return <ellipse {...prop.attrs} key={ `ellipse-${index}` } />
+    }
     else if(prop.name === 'g') {
       return buildSvg(prop.childs)
     }

@@ -46,3 +46,8 @@ It will start a local webserver served at `http://localhost:6006/`.
 1. Add icons to `assets/svgs/`.
 2. Run `yarn svgson` to update the icon internal data file in `src/Icon/icons.js`.
 3. Create a [new release of OUI](https://github.com/optimizely/oui/blob/devel/CONTRIBUTING.md)
+
+## Release new version of react-oui-icons
+0. Commit changes, push, create PR, get approval, squash & merge...
+1. `npm run release patch` or `npm run release minor` or `npm run release major`
+2. OUI will automatically bump the react-oui-icons `^0.0.x` releases, so you will need to create a new release of OUI if your icon changes include minor or major changes.

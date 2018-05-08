@@ -71,8 +71,8 @@ stories.add('all icons', withInfo()(() => {
 
 stories.add('Colored icon', () => {
   return (
-    <h2 className="background--brand color--brand">
-      Test Me Out <Icon name='bell' size='large' />
+    <h2 style="color: red">
+      Test Me Red <Icon name='bell' size='large' />
     </h2>
   );
 });

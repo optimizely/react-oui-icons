@@ -13,8 +13,8 @@ describe('<Icon/> Component', () => {
   });
 
   it('name prop is equal to ab', () => {
-      const component = shallow(<Icon 
-        name="ab" 
+      const component = shallow(<Icon
+        name="ab"
       />);
       expect(component.props().name).toEqual('ab');
   });
@@ -29,15 +29,26 @@ describe('<Icon/> Component', () => {
     expect(component.props().stroke).toEqual('tomato');
   });
 
-  it('style is equal to obj with color style', () => {
-    const component = shallow(
-      <Icon
-        name="ab"
-        size="medium"
-        style={ {'color': 'tomato'} }
-      />);
-    expect(component.props().style).toEqual({'color': 'tomato'});
-  });
+    it('fill is equal tomato', () => {
+      const component = shallow(
+        <Icon
+          name="ab"
+          size="medium"
+          fill="tomato"
+        />);
+      expect(component.props().style).toEqual({"fill": "tomato"});
+    });
+
+    it('style is equal to obj with color style and does not affect fill', () => {
+      const component = shallow(
+        <Icon
+          name="ab"
+          size="medium"
+          fill="tomato"
+          style={ { "color": "blue"} }
+        />);
+      expect(component.props().style).toEqual({"color": "blue", "fill": "tomato"});
+    });
 
   it('role prop is equal to ab icon', () => {
     const component = shallow(
@@ -65,7 +76,7 @@ describe('<Icon/> Component', () => {
       />);
     expect(component.contains(<title>ab</title>)).toEqual(true);
   });
-  // 
+  //
 
   // const component = shallow(<Icon name='bell' />)
   // console.log(component);

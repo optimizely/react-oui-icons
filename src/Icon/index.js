@@ -32,6 +32,9 @@ function buildSvg(iconData) {
     else if(prop.name === 'rect') {
       return <rect {...prop.attrs} key={ `rect-${index}` } />
     }
+    else if(prop.name === 'ellipse') {
+      return <ellipse {...prop.attrs} key={ `ellipse-${index}` } />
+    }
     else if(prop.name === 'g') {
       return buildSvg(prop.childs)
     }
@@ -45,12 +48,12 @@ function buildSvg(iconData) {
 
 const Icon = ({
   description = 'icon',
-  fill = 'black',
+  fill = 'currentColor',
   name,
   role,
   size = 'medium',
   stroke = 'none',
-  style
+  style = {}
 }) => {
   const icon = findIcon(`${name}`);
   let sizeNumber;
@@ -63,15 +66,17 @@ const Icon = ({
     sizeNumber = '24'
   }
 
+  const iconStyles = style;
+  iconStyles['fill'] = fill;
+
   const svgClass = `oui-icon display--inline oui-icon--${sizeNumber}`
   const props = {
     className: svgClass,
-    fill,
     height: sizeNumber,
     name: `${name}`,
     role,
     stroke,
-    style,
+    style: iconStyles,
     viewBox: icon.attrs.viewBox,
     width: sizeNumber
   };

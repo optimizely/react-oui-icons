@@ -6,6 +6,8 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+- [Fix] Set default fill to currentColor, not black
+- [Feature] Allow ellipse shape output in the build script (#31)
 
 ## 2.0.4 - 2018-03-22
 - [Added] Program-management icon

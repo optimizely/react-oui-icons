@@ -50,7 +50,7 @@ const Icon = ({
   role,
   size = 'medium',
   stroke = 'none',
-  style
+  style = {}
 }) => {
   const icon = findIcon(`${name}`);
   let sizeNumber;
@@ -63,10 +63,11 @@ const Icon = ({
     sizeNumber = '24'
   }
 
+  style['fill'] = fill;
+
   const svgClass = `oui-icon display--inline oui-icon--${sizeNumber}`
   const props = {
     className: svgClass,
-    fill,
     height: sizeNumber,
     name: `${name}`,
     role,

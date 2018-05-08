@@ -55,7 +55,6 @@ stories.add('all icons', withInfo()(() => {
               description={icon.title}
               name={icon.title.split(' ').join('-')}
               size='medium'
-              fill={ text('color', 'hotpink') }
             />
           </Box>
         });
@@ -71,7 +70,7 @@ stories.add('all icons', withInfo()(() => {
 
 stories.add('Colored icon', () => {
   return (
-    <h2 style="color: red">
+    <h2 style={ { 'color': 'red' } }>
       Test Me Red <Icon name='bell' size='large' />
     </h2>
   );

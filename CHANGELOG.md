@@ -6,6 +6,8 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+
+## 2.1.1 - 2018-05-16
 - [Fix] Adjustment to fill prop syntax to fix Icon errors downstream in OUI Storybook
 
 ## 2.1.0 - 2018-05-08

@@ -66,8 +66,7 @@ const Icon = ({
     sizeNumber = '24'
   }
 
-  const iconStyles = style;
-  iconStyles['fill'] = fill;
+  const iconStyles = Object.assign({}, style, { fill });
 
   const svgClass = `oui-icon display--inline oui-icon--${sizeNumber}`
   const props = {

@@ -6,6 +6,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 
 ## Unreleased
+- [Fix] Adjustment to fill prop syntax to fix Icon errors downstream in OUI Storybook
 
 ## 2.1.0 - 2018-05-08
 - [Fix] Set default fill to currentColor, not black

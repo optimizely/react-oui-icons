@@ -86,7 +86,6 @@ const Icon = ({
     <svg
       data-oui-component={ true }
       {...props}>
-      <title>{icon.title}</title>
       <desc>{ description }</desc>
       { content }
     </svg>

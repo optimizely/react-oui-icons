@@ -3,6 +3,8 @@ import React from 'react';
 
 import icons from './icons.json';
 
+const HELP_ICON_TITLE = 'help';
+
 const propTypes = {
   description: PropTypes.string,
   fill: PropTypes.string,
@@ -86,7 +88,9 @@ const Icon = ({
     <svg
       data-oui-component={ true }
       {...props}>
-      <title>{icon.title}</title>
+      { icon.title !== HELP_ICON_TITLE && (
+          <title>{icon.title}</title>
+      ) }
       <desc>{ description }</desc>
       { content }
     </svg>

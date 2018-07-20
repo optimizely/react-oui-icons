@@ -9,7 +9,6 @@ import Icon from '../src/Icon';
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 `
 
 const styles = {
@@ -31,7 +30,7 @@ stories.add('all icons', withInfo()(() => {
           height: 150px;
           justify-content: center;
           margin: 0;
-          padding: 40px 20px
+          padding: 40px 20px;
           text-align: center;
           position: relative;
           &:after {
@@ -47,6 +46,7 @@ stories.add('all icons', withInfo()(() => {
         `
           return <Box key={index}>
             <Icon
+              style={ styles.icon }
               description={icon.title}
               name={icon.title.split(' ').join('-')}
               size='medium'

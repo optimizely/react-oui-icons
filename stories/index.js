@@ -25,29 +25,24 @@ stories.add('all icons', withInfo()(() => {
         const iconsElements = icons.map( (icon, index) => {
           const Box = styled.div`
           border: 1px solid #eee;
-          border-radius: 8px;
           box-sizing: border-box;
           display: flex;
-          height: 100px;
+          width: 20%;
+          height: 150px;
           justify-content: center;
-          align-items: center;
-          margin: 5px;
-          padding: 20px 10px
+          margin: 0;
+          padding: 40px 20px
           text-align: center;
-          width: 100px;
+          position: relative;
           &:after {
-            color: #666;
+            text-align: center;
+            color: #333;
             transition: all 0.4s ease;
             content: '${icon.title}';
             font-family: Helvetica;
-            font-size: 0.6rem;
-            max-width: 90px;
+            font-size: 10px;
             position: absolute;
-            margin-top: 2.5em;
-            opacity: 0.4;
-          }
-          &:hover:after {
-            opacity: 1;
+            bottom: 30px;
           }
         `
           return <Box key={index}>

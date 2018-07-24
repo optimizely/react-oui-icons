@@ -17,6 +17,7 @@ const propTypes = {
 function findIcon(name, iconsObj = icons) {
   const icon = iconsObj.filter(obj => obj.title.split(' ').join('-') === name);
   if(icon.length > 1) throw new Error('More that one icons was found with same name');
+  if(icon.length < 1) throw new Error('No icon found with that name');
   const iconObj = icon.length === 0 ? false : icon[0];
   return iconObj;
 }
@@ -28,6 +29,15 @@ function buildSvg(iconData) {
     }
     else if(prop.name === 'circle') {
       return <circle {...prop.attrs} key={ `circle-${index}` } />
+    }
+    else if(prop.name === 'polygon') {
+      return <polygon {...prop.attrs} key={ `polygon-${index}` } />
+    }
+    else if(prop.name === 'polyline') {
+      return <polyline {...prop.attrs} key={ `polyline-${index}` } />
+    }
+    else if(prop.name === 'line') {
+      return <line {...prop.attrs} key={ `line-${index}` } />
     }
     else if(prop.name === 'rect') {
       return <rect {...prop.attrs} key={ `rect-${index}` } />
@@ -66,7 +76,7 @@ const Icon = ({
     sizeNumber = '24'
   }
 
-  const iconStyles = Object.assign({}, style, { fill });
+  const iconStyles = Object.assign({}, style, { fill, stroke });
 
   const svgClass = `oui-icon display--inline oui-icon--${sizeNumber}`
   const props = {
@@ -75,6 +85,7 @@ const Icon = ({
     name: `${name}`,
     role,
     stroke,
+    fill,
     style: iconStyles,
     viewBox: icon.attrs.viewBox,
     width: sizeNumber

@@ -20,7 +20,7 @@ const styles = {
 const stories = storiesOf('Icons', module);
 stories.addDecorator(withKnobs);
 
-stories.add('all icons', withInfo()(() => {
+stories.add('All icons', withInfo()(() => {
         const iconsElements = icons.map( (icon, index) => {
           const Box = styled.div`
           border: 1px solid #eee;
@@ -63,28 +63,76 @@ stories.add('all icons', withInfo()(() => {
       }
   ));
 
-stories.add('Colored icon', () => {
+stories.add('Inherited stroke colors', () => {
   return (
-    <h2 style={ { 'color': 'red' } }>
-      Test Me Red <Icon name='bell' size='large' />
-    </h2>
+    <ul>
+      <li style={{'color':'yellow'}}>Stroke <Icon name='pencil' /></li>
+      <li style={{'color':'orange'}}>Stroke <Icon name='pencil' /></li>
+      <li style={{'color':'red'}}>Stroke <Icon name='pencil' /></li>
+      <li style={{'color':'purple'}}>Stroke <Icon name='pencil' /></li>
+    </ul>
   );
 });
 
-stories.add('large icon', () => {
+stories.add('Inherited fill colors', () => {
   return (
-    <Icon name='bell' size='large' fill={ text('color', 'hotpink') } />
+    <ul>
+      <li>Fill <Icon name='save' fill={ text('color', 'yellow') } /></li>
+      <li>Fill <Icon name='save' fill={ text('color', 'green') } /></li>
+      <li>Fill <Icon name='save' fill={ text('color', 'blue') } /></li>
+      <li>Fill <Icon name='save' fill={ text('color', 'purple') } /></li>
+    </ul>
   );
 });
 
-stories.add('checkmark mix', () => {
+stories.add('Colored icons', () => {
   return (
-    <Icon name='checkmark-mixed' size='large' />
+    <ul style={ { 'color': 'purple' } }>
+      <li>
+        Text and icon purple: <Icon name='calendar' />
+      </li>
+      <li style={ { 'color': 'orange' } }>
+        Text and icon orange: <Icon name='calendar' />
+      </li>
+      <li style={{'color': 'orange'}}>
+        Text orange, <span style={ { 'color': 'purple' } }>icon purple:</span> <Icon name='calendar' fill={ text('color', 'purple') } />
+      </li>
+      <li>
+        Text purple, <span style={ { 'color': 'orange' } }>icon orange:</span> <Icon name='calendar' fill={ text('color', 'orange') } />
+      </li>
+    </ul>
   );
 });
 
-stories.add('program management', () => {
+stories.add('Stroke vs fill', () => {
   return (
-    <Icon name='program-management' size='large' />
+    <div>
+      <p style={ { 'color': 'red' } }>
+        Red text (stroke icons should be <span style={{'color':'green'}}>green</span> <span style={{'color':'blue'}}>blue</span> <span style={{'color':'purple'}}>purple</span>)
+        <Icon name='pencil' size='small' fill={ text('color', 'green') } />
+        <Icon name='pencil' fill={ text('color', 'blue') } />
+        <Icon name='pencil' size='large' fill={ text('color', 'purple') } />
+      </p>
+      <p style={ { 'color': 'red' } }>
+        Red text (stroke icons should be <span style={{'color':'green'}}>green</span> <span style={{'color':'blue'}}>blue</span> <span style={{'color':'purple'}}>purple</span>)
+        <Icon name='program-management' size='small' stroke={ text('color', 'green') } />
+        <Icon name='program-management' stroke={ text('color', 'blue') } />
+        <Icon name='program-management' size='large' stroke={ text('color', 'purple') } />
+      </p>
+      <p style={ { 'color': 'red' } }>
+        Red text (fill icons should be <span style={{'color':'green'}}>green</span> <span style={{'color':'blue'}}>blue</span> <span style={{'color':'purple'}}>purple</span>)
+        <Icon name='save' size='small' fill={ text('color', 'green') } />
+        <Icon name='save' fill={ text('color', 'blue') } />
+        <Icon name='save' size='large' fill={ text('color', 'purple') } />
+      </p>
+    </div>
+  );
+});
+
+stories.add('Program management', () => {
+  return (
+    <p>
+      <Icon name='program-management' />
+    </p>
   );
 });

@@ -1907,6 +1907,35 @@
   {
     "name": "svg",
     "attrs": {
+      "data-name": "Layer 1",
+      "xmlns": "http://www.w3.org/2000/svg",
+      "viewBox": "0 0 16 16"
+    },
+    "childs": [
+      {
+        "name": "path",
+        "attrs": {
+          "d": "M5 15.89H0v-5L10.46.42a1.5 1.5 0 0 1 2 0l3 3a1.5 1.5 0 0 1 0 2zm-4-1h3.62L14.77 4.73a.49.49 0 0 0 0-.66l-2.96-2.95a.49.49 0 0 0-.66 0L1 11.28v3.61zm3.87-1.71l-.71-.71 6.36-6.36.71.71zm-1.43-1.44l-.7-.74L9.1 4.68l.7.7z"
+        }
+      },
+      {
+        "name": "path",
+        "attrs": {
+          "d": "M.51 12.51l2.88 2.88-2.88.05v-2.93z"
+        }
+      },
+      {
+        "name": "path",
+        "attrs": {
+          "d": "M0 15.95V11.3l4.57 4.57zm1-2.23v1.21h1.19zM8.73 2.857l.707-.707 4.32 4.32-.707.707z"
+        }
+      }
+    ],
+    "title": "pencil"
+  },
+  {
+    "name": "svg",
+    "attrs": {
       "baseProfile": "tiny",
       "xmlns": "http://www.w3.org/2000/svg",
       "viewBox": "0 0 24 24"
@@ -1968,7 +1997,7 @@
         "name": "circle",
         "attrs": {
           "fill": "none",
-          "stroke": "#000",
+          "stroke": "currentColor",
           "strokeMiterlimit": "10",
           "cx": "2.5",
           "cy": "3.5",
@@ -1979,7 +2008,7 @@
         "name": "circle",
         "attrs": {
           "fill": "none",
-          "stroke": "#000",
+          "stroke": "currentColor",
           "strokeMiterlimit": "10",
           "cx": "21.5",
           "cy": "3.5",
@@ -1990,7 +2019,7 @@
         "name": "circle",
         "attrs": {
           "fill": "none",
-          "stroke": "#000",
+          "stroke": "currentColor",
           "strokeMiterlimit": "10",
           "cx": "11.5",
           "cy": "21.5",
@@ -2002,7 +2031,7 @@
         "attrs": {
           "d": "M15.5 3.5h-8m5.7 2.2l2.3-2.2v-.1l-2.3-2.2m2.6 14.4l3.8-7.2m-4.7 4.1l.9 3.1 3.1-.9m-14-5.5l4 7M8 10l-3.1-.8-.9 3.1",
           "fill": "none",
-          "stroke": "#000",
+          "stroke": "currentColor",
           "strokeMiterlimit": "10"
         }
       }

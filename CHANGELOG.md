@@ -7,8 +7,10 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 - [Feature] Pencil edit icon
+- [Feature] Add fill prop to <Icon> (#33)
 - [Feature] Updated storybook with inline, fill and currentColor examples
 - [Fix] Replace program management hex values with currentColor variable
+- [Fix] Remove tooltip for help icon
 
 ## 2.1.1 - 2018-05-16
 - [Fix] Adjustment to fill prop syntax to fix Icon errors downstream in OUI Storybook

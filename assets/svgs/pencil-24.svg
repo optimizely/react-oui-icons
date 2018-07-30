@@ -1,1 +1,11 @@
-<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5 15.89H0v-5L10.46.42a1.5 1.5 0 0 1 2 0l3 3a1.5 1.5 0 0 1 0 2zm-4-1h3.62L14.77 4.73a.49.49 0 0 0 0-.66l-2.96-2.95a.49.49 0 0 0-.66 0L1 11.28v3.61zm3.87-1.71l-.71-.71 6.36-6.36.71.71zm-1.43-1.44l-.7-.74L9.1 4.68l.7.7z"/><path d="M.51 12.51l2.88 2.88-2.88.05v-2.93z"/><path d="M0 15.95V11.3l4.57 4.57zm1-2.23v1.21h1.19zM8.73 2.857l.707-.707 4.32 4.32-.707.707z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g>
+	<polygon points="9.1,4.7 2.7,11 3.4,11.7 9.8,5.4 	"/>
+	<rect x="3.2" y="9.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.5662 8.2661)" width="9" height="1"/>
+	<path d="M15.5,3.5l-3-3c-0.6-0.5-1.4-0.5-2,0L0,11v0.4V16h4.6H5L15.5,5.5C16,5,16,4.1,15.5,3.5z M4.6,15h-1L1,12.4c0-0.4,0-1,0-1
+		l8.1-8.1l3.6,3.6L4.6,15z M14.8,4.8l-1.4,1.4L9.8,2.6l1.4-1.4c0.2-0.2,0.5-0.2,0.7,0l3,3C14.9,4.4,14.9,4.7,14.8,4.8z"/>
+</g>
+</svg>

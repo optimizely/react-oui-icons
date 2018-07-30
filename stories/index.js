@@ -136,3 +136,11 @@ stories.add('Program management', () => {
     </p>
   );
 });
+
+stories.add('Pencil', () => {
+  return (
+    <p>
+      <Icon name='pencil' />
+    </p>
+  );
+});

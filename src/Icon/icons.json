@@ -1398,6 +1398,66 @@
   {
     "name": "svg",
     "attrs": {
+      "data-name": "Layer 1",
+      "xmlns": "http://www.w3.org/2000/svg",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    "childs": [
+      {
+        "name": "rect",
+        "attrs": {
+          "x": ".5",
+          "y": "12.5",
+          "width": "10",
+          "height": "10",
+          "rx": "2",
+          "ry": "2",
+          "fill": "none",
+          "stroke": "#000"
+        }
+      },
+      {
+        "name": "rect",
+        "attrs": {
+          "x": "13.5",
+          "y": "12.5",
+          "width": "10",
+          "height": "10",
+          "rx": "2",
+          "ry": "2",
+          "fill": "none",
+          "stroke": "#000"
+        }
+      },
+      {
+        "name": "rect",
+        "attrs": {
+          "x": "6.5",
+          "y": ".5",
+          "width": "10",
+          "height": "10",
+          "rx": "2",
+          "ry": "2",
+          "fill": "none",
+          "stroke": "#000"
+        }
+      },
+      {
+        "name": "path",
+        "attrs": {
+          "d": "M3.5 14.5H6a1.5 1.5 0 0 1 0 3H3.5zm0 3H6a1.5 1.5 0 0 1 0 3H3.5zm5.45-9.16l2.57-5.97 2.43 5.97M9.5 6.5h4m7.51 12.97a3 3 0 1 1-.06-4.32",
+          "fill": "none",
+          "stroke": "#000"
+        }
+      }
+    ],
+    "title": "getting-started"
+  },
+  {
+    "name": "svg",
+    "attrs": {
       "baseProfile": "tiny",
       "xmlns": "http://www.w3.org/2000/svg",
       "viewBox": "0 0 24 24"

@@ -89,16 +89,16 @@ stories.add('Colored icons', () => {
   return (
     <ul style={ { 'color': 'purple' } }>
       <li>
-        Text and icon purple: <Icon name='calendar' />
+        Purple text &amp; icon: <Icon name='calendar' />
       </li>
       <li style={ { 'color': 'orange' } }>
-        Text and icon orange: <Icon name='calendar' />
+        Orange text &amp; icon: <Icon name='calendar' />
       </li>
       <li style={{'color': 'orange'}}>
-        Text orange, <span style={ { 'color': 'purple' } }>icon purple:</span> <Icon name='calendar' fill={ text('color', 'purple') } />
+        Orange text, <span style={ { 'color': 'purple' } }>Purple icon:</span> <Icon name='calendar' fill={ text('color', 'purple') } />
       </li>
       <li>
-        Text purple, <span style={ { 'color': 'orange' } }>icon orange:</span> <Icon name='calendar' fill={ text('color', 'orange') } />
+        Purple text, <span style={ { 'color': 'orange' } }>Orange icon:</span> <Icon name='calendar' fill={ text('color', 'orange') } />
       </li>
     </ul>
   );

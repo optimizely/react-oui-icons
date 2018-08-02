@@ -76,6 +76,14 @@ describe('<Icon/> Component', () => {
       />);
     expect(component.contains(<title>ab</title>)).toEqual(true);
   });
+
+  it('should not contain <title> when the "help" icon is used', () => {
+    const component = shallow(
+      <Icon
+        name="help"
+      />);
+    expect(component.contains(<title>help</title>)).toEqual(false);
+  });
   //
 
   // const component = shallow(<Icon name='bell' />)

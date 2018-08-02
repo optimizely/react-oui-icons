@@ -11,6 +11,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 - [Feature] Updated storybook with inline, fill and currentColor examples
 - [Fix] Replace program management hex values with currentColor variable
 - [Fix] Remove tooltip for help icon
+- [Feature] Add getting-started icon
 
 ## 2.1.1 - 2018-05-16
 - [Fix] Adjustment to fill prop syntax to fix Icon errors downstream in OUI Storybook

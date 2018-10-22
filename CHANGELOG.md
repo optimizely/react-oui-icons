@@ -4,10 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
-# Unreleased
-- [Feature] Add comments icon
-
 ## Unreleased
+- [Feature] Add comments icon
 - [Feature] Pencil edit icon
 - [Feature] Add fill prop to <Icon> (#33)
 - [Feature] Updated storybook with inline, fill and currentColor examples

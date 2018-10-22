@@ -5,6 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+
+## 2.4.0 - 2018-10-22
 - [Feature] Add comments icon
 - [Feature] Pencil edit icon
 - [Feature] Add fill prop to <Icon> (#33)
@@ -12,7 +14,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 - [Fix] Replace program management hex values with currentColor variable
 - [Fix] Remove tooltip for help icon
 
-## 2.2.2 - 208-08-24
+## 2.2.2 - 2018-08-24
 - [Feature] Add getting-started icon
 
 ## 2.1.1 - 2018-05-16

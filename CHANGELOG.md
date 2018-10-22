@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
+# Unreleased
+- [Feature] Add comments icon
 
 ## 2.2.2 - 208-08-24
 - [Feature] Add getting-started icon

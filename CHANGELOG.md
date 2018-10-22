@@ -7,6 +7,13 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 # Unreleased
 - [Feature] Add comments icon
 
+## Unreleased
+- [Feature] Pencil edit icon
+- [Feature] Add fill prop to <Icon> (#33)
+- [Feature] Updated storybook with inline, fill and currentColor examples
+- [Fix] Replace program management hex values with currentColor variable
+- [Fix] Remove tooltip for help icon
+
 ## 2.2.2 - 208-08-24
 - [Feature] Add getting-started icon
 
@@ -18,19 +25,19 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 - [Feature] Allow ellipse shape output in the build script (#31)
 
 ## 2.0.4 - 2018-03-22
-- [Added] Program-management icon
+- [Feature] Program-management icon
 - [Fix] Feature-test icon with black fill and center within view box
 
 ## 2.0.3 - 2018-03-09
-- [Added] Feature-test icon.
+- [Feature] Feature-test icon.
 
 ## 2.0.1 - 2018-02-21
 - [Fix] Deploy `/dist/**` directory correctly.
 
 ## 2.0.0 - 2018-02-21
 - [Breaking] Exclude react, react-dom, and prop-types from exported code (moved to peerDependencies).
-- [Added] Export ES5 Icon Component as `package.main`, ES6 Icon Component as `package.module`
-- [Added] Export a single combined SVG file of all the SVGs in use at `dist/svg/svg-symbols.svg`
+- [Feature] Export ES5 Icon Component as `package.main`, ES6 Icon Component as `package.module`
+- [Feature] Export a single combined SVG file of all the SVGs in use at `dist/svg/svg-symbols.svg`
 - [Infra] Use babel to build instead of webpack
 
 ## 1.0.2 - 2017-10-17

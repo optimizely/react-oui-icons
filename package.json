@@ -38,7 +38,7 @@
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "svgson": "svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json",
+    "svgson": "rm ./src/Icon/icons.json && svgson -i ./assets/svgs --title -P ouicons_ -S -24 --pretty --svgo --attrs a -o ./src/Icon/icons.json",
     "release": "release-it --no-npm.publish --src.tagName='v%s'"
   },
   "files": [

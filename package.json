@@ -2,7 +2,7 @@
   "name": "react-oui-icons",
   "version": "2.4.0",
   "main": "dist/index.js",
-  "module": "src/index.js",
+  "module": "module/index.js",
   "private": false,
   "repository": {
     "type": "git",
@@ -33,8 +33,9 @@
   ],
   "license": "ISC",
   "scripts": {
-    "build": "npm run babel && gulp svg:combined",
-    "babel": "babel ./src --ignore *test.js --out-dir ./dist",
+    "build": "npm run babel-es5 && npm run babel-module && gulp svg:combined",
+    "babel-es5": "babel ./src --ignore *test.js --out-dir ./dist --presets=env,react --plugins=inline-json-import",
+    "babel-module": "babel ./src --ignore *test.js --out-dir ./module",
     "test": "node scripts/test.js --env=jsdom",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

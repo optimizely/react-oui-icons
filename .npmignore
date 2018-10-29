@@ -2,6 +2,7 @@ config
 node_modules
 scripts
 stories
+src
 
 yarn.lock
 
@@ -11,4 +12,4 @@ yarn.lock
 
 *tests.js
 npm-debug.log*
-yarn-debug.log*
+yarn-error.log*

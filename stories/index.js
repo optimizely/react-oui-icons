@@ -15,8 +15,8 @@ const Container = styled.div`
 const styles = {
   icon: {
     alignSelf: "center",
-    width: 32,
-    height: 32,
+    width: 24,
+    height: 24,
   }
 }
 
@@ -42,7 +42,7 @@ stories.add('All icons', withInfo()(() => {
           transition: all 0.4s ease;
           content: '${icon.title}';
           font-family: Helvetica;
-          font-size: 16px;
+          font-size: 14px;
           position: absolute;
           bottom: 30px;
         }

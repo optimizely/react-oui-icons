@@ -6,6 +6,8 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+- [Fix] Improve readability of icons and icon titles in Storybook
+
 ## 2.5.0 - 2018-10-29
 - [Feature] Fix ES module build of react-oui-icons not transpiling JSX
 

@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+- [Feature] Add file icon
+- [Feature] Add pdf icon
+- [Feature] Add spreadsheet icon
+- [Feature] Add document icon
 
 - [Fix] Improve readability of icons and icon titles in Storybook
 

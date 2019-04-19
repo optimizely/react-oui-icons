@@ -5,11 +5,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+
+## 2.6.0 - 2018-10-29
 - [Feature] Add file icon
 - [Feature] Add pdf icon
 - [Feature] Add spreadsheet icon
 - [Feature] Add document icon
-
+- [Feature] Add license file
 - [Fix] Improve readability of icons and icon titles in Storybook
 
 ## 2.5.0 - 2018-10-29
@@ -66,7 +68,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 - [Patch] Add attribute for map react components in implementation. (#9)
 
 ## 0.6.0 - 2017-09-07
-- [Feature] Webpack optimized build.  
+- [Feature] Webpack optimized build.
 
 ## 0.5.9 - 2017-09-06
 - [Patch] Npmignore some storybook related dirs.

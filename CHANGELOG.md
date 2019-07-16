@@ -6,6 +6,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 2.6.1 - 2019-07-16
+- [Chore] Upgrade to Babel 7, Node 12, Gulp 4 (#46)
+
 ## 2.6.0 - 2018-10-29
 - [Feature] Add file icon
 - [Feature] Add pdf icon

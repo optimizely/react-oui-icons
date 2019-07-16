@@ -1,11 +1,11 @@
-{
+module.exports = {
   "presets": [
-    ["env", { "modules": false }],
-    "react"
+    ["@babel/env", { "modules": false }],
+    "@babel/react"
   ],
   "env": {
     "test": {
-      "presets": [["env"], "react"],
+      "presets": [["@babel/env"], "@babel/react"],
       "plugins": [
         ["inline-json-import", {}]
       ]
@@ -14,4 +14,4 @@
   "plugins": [
     ["inline-json-import", {}]
   ]
-}
+};

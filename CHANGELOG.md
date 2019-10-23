@@ -5,6 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+
+## 2.7.0 - 2019-10-22
 - [Feature] Added `docs` icon
 
 ## 2.6.1 - 2019-07-16

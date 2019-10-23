@@ -5,7 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
-- [Feature] Added doc icon
+- [Feature] Added `docs` icon
 
 ## 2.6.1 - 2019-07-16
 - [Chore] Upgrade to Babel 7, Node 12, Gulp 4 (#46)

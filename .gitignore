@@ -13,4 +13,5 @@ yarn.lock
 src/.DS_Store
 src/svg
 
+.vscode
 .idea

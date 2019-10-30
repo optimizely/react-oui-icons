@@ -6,7 +6,7 @@ Icons for the Optimizely application and other OUI projects.
 
 This implementation consists of a Icon React Component that will generate an inline SVG icon using the data associated with the name of the icon. Any attributes will be passed as props.
 
-[View all the icons](https://github.com/optimizely/react-oui-icons).
+[View all the icons](http://optimizely.github.io/oui/storybook/?path=/story/icons--everything).
 
 ## Using the icons
 
@@ -29,7 +29,7 @@ This implementation consists of a Icon React Component that will generate an inl
     ...
     ```
 
-[View all the icons](http://optimizely.github.io/oui/storybook/?knob-href=http%3A%2F%2Fgoogle.com&knob-defaultValue=some%20default%20value&knob-direction=up&knob-default=Link&knob-reverse=Link%20Reverse&knob-color=black&knob-dark=Link%20Dark&knob-max=50&knob-type=text&knob-bad-news=Link%20Bad%20News&knob-isDropdown=true&knob-maxLength=250&knob-muted=Link%20Muted&knob-children=Link&knob-size=medium&knob-style=default&knob-min=10&knob-placeholder=just%20a%20placeholder&knob-Label=&selectedKind=Icons&selectedStory=all%20icons&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybook%2Factions%2Factions-panel).
+[View all the icons](http://optimizely.github.io/oui/storybook/?path=/story/icons--everything).
 
 ## Storybook
 `react-oui-icons` uses [Storybook](https://storybook.js.org/)! You can view all of the icons through the Storybook interface by running:

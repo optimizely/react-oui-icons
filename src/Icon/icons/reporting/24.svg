@@ -1,0 +1,11 @@
+<svg class="oui-icon" data-name="reporting" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <line y1="23.5" x2="23" y2="23.5" />
+  <rect x="2.5" y="18.5" width="3" height="5" />
+  <rect x="7.5" y="14.5" width="3" height="9" />
+  <rect x="12.5" y="16.5" width="3" height="7" />
+  <rect x="17.5" y="8.5" width="3" height="15" />
+  <polyline points="3.5 11.5 8.5 6.5 13.43 8.76 19.5 2.5" />
+  <circle cx="3.5" cy="11.5" r="1" />
+  <circle cx="8.5" cy="6.5" r="1" />
+  <circle cx="13.5" cy="8.5" r="1" />
+  <circle cx="19.5" cy="2.5" r="1" /></svg>

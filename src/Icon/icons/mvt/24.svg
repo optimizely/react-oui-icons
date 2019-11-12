@@ -1,0 +1,10 @@
+<svg class="oui-icon" data-name="mvt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <polygon points="6.9,13.4 2.5,13.4 2.5,23.5 10,23.5 10,16.4 " />
+  <polyline points="6.9,13.4 6.9,16.4 10,16.4 " />
+  <polygon points="6.9,0.4 2.5,0.4 2.5,10.5 10,10.5 10,3.4 " />
+  <polyline points="6.9,0.4 6.9,3.4 10,3.4 " />
+  <polygon points="17.9,13.4 13.5,13.4 13.5,23.5 21,23.5 21,16.4 " />
+  <polyline points="17.9,13.4 17.9,16.4 21,16.4 " />
+  <polygon points="17.9,0.4 13.5,0.4 13.5,10.5 21,10.5 21,3.4 " />
+  <polyline points="17.9,0.4 17.9,3.4 21,3.4 " />
+</svg>

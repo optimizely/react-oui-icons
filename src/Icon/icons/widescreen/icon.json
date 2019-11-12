@@ -1,0 +1,12 @@
+{
+    "name": "Widescreen",
+    "key": "widescreen",
+    "keywords": [],
+    "styles": [
+        "regular"
+    ],
+    "sizes": [
+        "16",
+        "24"
+    ]
+}

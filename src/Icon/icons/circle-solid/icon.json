@@ -1,0 +1,12 @@
+{
+    "name": "Circle Solid",
+    "key": "circle-solid",
+    "keywords": [],
+    "styles": [
+        "solid"
+    ],
+    "sizes": [
+        "16",
+        "24"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Tablet",
+    "key": "tablet",
+    "keywords": [],
+    "styles": [
+        "regular"
+    ],
+    "sizes": [
+        "16",
+        "24"
+    ]
+}

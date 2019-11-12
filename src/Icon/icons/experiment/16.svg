@@ -1,0 +1,7 @@
+<svg class="oui-icon" data-name="experiment" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <path d="M5.5.5V7.77l-1.59,3-1.76,3a1.1,1.1,0,0,0,0,1.14,1.18,1.18,0,0,0,1,.58H13.51a1.12,1.12,0,0,0,1-1.7l-2-3.11-2-3.11V.5L9.5,1A2.86,2.86,0,0,1,6.93,1Z" />
+  <polyline points="5.5 0.5 4.62 0.5 3.9 0.85" />
+  <polyline points="10.5 0.5 11.32 0.5 12.03 0.85" />
+  <circle cx="10" cy="13" r="1" transform="translate(-1.94 1.75) rotate(-9.13)" />
+  <circle cx="8" cy="6" r="1" transform="translate(-0.85 1.35) rotate(-9.13)" />
+  <circle cx="9.5" cy="9.5" r="0.5" transform="translate(-1.38 1.62) rotate(-9.09)" /></svg>

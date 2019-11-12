@@ -1,0 +1,6 @@
+<svg class="oui-icon" data-name="full-width" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <line x1="0.5" y1="3" x2="0.5" y2="14" />
+  <line x1="15.5" y1="3" x2="15.5" y2="14" />
+  <line x1="12" y1="8.5" x2="3" y2="8.5" />
+  <polyline points="5.1 10.68 2.97 8.55 5.1 6.43" />
+  <polyline points="10.94 10.68 13.07 8.55 10.94 6.43" /></svg>

@@ -1,0 +1,12 @@
+{
+    "name": "A/B Test",
+    "key": "ab-test",
+    "keywords": ["ab","testing","experimentation","creation"],
+    "styles": [
+        "regular"
+    ],
+    "sizes": [
+        "16",
+        "24"
+    ]
+}

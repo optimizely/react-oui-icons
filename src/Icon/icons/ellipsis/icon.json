@@ -1,0 +1,13 @@
+{
+    "name": "Ellipsis",
+    "key": "ellipsis",
+    "keywords": [],
+    "styles": [
+        "solid",
+        "fancy"
+    ],
+    "sizes": [
+        "16",
+        "24"
+    ]
+}

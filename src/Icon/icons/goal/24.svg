@@ -1,0 +1,5 @@
+<svg class="oui-icon" data-name="goal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M1.5,1.5h8v2h8v13H4.84c0-2,4.59-3,4.59-3H1.5Z" />
+  <line x1="9.5" y1="2" x2="9.5" y2="13.48" />
+  <line x1="1.5" y1="0.5" x2="1.5" y2="23.5" />
+  <line x1="4.42" y1="16.5" x2="4.42" y2="14" /></svg>

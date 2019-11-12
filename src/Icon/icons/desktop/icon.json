@@ -1,0 +1,12 @@
+{
+    "name": "Desktop",
+    "key": "desktop",
+    "keywords": [],
+    "styles": [
+        "regular"
+    ],
+    "sizes": [
+        "16",
+        "24"
+    ]
+}

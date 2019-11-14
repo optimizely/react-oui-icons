@@ -1,4 +1,4 @@
-<svg class="oui-icon" data-name="extension" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
   <path d="M2,12.5H1.56A1,1,0,0,1,.5,11.56V1.92A1.42,1.42,0,0,1,1.83.5h11.4A1.36,1.36,0,0,1,14.5,1.88V4" />
   <line x1="1" y1="3.5" x2="14" y2="3.5" />
   <circle cx="9.5" cy="10.48" r="1.66" />

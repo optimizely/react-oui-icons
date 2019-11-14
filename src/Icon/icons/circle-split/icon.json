@@ -1,12 +1,7 @@
 {
     "name": "Circle Split",
-    "key": "circle-split",
     "keywords": [],
-    "styles": [
-        "solid"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "circle-split",
+    "description": ""
 }

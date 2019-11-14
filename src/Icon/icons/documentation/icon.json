@@ -1,12 +1,7 @@
 {
     "name": "Documentation",
-    "key": "documentation",
-    "keywords": ["docs","bookmark","book"],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "docs", "bookmark", "book" ],
+    "style": "regular",
+    "id": "documentation",
+    "description": ""
 }

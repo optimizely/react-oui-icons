@@ -1,12 +1,1 @@
-{
-    "name": "Redo",
-    "key": "redo",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Redo", "keywords": [], "style": "regular", "id": "redo", "description": "" }

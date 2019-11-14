@@ -1,12 +1,1 @@
-{
-    "name": "Sync",
-    "key": "sync",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Sync", "keywords": [], "style": "regular", "id": "sync", "description": "" }

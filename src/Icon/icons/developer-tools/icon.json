@@ -1,12 +1,7 @@
 {
     "name": "Developer Tools",
-    "key": "developer-tools",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "developer-tools",
+    "description": ""
 }

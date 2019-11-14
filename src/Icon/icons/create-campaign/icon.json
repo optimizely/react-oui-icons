@@ -1,12 +1,7 @@
 {
     "name": "Create Campaign",
-    "key": "create-campaign",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "create-campaign",
+    "description": ""
 }

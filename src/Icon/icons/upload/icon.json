@@ -1,12 +1,1 @@
-{
-    "name": "Upload",
-    "key": "upload",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Upload", "keywords": [], "style": "regular", "id": "upload", "description": "" }

@@ -1,12 +1,1 @@
-{
-    "name": "Archive",
-    "key": "archive",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Archive", "keywords": [], "style": "regular", "id": "archive", "description": "" }

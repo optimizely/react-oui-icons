@@ -1,12 +1,1 @@
-{
-    "name": "History",
-    "key": "history",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "History", "keywords": [], "style": "regular", "id": "history", "description": "" }

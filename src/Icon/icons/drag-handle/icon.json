@@ -1,12 +1,7 @@
 {
     "name": "Drag Handle",
-    "key": "drag-handle",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "drag-handle",
+    "description": ""
 }

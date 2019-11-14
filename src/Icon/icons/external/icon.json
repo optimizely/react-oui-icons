@@ -1,12 +1,1 @@
-{
-    "name": "External",
-    "key": "external",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "External", "keywords": [], "style": "regular", "id": "external", "description": "" }

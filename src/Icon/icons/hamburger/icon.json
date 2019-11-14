@@ -1,12 +1,7 @@
 {
     "name": "Hamburger",
-    "key": "hamburger",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "hamburger",
+    "description": ""
 }

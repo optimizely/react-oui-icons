@@ -1,12 +1,1 @@
-{
-    "name": "Code",
-    "key": "code",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Code", "keywords": [], "style": "regular", "id": "code", "description": "" }

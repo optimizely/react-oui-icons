@@ -1,12 +1,1 @@
-{
-    "name": "Table",
-    "key": "table",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Table", "keywords": [], "style": "regular", "id": "table", "description": "" }

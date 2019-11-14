@@ -1,12 +1,7 @@
 {
     "name": "Reporting",
-    "key": "reporting",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "reporting",
+    "description": ""
 }

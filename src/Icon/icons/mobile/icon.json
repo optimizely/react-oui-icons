@@ -1,12 +1,1 @@
-{
-    "name": "Mobile",
-    "key": "mobile",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Mobile", "keywords": [], "style": "regular", "id": "mobile", "description": "" }

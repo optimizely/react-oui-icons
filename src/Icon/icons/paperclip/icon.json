@@ -1,12 +1,7 @@
 {
     "name": "Paperclip",
-    "key": "paperclip",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "paperclip",
+    "description": ""
 }

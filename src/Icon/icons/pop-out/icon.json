@@ -1,12 +1,1 @@
-{
-    "name": "Pop Out",
-    "key": "pop-out",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Pop Out", "keywords": [], "style": "regular", "id": "pop-out", "description": "" }

@@ -1,12 +1,7 @@
 {
     "name": "Full Width",
-    "key": "full-width",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "full-width",
+    "description": ""
 }

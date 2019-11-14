@@ -1,12 +1,7 @@
 {
     "name": "Parent Selector",
-    "key": "parent-selector",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "parent-selector",
+    "description": ""
 }

@@ -1,12 +1,1 @@
-{
-    "name": "Reload",
-    "key": "reload",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Reload", "keywords": [], "style": "regular", "id": "reload", "description": "" }

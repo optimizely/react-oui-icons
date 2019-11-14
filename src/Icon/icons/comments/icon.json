@@ -1,12 +1,1 @@
-{
-    "name": "Comments",
-    "key": "comments",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Comments", "keywords": [], "style": "regular", "id": "comments", "description": "" }

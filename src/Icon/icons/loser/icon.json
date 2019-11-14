@@ -1,12 +1,1 @@
-{
-    "name": "Loser",
-    "key": "loser",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Loser", "keywords": [], "style": "regular", "id": "loser", "description": "" }

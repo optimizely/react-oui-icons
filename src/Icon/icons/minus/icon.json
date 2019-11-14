@@ -1,12 +1,1 @@
-{
-    "name": "Minus",
-    "key": "minus",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Minus", "keywords": [], "style": "regular", "id": "minus", "description": "" }

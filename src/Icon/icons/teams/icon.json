@@ -1,12 +1,1 @@
-{
-    "name": "Teams",
-    "key": "teams",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Teams", "keywords": [], "style": "regular", "id": "teams", "description": "" }

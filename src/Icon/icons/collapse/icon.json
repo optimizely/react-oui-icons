@@ -1,12 +1,1 @@
-{
-    "name": "Collapse",
-    "key": "collapse",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Collapse", "keywords": [], "style": "regular", "id": "collapse", "description": "" }

@@ -1,12 +1,7 @@
 {
     "name": "A/B Test",
-    "key": "ab-test",
-    "keywords": ["ab","testing","experimentation","creation"],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "ab", "testing", "experimentation", "creation" ],
+    "style": "regular",
+    "id": "ab-test",
+    "description": ""
 }

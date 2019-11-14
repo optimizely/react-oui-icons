@@ -1,12 +1,7 @@
 {
     "name": "Campaigns",
-    "key": "campaigns",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "campaigns",
+    "description": ""
 }

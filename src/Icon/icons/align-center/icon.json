@@ -1,12 +1,7 @@
 {
     "name": "Align Center",
-    "key": "align-center",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "align-center",
+    "description": ""
 }

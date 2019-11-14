@@ -1,12 +1,7 @@
 {
     "name": "Inconclusive",
-    "key": "inconclusive",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "inconclusive",
+    "description": ""
 }

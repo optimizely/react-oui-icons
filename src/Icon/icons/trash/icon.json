@@ -1,12 +1,1 @@
-{
-    "name": "Trash",
-    "key": "trash",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Trash", "keywords": [], "style": "regular", "id": "trash", "description": "" }

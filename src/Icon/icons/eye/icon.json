@@ -1,12 +1,1 @@
-{
-    "name": "Eye",
-    "key": "eye",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Eye", "keywords": [], "style": "regular", "id": "eye", "description": "" }

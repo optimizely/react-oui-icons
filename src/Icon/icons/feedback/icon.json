@@ -1,12 +1,1 @@
-{
-    "name": "Feedback",
-    "key": "feedback",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Feedback", "keywords": [], "style": "regular", "id": "feedback", "description": "" }

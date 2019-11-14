@@ -1,12 +1,7 @@
 {
     "name": "Arrow Left",
-    "key": "arrow-left",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "arrow-left",
+    "description": ""
 }

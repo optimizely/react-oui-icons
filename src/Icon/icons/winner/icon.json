@@ -1,12 +1,1 @@
-{
-    "name": "Winner",
-    "key": "winner",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Winner", "keywords": [], "style": "regular", "id": "winner", "description": "" }

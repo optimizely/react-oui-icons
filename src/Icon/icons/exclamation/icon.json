@@ -1,12 +1,7 @@
 {
     "name": "Exclamation",
-    "key": "exclamation",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "exclamation",
+    "description": ""
 }

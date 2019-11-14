@@ -1,12 +1,1 @@
-{
-    "name": "Envelope",
-    "key": "envelope",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Envelope", "keywords": [], "style": "regular", "id": "envelope", "description": "" }

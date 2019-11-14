@@ -1,12 +1,1 @@
-{
-    "name": "Ban",
-    "key": "ban",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Ban", "keywords": [], "style": "regular", "id": "ban", "description": "" }

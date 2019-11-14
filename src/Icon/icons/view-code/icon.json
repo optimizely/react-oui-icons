@@ -1,12 +1,7 @@
 {
     "name": "View Code",
-    "key": "view-code",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "view-code",
+    "description": ""
 }

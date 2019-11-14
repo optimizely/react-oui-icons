@@ -1,12 +1,1 @@
-{
-    "name": "Link",
-    "key": "link",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Link", "keywords": [], "style": "regular", "id": "link", "description": "" }

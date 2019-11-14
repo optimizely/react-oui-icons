@@ -1,12 +1,1 @@
-{
-    "name": "Undo",
-    "key": "undo",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Undo", "keywords": [], "style": "regular", "id": "undo", "description": "" }

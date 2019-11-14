@@ -1,12 +1,1 @@
-{
-    "name": "Help",
-    "key": "help",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Help", "keywords": [], "style": "regular", "id": "help", "description": "" }

@@ -1,12 +1,1 @@
-{
-    "name": "Pause",
-    "key": "pause",
-    "keywords": [],
-    "styles": [
-        "solid"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
-}
+{ "name": "Pause", "keywords": [], "style": "regular", "id": "pause", "description": "" }

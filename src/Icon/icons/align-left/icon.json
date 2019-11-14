@@ -1,12 +1,7 @@
 {
     "name": "Align Left",
-    "key": "align-left",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "align-left",
+    "description": ""
 }

@@ -1,12 +1,7 @@
 {
     "name": "Align Right",
-    "key": "align-right",
     "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "style": "regular",
+    "id": "align-right",
+    "description": ""
 }

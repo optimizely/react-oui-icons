@@ -49,7 +49,7 @@ fs.readdir(ICON_DIRECTORY, function (err, dirnames) {
             }
 
             // Generate and add `token`
-            icon.token = `"<Icon name=\"${icon.id}\" />"`;
+            icon.token = `<Icon name=\"${icon.id}\" />`;
 
             // Add icon to manifest
             icons.push(icon);

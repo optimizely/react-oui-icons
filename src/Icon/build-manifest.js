@@ -9,8 +9,8 @@ const fs = require('fs');
 const ICON_DIRECTORY = './icons/';
 const MANIFEST_PATH = './icons.json';
 const ICON_DATA = 'icon.json';
-const SVG_FILENAME = '16.svg';
-const SVG_LARGE_FILENAME = '24.svg';
+const SVG_FILENAME = 'icon-default.svg';
+const SVG_LARGE_FILENAME = 'icon-large.svg';
 let icons = [];
 
 console.log("Building icon manifest...");

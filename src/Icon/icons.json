@@ -71,7 +71,7 @@
     {
         "name": "Archive (Solid)",
         "keywords": [],
-        "style": "regular",
+        "style": "solid",
         "id": "archive-solid",
         "description": "",
         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 16 16\">\n  <rect x=\"0.5\" y=\"2.5\" width=\"15\" height=\"2\" />\n  <path d=\"M1.5,5.5v8h13v-8H1.5z M10.5,9.5h-5v-2h5V9.5z\" />\n</svg>",
@@ -199,7 +199,7 @@
     {
         "name": "Circle Check Solid",
         "keywords": [],
-        "style": "regular",
+        "style": "solid",
         "id": "circle-check-solid",
         "description": "",
         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 16 16\">\n  <path d=\"M8,0.5C3.9,0.5,0.5,3.9,0.5,8s3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5S12.1,0.5,8,0.5z M11.6,5.3l-5,7c-0.1,0.1-0.2,0.2-0.4,0.2\n\tc0,0,0,0,0,0c-0.1,0-0.3-0.1-0.4-0.1l-2-2c-0.2-0.2-0.2-0.5,0-0.7s0.5-0.2,0.7,0l1.6,1.6l4.7-6.5c0.2-0.2,0.5-0.3,0.7-0.1\n\tC11.7,4.8,11.8,5.1,11.6,5.3z\" />\n</svg>",
@@ -208,7 +208,7 @@
     {
         "name": "Circle Solid",
         "keywords": [],
-        "style": "regular",
+        "style": "solid",
         "id": "circle-solid",
         "description": "",
         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 16 16\">\n  <circle cx=\"8\" cy=\"8\" r=\"7.5\" />\n</svg>",
@@ -461,6 +461,15 @@
         "description": "",
         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\">\n  <g>\n    <path d=\"M12.9,5.44a14.42,14.42,0,0,1,2.6,2.42S12.14,12.1,8,12.1a6.71,6.71,0,0,1-2-.3\" />\n    <path d=\"M3.09,10.27A14.41,14.41,0,0,1,.5,7.86S3.86,3.62,8,3.62a6.58,6.58,0,0,1,1.63.21\" />\n    <path d=\"M5.39,7.86A2.61,2.61,0,0,1,8,5.25\" />\n    <path d=\"M10.61,7.86A2.61,2.61,0,0,1,8,10.47\" />\n    <line x1=\"14.36\" y1=\"1.5\" x2=\"1.64\" y2=\"14.22\" />\n  </g>\n</svg>",
         "token": "<Icon name=\"eye-closed\" />"
+    },
+    {
+        "name": "Eye (Solid)",
+        "keywords": [],
+        "style": "solid",
+        "id": "eye-solid",
+        "description": "",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\">\n  <g>\n    <path d=\"M15.5,7.74S12.14,12,8,12,.5,7.74.5,7.74,3.86,3.5,8,3.5,15.5,7.74,15.5,7.74Z\" />\n    <circle cx=\"8\" cy=\"7.74\" r=\"2.61\" />\n  </g>\n</svg>",
+        "token": "<Icon name=\"eye-solid\" />"
     },
     {
         "name": "Feature Flag",
@@ -764,7 +773,7 @@
     {
         "name": "Pause",
         "keywords": [],
-        "style": "regular",
+        "style": "solid",
         "id": "pause",
         "description": "",
         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\">\n  <g>\n    <rect x=\"2.5\" y=\"0.5\" width=\"4\" height=\"15\" />\n    <rect x=\"9.5\" y=\"0.5\" width=\"4\" height=\"15\" />\n  </g>\n</svg>",
@@ -782,7 +791,7 @@
     {
         "name": "Play",
         "keywords": [],
-        "style": "regular",
+        "style": "solid",
         "id": "play",
         "description": "",
         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 16 16\">\n  <polygon points=\"0.5,0.5 15.5,8 0.5,15.5 \" />\n</svg>",

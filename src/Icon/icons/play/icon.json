@@ -1,12 +1,7 @@
 {
-    "name": "Play",
-    "key": "play",
-    "keywords": [],
-    "styles": [
-        "solid"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Play",
+  "keywords": [ "play", "go", "run" ],
+  "style": "solid",
+  "id": "play",
+  "description": "Toolbar icon. Used for starting/resuming experiments, etc."
 }

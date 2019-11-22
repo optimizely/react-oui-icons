@@ -1,12 +1,7 @@
 {
     "name": "Audiences",
-    "key": "audiences",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "audiences", "people", "teams" ],
+    "style": "regular",
+    "id": "audiences",
+    "description": "Audiences entities. Also used in root navigation for the Audiences tab."
 }

@@ -1,12 +1,7 @@
 {
-    "name": "Sync",
-    "key": "sync",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Sync",
+  "keywords": ["synchronize","update"],
+  "style": "regular",
+  "id": "sync",
+  "description": "Program management, used for syncing with your project."
 }

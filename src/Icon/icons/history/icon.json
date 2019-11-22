@@ -1,12 +1,7 @@
 {
-    "name": "History",
-    "key": "history",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "History",
+  "keywords": [ "history", "change", "track", "time" ],
+  "style": "regular",
+  "id": "history",
+  "description": "Not used."
 }

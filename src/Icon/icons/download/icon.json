@@ -1,12 +1,7 @@
 {
-    "name": "Download",
-    "key": "download",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Download",
+  "keywords": [ "download", "get", "install", "arrow" ],
+  "style": "regular",
+  "id": "download",
+  "description": "Used in revision history for full stack (Not customer facing) to download the revision of particular datafile."
 }

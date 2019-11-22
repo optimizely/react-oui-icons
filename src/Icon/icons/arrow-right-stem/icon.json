@@ -1,12 +1,7 @@
 {
     "name": "Arrow Right Stem",
-    "key": "arrow-right-stem",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "arrow-right-stem", "arrow", "right", "stem", "forward" ],
+    "style": "regular",
+    "id": "arrow-right-stem",
+    "description": "Used to indicate movement or transfer. Currently used in the duplication dialog."
 }

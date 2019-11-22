@@ -1,12 +1,7 @@
 {
     "name": "Align Right",
-    "key": "align-right",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "align-right", "align", "right" ],
+    "style": "regular",
+    "id": "align-right",
+    "description": "Visual editor icon. Used for aligning text to the right."
 }

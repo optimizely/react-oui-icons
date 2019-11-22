@@ -1,12 +1,7 @@
 {
-    "name": "Userlist",
-    "key": "userlist",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Userlist",
+  "keywords": [ "userlist", "users", "list" ],
+  "style": "regular",
+  "id": "userlist",
+  "description": "Not used."
 }

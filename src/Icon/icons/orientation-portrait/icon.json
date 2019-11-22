@@ -1,12 +1,7 @@
 {
     "name": "Orientation Portrait",
-    "key": "orientation-portrait",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "orientation-portrait", "orientation", "portrait", "vertical", "phone" ],
+    "style": "regular",
+    "id": "orientation-portrait",
+    "description": "Not used."
 }

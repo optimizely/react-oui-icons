@@ -1,12 +1,7 @@
 {
-    "name": "Settings",
-    "key": "settings",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Settings",
+  "keywords": [ "settings", "preferences", "configuration", "gear" ],
+  "style": "regular",
+  "id": "settings",
+  "description": "Root navigation icon for settings."
 }

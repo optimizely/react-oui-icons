@@ -1,12 +1,7 @@
 {
     "name": "Drag Handle",
-    "key": "drag-handle",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": ["drag","dots","grabby","grabber","grab"],
+    "style": "regular",
+    "id": "drag-handle",
+    "description": "Used on elements that are draggable."
 }

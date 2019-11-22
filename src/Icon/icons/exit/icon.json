@@ -1,12 +1,7 @@
 {
-    "name": "Exit",
-    "key": "exit",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Exit",
+  "keywords": [ "exit", "close", "leave" ],
+  "style": "regular",
+  "id": "exit",
+  "description": "Exits preview mode."
 }

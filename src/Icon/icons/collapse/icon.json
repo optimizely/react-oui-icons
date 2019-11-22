@@ -1,12 +1,7 @@
 {
-    "name": "Collapse",
-    "key": "collapse",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Collapse",
+  "keywords": [ "collapse", "close", "contain", "shrink", "arrow" ],
+  "style": "regular",
+  "id": "collapse",
+  "description": "Used in preview to collapse the preview widget."
 }

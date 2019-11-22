@@ -1,12 +1,7 @@
 {
-    "name": "Info",
-    "key": "info",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Info",
+  "keywords": ["i","information","notification"],
+  "style": "regular",
+  "id": "info",
+  "description": "Generally used notifiy the user about information."
 }

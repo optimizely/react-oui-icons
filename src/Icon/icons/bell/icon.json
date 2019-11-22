@@ -1,12 +1,7 @@
 {
-    "name": "Bell",
-    "key": "bell",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Bell",
+  "keywords": [ "bell", "alarm", "alert", "notification" ],
+  "style": "regular",
+  "id": "bell",
+  "description": "Not used."
 }

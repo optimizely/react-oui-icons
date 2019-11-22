@@ -1,12 +1,7 @@
 {
-    "name": "Folder",
-    "key": "folder",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Folder",
+  "keywords": ["document","folder"],
+  "style": "regular",
+  "id": "folder",
+  "description": "Program management, shown in attachements for ideas."
 }

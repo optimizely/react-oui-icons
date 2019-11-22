@@ -1,12 +1,7 @@
 {
-    "name": "Comments",
-    "key": "comments",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Comments",
+  "keywords": ["comment","talk","message","speech"],
+  "style": "regular",
+  "id": "comments",
+  "description": "Used in program management idea screen to show / hide comments."
 }

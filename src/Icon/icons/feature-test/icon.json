@@ -1,12 +1,7 @@
 {
     "name": "Feature Test",
-    "key": "feature-test",
-    "keywords": ["feature","testing","experimentation","creation"],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "feature", "testing", "experimentation", "creation" ],
+    "style": "regular",
+    "id": "feature-test",
+    "description": "Used in full stack create dropdown."
 }

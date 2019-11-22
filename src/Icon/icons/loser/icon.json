@@ -1,12 +1,7 @@
 {
-    "name": "Loser",
-    "key": "loser",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Loser",
+  "keywords": [ "loser", "lost", "trend", "down", "arrow" ],
+  "style": "regular",
+  "id": "loser",
+  "description": "Not used."
 }

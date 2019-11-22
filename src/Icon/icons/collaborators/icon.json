@@ -1,12 +1,7 @@
 {
     "name": "Collaborators",
-    "key": "collaborators",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "collaborators", "people", "roles" ],
+    "style": "regular",
+    "id": "collaborators",
+    "description": "Only used in the help sidebar of the collaborators section."
 }

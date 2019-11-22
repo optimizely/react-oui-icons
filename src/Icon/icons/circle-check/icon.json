@@ -1,12 +1,7 @@
 {
     "name": "Circle Check",
-    "key": "circle-check",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "check", "ok", "good","circle" ],
+    "style": "regular",
+    "id": "circle-check",
+    "description": "Used in several places to indicate status."
 }

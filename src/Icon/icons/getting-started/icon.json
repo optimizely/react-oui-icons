@@ -1,12 +1,7 @@
 {
     "name": "Getting Started",
-    "key": "getting-started",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": ["abc","blocks","toys","learn"],
+    "style": "regular",
+    "id": "getting-started",
+    "description": "Full stack getting started root navigation item."
 }

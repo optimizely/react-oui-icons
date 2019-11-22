@@ -1,12 +1,7 @@
 {
-    "name": "Redo",
-    "key": "redo",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Redo",
+  "keywords": [ "redo", "over", "again","arrow" ],
+  "style": "regular",
+  "id": "redo",
+  "description": "Opposite of undo."
 }

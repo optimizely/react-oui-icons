@@ -1,12 +1,7 @@
 {
-    "name": "Lock",
-    "key": "lock",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Lock",
+  "keywords": [ "lock", "block", "permission" ],
+  "style": "regular",
+  "id": "lock",
+  "description": "Not used."
 }

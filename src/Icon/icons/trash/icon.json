@@ -1,12 +1,7 @@
 {
-    "name": "Trash",
-    "key": "trash",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Trash",
+  "keywords": [ "trash", "delete", "purge" ],
+  "style": "regular",
+  "id": "trash",
+  "description": "Generic icon for delete."
 }

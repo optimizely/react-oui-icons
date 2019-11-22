@@ -1,12 +1,7 @@
 {
-    "name": "Pause",
-    "key": "pause",
-    "keywords": [],
-    "styles": [
-        "solid"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Pause",
+  "keywords": [ "pause", "stop"],
+  "style": "solid",
+  "id": "pause",
+  "description": "Experiement manager, used for pausing experiment."
 }

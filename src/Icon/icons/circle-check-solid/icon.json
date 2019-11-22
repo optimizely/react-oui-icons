@@ -1,12 +1,7 @@
 {
     "name": "Circle Check Solid",
-    "key": "circle-check-solid",
-    "keywords": [],
-    "styles": [
-        "solid"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "check", "ok", "good","circle","solid" ],
+    "style": "solid",
+    "id": "circle-check-solid",
+    "description": "Used in program management ideas list."
 }

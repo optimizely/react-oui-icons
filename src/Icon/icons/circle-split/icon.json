@@ -1,12 +1,7 @@
 {
     "name": "Circle Split",
-    "key": "circle-split",
-    "keywords": [],
-    "styles": [
-        "solid"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "circle","solid","split","partial" ],
+    "style": "regular",
+    "id": "circle-split",
+    "description": "Used in experiments list, environments column when an experiment is in multiple environments."
 }

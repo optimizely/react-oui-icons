@@ -1,12 +1,7 @@
 {
-    "name": "Calendar",
-    "key": "calendar",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Calendar",
+  "keywords": [ "calendar", "date", "schedule" ],
+  "style": "regular",
+  "id": "calendar",
+  "description": "Used in date range pickers and scheduler."
 }

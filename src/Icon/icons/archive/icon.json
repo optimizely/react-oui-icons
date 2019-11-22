@@ -1,12 +1,7 @@
 {
     "name": "Archive",
-    "key": "archive",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "archive", "delete" ],
+    "style": "regular",
+    "id": "archive",
+    "description": "Used in icon buttons for archiving various entities."
 }

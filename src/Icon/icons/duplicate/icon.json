@@ -1,12 +1,7 @@
 {
     "name": "Duplicate",
-    "key": "duplicate",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "duplicate", "copy", "replicate" ],
+    "style": "regular",
+    "id": "duplicate",
+    "description": "Used in collaborators on the duplicate button."
 }

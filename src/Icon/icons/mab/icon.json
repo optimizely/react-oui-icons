@@ -1,12 +1,7 @@
 {
-    "name": "Mab",
-    "key": "mab",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Multi Arm Bandit",
+  "keywords": ["create","multi-arm-bandit","bandit"],
+  "style": "regular",
+  "id": "mab",
+  "description": "Used in experiment create dropdown for multi-armed bandits."
 }

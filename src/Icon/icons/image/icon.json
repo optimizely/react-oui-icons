@@ -1,12 +1,7 @@
 {
-    "name": "Image",
-    "key": "image",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Image",
+  "keywords": [ "image", "photo", "diagram", "picture" ],
+  "style": "regular",
+  "id": "image",
+  "description": "Used in program managment attachments, and in the visual editor to upload images."
 }

@@ -1,12 +1,7 @@
 {
     "name": "Badge",
-    "key": "badge",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "badge", "award", "medal" ],
+    "style": "regular",
+    "id": "badge",
+    "description": "Not used."
 }

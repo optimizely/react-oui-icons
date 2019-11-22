@@ -1,12 +1,7 @@
 {
-    "name": "Variation Settings",
-    "key": "variation-settings",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Variation Settings",
+  "keywords": [ "variation-settings", "preferences", "configuration", "settings" ],
+  "style": "regular",
+  "id": "variation-settings",
+  "description": "Not used."
 }

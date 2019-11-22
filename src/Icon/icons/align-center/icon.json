@@ -1,12 +1,7 @@
 {
     "name": "Align Center",
-    "key": "align-center",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "align-center", "align", "center" ],
+    "style": "regular",
+    "id": "align-center",
+    "description": "Visual editor icon. Used for centering text."
 }

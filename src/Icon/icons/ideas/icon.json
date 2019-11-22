@@ -1,12 +1,7 @@
 {
-    "name": "Ideas",
-    "key": "ideas",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Ideas",
+  "keywords": ["lightbulb","idea","program managment"],
+  "style": "regular",
+  "id": "ideas",
+  "description": "Program managment root navigation item."
 }

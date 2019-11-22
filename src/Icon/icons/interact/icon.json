@@ -1,12 +1,7 @@
 {
-    "name": "Interact",
-    "key": "interact",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Interact",
+  "keywords": [ "toolbar-interactive-mode", "interactive", "mode", "click" ],
+  "style": "regular",
+  "id": "interact",
+  "description": "Interactive Mode: Toolbar icon to toggle interactive mode."
 }

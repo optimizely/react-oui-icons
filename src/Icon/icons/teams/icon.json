@@ -1,12 +1,7 @@
 {
-    "name": "Teams",
-    "key": "teams",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Teams",
+  "keywords": ["teamwork","teams","program management"],
+  "style": "regular",
+  "id": "teams",
+  "description": "Program managment root navigation icon."
 }

@@ -1,12 +1,7 @@
 {
-    "name": "Reload",
-    "key": "reload",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Reload",
+  "keywords": [ "toolbar-reload", "reload", "refresh", "arrow" ],
+  "style": "regular",
+  "id": "reload",
+  "description": "Toolbar icon. Used for refreshing the visual editor."
 }

@@ -1,12 +1,7 @@
 {
-    "name": "Projects",
-    "key": "projects",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Projects",
+  "keywords": [ "projects", "list", "bullets" ],
+  "style": "regular",
+  "id": "projects",
+  "description": "Root navigation icon for showing the project picker. Should not be used as a project entity icon."
 }

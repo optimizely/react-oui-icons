@@ -1,12 +1,7 @@
 {
     "name": "Extension",
-    "key": "extension",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "extensions", "extend", "gear", "settings" ],
+    "style": "regular",
+    "id": "extension",
+    "description": "Used only in change history for Extension entities."
 }

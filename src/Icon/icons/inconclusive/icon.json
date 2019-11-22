@@ -1,12 +1,7 @@
 {
     "name": "Inconclusive",
-    "key": "inconclusive",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "inconclusive", "unknown", "none", "time", "clock" ],
+    "style": "regular",
+    "id": "inconclusive",
+    "description": "Classic icon. Not used."
 }

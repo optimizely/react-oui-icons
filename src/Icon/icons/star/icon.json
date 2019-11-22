@@ -1,12 +1,7 @@
 {
-    "name": "Star",
-    "key": "star",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Star",
+  "keywords": [ "star", "favorite", "top" ],
+  "style": "regular",
+  "id": "star",
+  "description": "Not used."
 }

@@ -1,12 +1,7 @@
 {
-    "name": "External",
-    "key": "external",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "External",
+  "keywords": [ "external", "outside", "leave", "arrow"],
+  "style": "regular",
+  "id": "external",
+  "description": "Used in conjunction with links to indicate that a link opens in a new window or tab."
 }

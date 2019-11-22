@@ -1,12 +1,7 @@
 {
     "name": "Eye Closed",
-    "key": "eye-closed",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "eye-closed", "preview", "hidden" ],
+    "style": "regular",
+    "id": "eye-closed",
+    "description": "Visual editor icon. Used for hiding an icon in a variation."
 }

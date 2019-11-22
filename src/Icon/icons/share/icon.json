@@ -1,12 +1,7 @@
 {
-    "name": "Share",
-    "key": "share",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Share",
+  "keywords": ["share","export","collaborate"],
+  "style": "regular",
+  "id": "share",
+  "description": "Generic icon used to indicate share action."
 }

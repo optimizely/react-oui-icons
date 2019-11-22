@@ -1,12 +1,7 @@
 {
     "name": "Create Campaign",
-    "key": "create-campaign",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "create-campaign", "create", "campaign","personalization" ],
+    "style": "regular",
+    "id": "create-campaign",
+    "description": "Used in the create dropdown for Campaigns."
 }

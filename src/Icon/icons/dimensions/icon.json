@@ -1,12 +1,7 @@
 {
     "name": "Dimensions",
-    "key": "dimensions",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "dimensions", "size", "box", "cube"],
+    "style": "regular",
+    "id": "dimensions",
+    "description": "Classic icon. Not used."
 }

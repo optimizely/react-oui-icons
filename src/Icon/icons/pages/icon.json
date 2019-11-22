@@ -1,12 +1,7 @@
 {
-    "name": "Pages",
-    "key": "pages",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Pages",
+  "keywords": [ "pages", "page", "screen"],
+  "style": "regular",
+  "id": "pages",
+  "description": "Pages Entities. Also used in root navigation for pages section."
 }

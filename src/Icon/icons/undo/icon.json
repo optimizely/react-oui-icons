@@ -1,12 +1,7 @@
 {
-    "name": "Undo",
-    "key": "undo",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Undo",
+  "keywords": [ "undo", "back", "arrow" ],
+  "style": "regular",
+  "id": "undo",
+  "description": "Opposite of redo."
 }

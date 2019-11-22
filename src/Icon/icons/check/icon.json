@@ -1,12 +1,7 @@
 {
-    "name": "Check",
-    "key": "check",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Check",
+  "keywords": [ "check", "ok", "good" ],
+  "style": "regular",
+  "id": "check",
+  "description": "Used in the visual editor when confirming CSS selector change."
 }

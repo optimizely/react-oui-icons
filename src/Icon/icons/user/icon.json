@@ -1,12 +1,7 @@
 {
-    "name": "User",
-    "key": "user",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "User",
+  "keywords": ["account","person"],
+  "style": "regular",
+  "id": "user",
+  "description": "Not used."
 }

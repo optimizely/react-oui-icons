@@ -1,12 +1,7 @@
 {
-    "name": "Search",
-    "key": "search",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Search",
+  "keywords": [ "search", "find", "filter", "magnify" ],
+  "style": "regular",
+  "id": "search",
+  "description": "Used in input fields to indicate the field allows for searching/filtering by name."
 }

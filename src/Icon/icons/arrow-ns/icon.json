@@ -1,12 +1,7 @@
 {
-    "name": "Arrow Ns",
-    "key": "arrow-ns",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Arrow Ns",
+  "keywords": [ "arrow-ns", "arrow", "up", "down" ],
+  "style": "regular",
+  "id": "arrow-ns",
+  "description": "An arrow pointing up and down."
 }

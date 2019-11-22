@@ -1,12 +1,7 @@
 {
-    "name": "Winner",
-    "key": "winner",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "Winner",
+  "keywords": [ "winner", "win", "won", "best", "trend", "up" ],
+  "style": "regular",
+  "id": "winner",
+  "description": "Not used."
 }

@@ -1,12 +1,7 @@
 {
     "name": "Orientation Landscape",
-    "key": "orientation-landscape",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "orientation-landscape", "orientation", "landscape", "horizontal", "phone" ],
+    "style": "regular",
+    "id": "orientation-landscape",
+    "description": "Not used."
 }

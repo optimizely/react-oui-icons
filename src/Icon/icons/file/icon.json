@@ -1,12 +1,7 @@
 {
-    "name": "File",
-    "key": "file",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+  "name": "File",
+  "keywords": [ "file","document" ],
+  "style": "regular",
+  "id": "file",
+  "description": "Program management, shown in attachements for ideas."
 }

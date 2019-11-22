@@ -1,12 +1,7 @@
 {
     "name": "Integrations",
-    "key": "integrations",
-    "keywords": [],
-    "styles": [
-        "regular"
-    ],
-    "sizes": [
-        "16",
-        "24"
-    ]
+    "keywords": [ "integrations", "connection", "extension", "rings", "circles" ],
+    "style": "regular",
+    "id": "integrations",
+    "description": "Not used."
 }

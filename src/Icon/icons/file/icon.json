@@ -1,1 +1,7 @@
-{ "name": "File", "keywords": [], "style": "regular", "id": "file", "description": "" }
+{
+  "name": "File",
+  "keywords": [],
+  "style": "regular",
+  "id": "file",
+  "description": "Program management, shown in attachements for ideas."
+}

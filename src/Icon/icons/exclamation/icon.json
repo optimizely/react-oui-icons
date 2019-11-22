@@ -1,7 +1,7 @@
 {
-    "name": "Exclamation",
-    "keywords": [],
-    "style": "regular",
-    "id": "exclamation",
-    "description": ""
+  "name": "Exclamation",
+  "keywords": [],
+  "style": "regular",
+  "id": "exclamation",
+  "description": "Used inline with text to present a warning."
 }

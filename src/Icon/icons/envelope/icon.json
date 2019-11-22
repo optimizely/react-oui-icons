@@ -1,1 +1,7 @@
-{ "name": "Envelope", "keywords": [], "style": "regular", "id": "envelope", "description": "" }
+{
+  "name": "Envelope",
+  "keywords": [],
+  "style": "regular",
+  "id": "envelope",
+  "description": "An envelope. Used in program management."
+}

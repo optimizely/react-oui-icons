@@ -1,1 +1,7 @@
-{ "name": "Desktop", "keywords": [], "style": "regular", "id": "desktop", "description": "" }
+{
+  "name": "Desktop",
+  "keywords": [],
+  "style": "regular",
+  "id": "desktop",
+  "description": "Not used."
+}

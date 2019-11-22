@@ -1,1 +1,7 @@
-{ "name": "Search", "keywords": [], "style": "regular", "id": "search", "description": "" }
+{
+  "name": "Search",
+  "keywords": [],
+  "style": "regular",
+  "id": "search",
+  "description": "Used in input fields to indicate the field allows for searching/filtering by name."
+}

@@ -1,1 +1,7 @@
-{ "name": "Folder", "keywords": [], "style": "regular", "id": "folder", "description": "" }
+{
+  "name": "Folder",
+  "keywords": [],
+  "style": "regular",
+  "id": "folder",
+  "description": "Program management, shown in attachements for ideas."
+}

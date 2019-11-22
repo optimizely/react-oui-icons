@@ -1,1 +1,7 @@
-{ "name": "Sync", "keywords": [], "style": "regular", "id": "sync", "description": "" }
+{
+  "name": "Sync",
+  "keywords": [],
+  "style": "regular",
+  "id": "sync",
+  "description": "Program management, used for syncing with your project."
+}

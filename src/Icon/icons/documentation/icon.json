@@ -3,5 +3,5 @@
     "keywords": [ "docs", "bookmark", "book" ],
     "style": "regular",
     "id": "documentation",
-    "description": ""
+    "description": "Used as a link to developer documentation in the sidebar nav."
 }

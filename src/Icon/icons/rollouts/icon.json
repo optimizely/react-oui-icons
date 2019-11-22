@@ -1,1 +1,7 @@
-{ "name": "Rollouts", "keywords": [], "style": "regular", "id": "rollouts", "description": "" }
+{
+  "name": "Rollouts",
+  "keywords": [],
+  "style": "regular",
+  "id": "rollouts",
+  "description": "Rollouts entities. Also used the root navigation to indicate the Rollouts section."
+}

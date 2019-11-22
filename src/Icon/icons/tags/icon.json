@@ -1,1 +1,7 @@
-{ "name": "Tags", "keywords": [], "style": "regular", "id": "tags", "description": "" }
+{
+  "name": "Tags",
+  "keywords": [],
+  "style": "regular",
+  "id": "tags",
+  "description": "Used in change history for tag entries."
+}

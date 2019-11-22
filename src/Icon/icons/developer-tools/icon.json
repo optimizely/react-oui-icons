@@ -3,5 +3,5 @@
     "keywords": [],
     "style": "regular",
     "id": "developer-tools",
-    "description": ""
+    "description": "Toolbar icon to show the developer tools dropdown in the visual editor. This is only visible to internal employees."
 }

@@ -1,1 +1,7 @@
-{ "name": "Play", "keywords": [], "style": "solid", "id": "play", "description": "" }
+{
+  "name": "Play",
+  "keywords": [],
+  "style": "solid",
+  "id": "play",
+  "description": "Toolbar icon. Used for starting/resuming experiments, etc."
+}

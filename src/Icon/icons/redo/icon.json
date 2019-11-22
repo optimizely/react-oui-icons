@@ -1,1 +1,7 @@
-{ "name": "Redo", "keywords": [], "style": "regular", "id": "redo", "description": "" }
+{
+  "name": "Redo",
+  "keywords": [],
+  "style": "regular",
+  "id": "redo",
+  "description": "Opposite of undo."
+}

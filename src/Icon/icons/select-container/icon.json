@@ -3,5 +3,5 @@
     "keywords": [],
     "style": "regular",
     "id": "select-container",
-    "description": ""
+    "description": "Used in editor to select containing element."
 }

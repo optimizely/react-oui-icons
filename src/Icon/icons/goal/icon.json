@@ -1,1 +1,7 @@
-{ "name": "Goal", "keywords": [], "style": "regular", "id": "goal", "description": "" }
+{
+  "name": "Goal",
+  "keywords": [],
+  "style": "regular",
+  "id": "goal",
+  "description": "Not used."
+}

@@ -1,1 +1,7 @@
-{ "name": "Teams", "keywords": [], "style": "regular", "id": "teams", "description": "" }
+{
+  "name": "Teams",
+  "keywords": [],
+  "style": "regular",
+  "id": "teams",
+  "description": "Program managment root navigation icon."
+}

@@ -1,1 +1,7 @@
-{ "name": "External", "keywords": [], "style": "regular", "id": "external", "description": "" }
+{
+  "name": "External",
+  "keywords": [],
+  "style": "regular",
+  "id": "external",
+  "description": "Used in conjunction with links to indicate that a link opens in a new window or tab."
+}

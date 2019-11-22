@@ -1,1 +1,7 @@
-{ "name": "Reload", "keywords": [], "style": "regular", "id": "reload", "description": "" }
+{
+  "name": "Reload",
+  "keywords": [],
+  "style": "regular",
+  "id": "reload",
+  "description": "Toolbar icon. Used for refreshing the visual editor."
+}

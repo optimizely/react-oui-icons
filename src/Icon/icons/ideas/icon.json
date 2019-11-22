@@ -1,1 +1,7 @@
-{ "name": "Ideas", "keywords": [], "style": "regular", "id": "ideas", "description": "" }
+{
+  "name": "Ideas",
+  "keywords": [],
+  "style": "regular",
+  "id": "ideas",
+  "description": "Program managment root navigation item."
+}

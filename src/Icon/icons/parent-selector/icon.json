@@ -3,5 +3,5 @@
     "keywords": [],
     "style": "regular",
     "id": "parent-selector",
-    "description": ""
+    "description": "Used in editor to select parent element."
 }

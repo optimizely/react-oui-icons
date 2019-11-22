@@ -1,1 +1,7 @@
-{ "name": "Events", "keywords": [], "style": "regular", "id": "events", "description": "" }
+{
+  "name": "Events",
+  "keywords": [],
+  "style": "regular",
+  "id": "events",
+  "description": "Events entities. Also used in the root navigation for the Events section."
+}

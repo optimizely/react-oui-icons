@@ -1,1 +1,7 @@
-{ "name": "Projects", "keywords": [], "style": "regular", "id": "projects", "description": "" }
+{
+  "name": "Projects",
+  "keywords": [],
+  "style": "regular",
+  "id": "projects",
+  "description": "Root navigation icon for showing the project picker. Should not be used as a project entity icon."
+}

@@ -1,1 +1,7 @@
-{ "name": "Archive", "keywords": [], "style": "regular", "id": "archive", "description": "" }
+{
+    "name": "Archive",
+    "keywords": [],
+    "style": "regular",
+    "id": "archive",
+    "description": "Used in icon buttons for archiving various entities."
+}

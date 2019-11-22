@@ -1,1 +1,7 @@
-{ "name": "Calendar", "keywords": [], "style": "regular", "id": "calendar", "description": "" }
+{
+  "name": "Calendar",
+  "keywords": [],
+  "style": "regular",
+  "id": "calendar",
+  "description": "Used in date range pickers and scheduler."
+}

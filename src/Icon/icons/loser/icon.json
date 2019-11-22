@@ -1,1 +1,7 @@
-{ "name": "Loser", "keywords": [], "style": "regular", "id": "loser", "description": "" }
+{
+  "name": "Loser",
+  "keywords": [],
+  "style": "regular",
+  "id": "loser",
+  "description": "Not used."
+}

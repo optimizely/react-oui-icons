@@ -1,1 +1,7 @@
-{ "name": "Interact", "keywords": [], "style": "regular", "id": "interact", "description": "" }
+{
+  "name": "Interact",
+  "keywords": [],
+  "style": "regular",
+  "id": "interact",
+  "description": "Interactive Mode: Toolbar icon to toggle interactive mode."
+}

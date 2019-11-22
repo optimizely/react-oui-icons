@@ -1,1 +1,7 @@
-{ "name": "Winner", "keywords": [], "style": "regular", "id": "winner", "description": "" }
+{
+  "name": "Winner",
+  "keywords": [],
+  "style": "regular",
+  "id": "winner",
+  "description": "Not used."
+}

@@ -1,1 +1,7 @@
-{ "name": "Trash", "keywords": [], "style": "regular", "id": "trash", "description": "" }
+{
+  "name": "Trash",
+  "keywords": [],
+  "style": "regular",
+  "id": "trash",
+  "description": "Generic icon for delete."
+}

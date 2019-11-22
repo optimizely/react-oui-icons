@@ -1,1 +1,7 @@
-{ "name": "Download", "keywords": [], "style": "regular", "id": "download", "description": "" }
+{
+  "name": "Download",
+  "keywords": [],
+  "style": "regular",
+  "id": "download",
+  "description": "Used in revision history for full stack (Not customer facing) to download the revision of particular datafile."
+}

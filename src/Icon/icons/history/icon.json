@@ -1,1 +1,7 @@
-{ "name": "History", "keywords": [], "style": "regular", "id": "history", "description": "" }
+{
+  "name": "History",
+  "keywords": [],
+  "style": "regular",
+  "id": "history",
+  "description": "Not used."
+}

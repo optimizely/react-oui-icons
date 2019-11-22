@@ -3,5 +3,5 @@
     "keywords": [],
     "style": "regular",
     "id": "clipboard",
-    "description": ""
+    "description": "Used to indicated that a given field or text area is copyable."
 }

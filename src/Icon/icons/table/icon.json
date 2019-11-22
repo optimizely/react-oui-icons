@@ -1,1 +1,7 @@
-{ "name": "Table", "keywords": [], "style": "regular", "id": "table", "description": "" }
+{
+  "name": "Table",
+  "keywords": [],
+  "style": "regular",
+  "id": "table",
+  "description": "Program managment file type."
+}

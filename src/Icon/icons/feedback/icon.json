@@ -1,1 +1,7 @@
-{ "name": "Feedback", "keywords": [], "style": "regular", "id": "feedback", "description": "" }
+{
+  "name": "Feedback",
+  "keywords": [],
+  "style": "regular",
+  "id": "feedback",
+  "description": "Root navigation item for showing the “Provide Feedback” dialog."
+}

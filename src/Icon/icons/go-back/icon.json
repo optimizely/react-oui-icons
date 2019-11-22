@@ -1,1 +1,7 @@
-{ "name": "Go Back", "keywords": [], "style": "regular", "id": "go-back", "description": "" }
+{
+  "name": "Go Back",
+  "keywords": [],
+  "style": "regular",
+  "id": "go-back",
+  "description": "AB: Return to AB testing, used in a sidebar navigation item in Program Management."
+}

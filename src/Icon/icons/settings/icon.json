@@ -1,1 +1,7 @@
-{ "name": "Settings", "keywords": [], "style": "regular", "id": "settings", "description": "" }
+{
+  "name": "Settings",
+  "keywords": [],
+  "style": "regular",
+  "id": "settings",
+  "description": "Root navigation icon for settings."
+}

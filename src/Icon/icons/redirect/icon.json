@@ -1,1 +1,7 @@
-{ "name": "Redirect", "keywords": [], "style": "regular", "id": "redirect", "description": "" }
+{
+  "name": "Redirect",
+  "keywords": [],
+  "style": "regular",
+  "id": "redirect",
+  "description": "Not used."
+}

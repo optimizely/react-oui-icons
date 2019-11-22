@@ -1,1 +1,7 @@
-{ "name": "Info", "keywords": [], "style": "regular", "id": "info", "description": "" }
+{
+  "name": "Info",
+  "keywords": [],
+  "style": "regular",
+  "id": "info",
+  "description": "Generally used notifiy the user about information."
+}

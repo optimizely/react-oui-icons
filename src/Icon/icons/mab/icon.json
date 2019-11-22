@@ -1,1 +1,7 @@
-{ "name": "Mab", "keywords": [], "style": "regular", "id": "mab", "description": "" }
+{
+  "name": "Mab",
+  "keywords": [],
+  "style": "regular",
+  "id": "mab",
+  "description": "Used in experiment create dropdown for multi-armed bandits."
+}

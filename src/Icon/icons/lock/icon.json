@@ -1,1 +1,7 @@
-{ "name": "Lock", "keywords": [], "style": "regular", "id": "lock", "description": "" }
+{
+  "name": "Lock",
+  "keywords": [],
+  "style": "regular",
+  "id": "lock",
+  "description": "Not used."
+}

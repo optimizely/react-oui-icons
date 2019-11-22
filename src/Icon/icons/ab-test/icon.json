@@ -3,5 +3,5 @@
     "keywords": [ "ab", "testing", "experimentation", "creation" ],
     "style": "regular",
     "id": "ab-test",
-    "description": ""
+    "description": "Used in the create dropdown for A/B experiments."
 }

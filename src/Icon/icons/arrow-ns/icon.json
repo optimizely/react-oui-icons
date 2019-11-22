@@ -1,1 +1,7 @@
-{ "name": "Arrow Ns", "keywords": [], "style": "regular", "id": "arrow-ns", "description": "" }
+{
+  "name": "Arrow Ns",
+  "keywords": [],
+  "style": "regular",
+  "id": "arrow-ns",
+  "description": "An arrow pointing up and down."
+}

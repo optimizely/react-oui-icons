@@ -1,1 +1,7 @@
-{ "name": "Exit", "keywords": [], "style": "regular", "id": "exit", "description": "" }
+{
+  "name": "Exit",
+  "keywords": [],
+  "style": "regular",
+  "id": "exit",
+  "description": "Exits preview mode."
+}

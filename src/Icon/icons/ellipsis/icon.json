@@ -1,1 +1,7 @@
-{ "name": "Ellipsis", "keywords": [], "style": "regular", "id": "ellipsis", "description": "" }
+{
+  "name": "Ellipsis",
+  "keywords": [],
+  "style": "regular",
+  "id": "ellipsis",
+  "description": "Used in table rows for the additional actions menu."
+}

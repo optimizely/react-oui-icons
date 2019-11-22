@@ -1,1 +1,7 @@
-{ "name": "Badge", "keywords": [], "style": "regular", "id": "badge", "description": "" }
+{
+    "name": "Badge",
+    "keywords": [],
+    "style": "regular",
+    "id": "badge",
+    "description": "Not used."
+}

@@ -1,1 +1,7 @@
-{ "name": "Pages", "keywords": [], "style": "regular", "id": "pages", "description": "" }
+{
+  "name": "Pages",
+  "keywords": [],
+  "style": "regular",
+  "id": "pages",
+  "description": "Pages Entities. Also used in root navigation for pages section."
+}

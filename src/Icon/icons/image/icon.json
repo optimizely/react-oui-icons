@@ -1,1 +1,7 @@
-{ "name": "Image", "keywords": [], "style": "regular", "id": "image", "description": "" }
+{
+  "name": "Image",
+  "keywords": [],
+  "style": "regular",
+  "id": "image",
+  "description": "Used in program managment attachments, and in the visual editor to upload images."
+}

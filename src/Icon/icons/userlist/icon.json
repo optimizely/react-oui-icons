@@ -1,6 +1,6 @@
 {
   "name": "Userlist",
-  "keywords": [],
+  "keywords": [ "userlist", "users", "list" ],
   "style": "regular",
   "id": "userlist",
   "description": "Not used."

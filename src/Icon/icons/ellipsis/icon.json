@@ -1,6 +1,6 @@
 {
   "name": "Ellipsis",
-  "keywords": [],
+  "keywords": [ "ellipsis", "dots", "three","more"],
   "style": "regular",
   "id": "ellipsis",
   "description": "Used in table rows for the additional actions menu."

@@ -1,6 +1,6 @@
 {
   "name": "Redirect",
-  "keywords": [],
+  "keywords": [ "redirect", "change", "forward", "arrow" ],
   "style": "regular",
   "id": "redirect",
   "description": "Not used."

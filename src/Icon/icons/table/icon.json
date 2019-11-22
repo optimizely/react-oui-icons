@@ -1,6 +1,6 @@
 {
   "name": "Table",
-  "keywords": [],
+  "keywords": ["table","grid","spreadsheet","csv"],
   "style": "regular",
   "id": "table",
   "description": "Program managment file type."

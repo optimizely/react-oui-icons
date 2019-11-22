@@ -1,6 +1,6 @@
 {
     "name": "Widescreen",
-    "keywords": [],
+    "keywords": [ "toolbar-size-widescreen", "wide", "expand", "desktop", "computer" ],
     "style": "regular",
     "id": "widescreen",
     "description": "Visual editor size picker option."

@@ -1,6 +1,6 @@
 {
   "name": "Upload",
-  "keywords": [],
+  "keywords": [ "upload", "put", "up", "arrow" ],
   "style": "regular",
   "id": "upload",
   "description": "In the visual editor, allows users to select a new background image and upload it for the selected element."

@@ -1,6 +1,6 @@
 {
     "name": "Arrow Left",
-    "keywords": [],
+    "keywords": [ "arrow-left", "arrow", "left", "less", "less than" ],
     "style": "regular",
     "id": "arrow-left",
     "description": "Used in chevrons for back buttons, and in calendars to navigate the months."

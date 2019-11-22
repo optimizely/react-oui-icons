@@ -1,1 +1,7 @@
-{ "name": "Code", "keywords": [], "style": "regular", "id": "code", "description": "Toolbar icon to show code editor in the visual editor." }
+{
+  "name": "Code",
+  "keywords": [ "code", "markup", "sdk" ],
+  "style": "regular",
+  "id": "code",
+  "description": "Toolbar icon to show code editor in the visual editor."
+}

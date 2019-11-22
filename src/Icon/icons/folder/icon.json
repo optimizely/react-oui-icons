@@ -1,6 +1,6 @@
 {
   "name": "Folder",
-  "keywords": [],
+  "keywords": ["document","folder"],
   "style": "regular",
   "id": "folder",
   "description": "Program management, shown in attachements for ideas."

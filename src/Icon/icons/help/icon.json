@@ -1,6 +1,6 @@
 {
   "name": "Help",
-  "keywords": [],
+  "keywords": [ "help", "feedback", "tutorial", "question" ],
   "style": "regular",
   "id": "help",
   "description": "Used in various places to indicate there’s a help popover available, or as an inline icon for chunks of help text."

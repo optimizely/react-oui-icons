@@ -1,1 +1,7 @@
-{ "name": "Bell", "keywords": [], "style": "regular", "id": "bell", "description": "Not used." }
+{
+  "name": "Bell",
+  "keywords": [ "bell", "alarm", "alert", "notification" ],
+  "style": "regular",
+  "id": "bell",
+  "description": "Not used."
+}

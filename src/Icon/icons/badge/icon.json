@@ -1,6 +1,6 @@
 {
     "name": "Badge",
-    "keywords": [],
+    "keywords": [ "badge", "award", "medal" ],
     "style": "regular",
     "id": "badge",
     "description": "Not used."

@@ -1,6 +1,6 @@
 {
     "name": "Full Width",
-    "keywords": [],
+    "keywords": [ "toolbar-size-full-width", "full", "width", "expand" ],
     "style": "regular",
     "id": "full-width",
     "description": "Visual editor size picker option."

@@ -1,6 +1,6 @@
 {
   "name": "Collapse",
-  "keywords": [],
+  "keywords": [ "collapse", "close", "contain", "shrink", "arrow" ],
   "style": "regular",
   "id": "collapse",
   "description": "Used in preview to collapse the preview widget."

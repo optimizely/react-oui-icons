@@ -1,6 +1,6 @@
 {
   "name": "Close",
-  "keywords": [],
+  "keywords": [ "close", "done", "cancel", "X" ],
   "style": "regular",
   "id": "close",
   "description": "Used in many places to indicate that something is closable, or cancelable."

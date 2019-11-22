@@ -1,6 +1,6 @@
 {
   "name": "Trash",
-  "keywords": [],
+  "keywords": [ "trash", "delete", "purge" ],
   "style": "regular",
   "id": "trash",
   "description": "Generic icon for delete."

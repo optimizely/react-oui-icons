@@ -1,6 +1,6 @@
 {
   "name": "Calendar",
-  "keywords": [],
+  "keywords": [ "calendar", "date", "schedule" ],
   "style": "regular",
   "id": "calendar",
   "description": "Used in date range pickers and scheduler."

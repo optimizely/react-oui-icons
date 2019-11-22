@@ -1,6 +1,6 @@
 {
   "name": "Interact",
-  "keywords": [],
+  "keywords": [ "toolbar-interactive-mode", "interactive", "mode", "click" ],
   "style": "regular",
   "id": "interact",
   "description": "Interactive Mode: Toolbar icon to toggle interactive mode."

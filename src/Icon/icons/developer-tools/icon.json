@@ -1,6 +1,6 @@
 {
     "name": "Developer Tools",
-    "keywords": [],
+    "keywords": ["developer","toolbox","admin","tools","tool"],
     "style": "regular",
     "id": "developer-tools",
     "description": "Toolbar icon to show the developer tools dropdown in the visual editor. This is only visible to internal employees."

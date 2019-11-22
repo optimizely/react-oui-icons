@@ -1,6 +1,6 @@
 {
     "name": "Arrow Right",
-    "keywords": [],
+    "keywords": [ "arrow-right", "arrow", "right", "greater", "greater than" ],
     "style": "regular",
     "id": "arrow-right",
     "description": "Used in calendars to navigate the months."

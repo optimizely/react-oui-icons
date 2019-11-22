@@ -1,6 +1,6 @@
 {
     "name": "Feature Flag",
-    "keywords": [],
+    "keywords": [ "feature-flag", "feature", "flag" ],
     "style": "regular",
     "id": "feature-flag",
     "description": "Not used."

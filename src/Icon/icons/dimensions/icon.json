@@ -1,6 +1,6 @@
 {
     "name": "Dimensions",
-    "keywords": [],
+    "keywords": [ "dimensions", "size", "box", "cube"],
     "style": "regular",
     "id": "dimensions",
     "description": "Classic icon. Not used."

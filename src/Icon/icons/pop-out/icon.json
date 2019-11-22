@@ -1,6 +1,6 @@
 {
   "name": "Pop Out",
-  "keywords": [],
+  "keywords": ["toolbar","pop-in","outside"],
   "style": "regular",
   "id": "pop-out",
   "description": "Toolbar icon for calling the popped out editor window back into the main window."

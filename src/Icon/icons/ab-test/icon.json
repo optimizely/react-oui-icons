@@ -1,6 +1,6 @@
 {
     "name": "A/B Test",
-    "keywords": [ "ab", "testing", "experimentation", "creation" ],
+    "keywords": [ "ab", "testing", "experimentation", "creation", "new"],
     "style": "regular",
     "id": "ab-test",
     "description": "Used in the create dropdown for A/B experiments."

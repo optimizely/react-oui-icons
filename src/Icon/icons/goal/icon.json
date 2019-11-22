@@ -1,6 +1,6 @@
 {
   "name": "Goal",
-  "keywords": [],
+  "keywords": [ "goal", "target", "aim", "flag" ],
   "style": "regular",
   "id": "goal",
   "description": "Not used."

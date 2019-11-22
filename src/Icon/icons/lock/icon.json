@@ -1,6 +1,6 @@
 {
   "name": "Lock",
-  "keywords": [],
+  "keywords": [ "lock", "block", "permission" ],
   "style": "regular",
   "id": "lock",
   "description": "Not used."

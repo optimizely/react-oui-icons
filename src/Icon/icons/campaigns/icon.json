@@ -1,6 +1,6 @@
 {
     "name": "Campaigns",
-    "keywords": [],
+    "keywords": [ "campaigns", "personalization", "optimization", "announce" ],
     "style": "regular",
     "id": "campaigns",
     "description": "Campaign entities, rarely used."

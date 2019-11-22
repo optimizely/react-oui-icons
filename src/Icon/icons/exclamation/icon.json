@@ -1,6 +1,6 @@
 {
   "name": "Exclamation",
-  "keywords": [],
+  "keywords": [ "exclamation", "alert", "notice", "warning" ],
   "style": "regular",
   "id": "exclamation",
   "description": "Used inline with text to present a warning."

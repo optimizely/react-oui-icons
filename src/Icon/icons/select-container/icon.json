@@ -1,6 +1,6 @@
 {
     "name": "Select Container",
-    "keywords": [],
+    "keywords": ["select","parent","element","container"],
     "style": "regular",
     "id": "select-container",
     "description": "Used in editor to select containing element."

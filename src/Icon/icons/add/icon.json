@@ -1,1 +1,7 @@
-{ "name": "Add", "keywords": [], "style": "regular", "id": "add", "description": "Used in buttons for adding a row, or in list boxes to indicate clicking will add the page, audience, metric etcetera." }
+{
+  "name": "Add",
+  "keywords": [ "add", "create", "new", "plus" ],
+  "style": "regular",
+  "id": "add",
+  "description": "Used in buttons for adding a row, or in list boxes to indicate clicking will add the page, audience, metric etcetera."
+}

@@ -1,6 +1,6 @@
 {
     "name": "Collaborators",
-    "keywords": [],
+    "keywords": [ "collaborators", "people", "roles" ],
     "style": "regular",
     "id": "collaborators",
     "description": "Only used in the help sidebar of the collaborators section."

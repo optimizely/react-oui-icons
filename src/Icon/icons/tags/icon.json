@@ -1,6 +1,6 @@
 {
   "name": "Tags",
-  "keywords": [],
+  "keywords":[ "tags", "metadata", "badge" ],
   "style": "regular",
   "id": "tags",
   "description": "Used in change history for tag entries."

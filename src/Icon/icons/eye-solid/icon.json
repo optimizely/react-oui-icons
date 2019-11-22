@@ -1,6 +1,6 @@
 {
   "name": "Eye (Solid)",
-  "keywords": [],
+  "keywords": [ "eye", "view", "preview","solid"],
   "style": "solid",
   "id": "eye-solid",
   "description": "Used in the experiment manager to enter preview mode."

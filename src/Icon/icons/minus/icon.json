@@ -1,6 +1,6 @@
 {
   "name": "Minus",
-  "keywords": [],
+  "keywords": [ "minus", "subtract", "remove", "line" ],
   "style": "regular",
   "id": "minus",
   "description": "Opposite of 'add'. Used to remove rows from tables that were added with 'add'."

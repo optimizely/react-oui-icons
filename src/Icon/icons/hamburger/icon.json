@@ -1,9 +1,7 @@
 {
     "name": "Hamburger",
-    "keywords": [],
+    "keywords": [ "hamburger", "menu", "lines" ],
     "style": "regular",
     "id": "hamburger",
-    "description": "Not used.
-
-    "
+    "description": "Not used."
 }

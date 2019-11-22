@@ -1,6 +1,6 @@
 {
   "name": "Check",
-  "keywords": [],
+  "keywords": [ "check", "ok", "good" ],
   "style": "regular",
   "id": "check",
   "description": "Used in the visual editor when confirming CSS selector change."

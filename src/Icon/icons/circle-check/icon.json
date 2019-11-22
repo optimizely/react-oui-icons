@@ -1,6 +1,6 @@
 {
     "name": "Circle Check",
-    "keywords": [],
+    "keywords": [ "check", "ok", "good","circle" ],
     "style": "regular",
     "id": "circle-check",
     "description": "Used in several places to indicate status."

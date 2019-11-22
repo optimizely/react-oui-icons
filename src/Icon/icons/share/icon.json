@@ -1,6 +1,6 @@
 {
   "name": "Share",
-  "keywords": [],
+  "keywords": ["share","export","collaborate"],
   "style": "regular",
   "id": "share",
   "description": "Generic icon used to indicate share action."

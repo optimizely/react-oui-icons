@@ -1,6 +1,6 @@
 {
   "name": "File",
-  "keywords": [],
+  "keywords": [ "file","document" ],
   "style": "regular",
   "id": "file",
   "description": "Program management, shown in attachements for ideas."

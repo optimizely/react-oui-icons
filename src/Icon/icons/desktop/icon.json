@@ -1,6 +1,6 @@
 {
   "name": "Desktop",
-  "keywords": [],
+  "keywords": [ "desktop", "pc", "mac", "computer" ],
   "style": "regular",
   "id": "desktop",
   "description": "Not used."

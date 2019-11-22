@@ -1,6 +1,6 @@
 {
   "name": "Reload",
-  "keywords": [],
+  "keywords": [ "toolbar-reload", "reload", "refresh", "arrow" ],
   "style": "regular",
   "id": "reload",
   "description": "Toolbar icon. Used for refreshing the visual editor."

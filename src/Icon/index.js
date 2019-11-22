@@ -3,8 +3,6 @@ import React from 'react';
 
 import icons from './icons.json';
 
-const HELP_ICON_TITLE = 'help';
-
 const propTypes = {
   description: PropTypes.string,
   fill: PropTypes.string,
@@ -18,8 +16,8 @@ const propTypes = {
 
 function findIcon(name, iconsObj = icons) {
   const icon = iconsObj.filter(obj => obj.title.split(' ').join('-') === name);
-  if(icon.length > 1) throw new Error('More that one icons was found with same name');
-  if(icon.length < 1) throw new Error('No icon found with that name');
+  if(icon.length > 1) throw new Error('More that one icons was found with same name: ' . name);
+  if(icon.svg < 1) throw new Error('No icon found with the name: ' . name);
   const iconObj = icon.length === 0 ? false : icon[0];
   return iconObj;
 }

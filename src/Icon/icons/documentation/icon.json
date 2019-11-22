@@ -1,0 +1,7 @@
+{
+    "name": "Documentation",
+    "keywords": [ "docs", "bookmark", "book","documentation" ],
+    "style": "regular",
+    "id": "documentation",
+    "description": "Used as a link to developer documentation in the sidebar nav."
+}

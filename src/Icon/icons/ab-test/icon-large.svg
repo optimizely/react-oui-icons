@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <polygon points="13.5,0.5 3.5,0.5 3.5,23.5 20.5,23.5 20.5,7.5 " />
+  <polyline points="13.5,1 13.5,7.5 20,7.5 " />
+  <polyline points="7,17.8 10.2,14.7 13.1,16.2 16.8,12.5 " />
+  <circle cx="17" cy="12.3" r="0.5" />
+  <circle cx="13.1" cy="16.2" r="0.5" />
+  <circle cx="10.2" cy="14.9" r="0.5" />
+  <circle cx="7" cy="17.8" r="0.5" />
+</svg>

@@ -1,0 +1,7 @@
+{
+    "name": "Archive (Solid)",
+    "keywords": [ "archive", "delete" ],
+    "style": "solid",
+    "id": "archive-solid",
+    "description": "Used in icon buttons for archiving various entities."
+}

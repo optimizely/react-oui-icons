@@ -1,0 +1,7 @@
+{
+  "name": "Eye",
+  "keywords": [ "eye", "view", "preview" ],
+  "style": "regular",
+  "id": "eye",
+  "description": "Visual editor icon. Used for showing an icon in a variation."
+}

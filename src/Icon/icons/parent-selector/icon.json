@@ -1,0 +1,7 @@
+{
+    "name": "Parent Selector",
+    "keywords": [ "parent-selector", "parent", "select", "arrow" ],
+    "style": "regular",
+    "id": "parent-selector",
+    "description": "Used in editor to select parent element."
+}

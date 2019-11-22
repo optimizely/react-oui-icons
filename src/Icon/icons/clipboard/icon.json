@@ -1,0 +1,7 @@
+{
+    "name": "Clipboard",
+    "keywords": [ "clipboard", "copy", "paste" ],
+    "style": "regular",
+    "id": "clipboard",
+    "description": "Used to indicated that a given field or text area is copyable."
+}

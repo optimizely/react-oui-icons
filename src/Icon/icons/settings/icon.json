@@ -1,0 +1,7 @@
+{
+  "name": "Settings",
+  "keywords": [ "settings", "preferences", "configuration", "gear" ],
+  "style": "regular",
+  "id": "settings",
+  "description": "Root navigation icon for settings."
+}

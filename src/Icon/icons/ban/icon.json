@@ -1,0 +1,7 @@
+{
+  "name": "Ban",
+  "keywords": [ "ban", "forbid", "block" ],
+  "style": "regular",
+  "id": "ban",
+  "description": "Visual editor icon. Used for removing an element in a variation."
+}

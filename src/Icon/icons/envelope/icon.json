@@ -1,0 +1,7 @@
+{
+  "name": "Envelope",
+  "keywords": ["send","mail"],
+  "style": "regular",
+  "id": "envelope",
+  "description": "An envelope. Used in program management."
+}

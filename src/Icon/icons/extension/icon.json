@@ -1,0 +1,7 @@
+{
+    "name": "Extension",
+    "keywords": [ "extensions", "extend", "gear", "settings" ],
+    "style": "regular",
+    "id": "extension",
+    "description": "Used only in change history for Extension entities."
+}

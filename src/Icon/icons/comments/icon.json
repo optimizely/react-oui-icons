@@ -1,0 +1,7 @@
+{
+  "name": "Comments",
+  "keywords": ["comment","talk","message","speech"],
+  "style": "regular",
+  "id": "comments",
+  "description": "Used in program management idea screen to show / hide comments."
+}

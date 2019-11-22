@@ -1,0 +1,7 @@
+{
+  "name": "Pop In",
+  "keywords": ["toolbar","pop-in","inside"],
+  "style": "regular",
+  "id": "pop-in",
+  "description": "Toolbar icon for popping out the visual editor into a new window."
+}

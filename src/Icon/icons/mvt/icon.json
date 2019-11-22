@@ -1,0 +1,7 @@
+{
+  "name": "MVT",
+  "keywords": [ "create-mvt", "create", "mvt" ],
+  "style": "regular",
+  "id": "mvt",
+  "description": "Used in experiment create dropdown for multivariate experiments."
+}

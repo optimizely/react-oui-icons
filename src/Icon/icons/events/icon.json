@@ -1,0 +1,7 @@
+{
+  "name": "Events",
+  "keywords": [ "events", "listener", "user" ],
+  "style": "regular",
+  "id": "events",
+  "description": "Events entities. Also used in the root navigation for the Events section."
+}

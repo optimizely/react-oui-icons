@@ -1,0 +1,7 @@
+{
+  "name": "Feedback",
+  "keywords": [ "feedback", "advice", "help", "chat" ],
+  "style": "regular",
+  "id": "feedback",
+  "description": "Root navigation item for showing the “Provide Feedback” dialog."
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Info",
+  "keywords": ["i","information","notification"],
+  "style": "regular",
+  "id": "info",
+  "description": "Generally used notifiy the user about information."
+}

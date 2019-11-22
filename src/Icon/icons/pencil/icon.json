@@ -1,0 +1,7 @@
+{
+  "name": "Pencil",
+  "keywords": ["pen","edit","inline"],
+  "style": "regular",
+  "id": "pencil",
+  "description": "Used to indicate a field is inline edit."
+}

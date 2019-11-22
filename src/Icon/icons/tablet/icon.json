@@ -1,0 +1,7 @@
+{
+  "name": "Tablet",
+  "keywords": [ "tablet", "ipad"],
+  "style": "regular",
+  "id": "tablet",
+  "description": "Visual editor size picker option."
+}

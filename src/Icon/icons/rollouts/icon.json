@@ -1,0 +1,7 @@
+{
+  "name": "Rollouts",
+  "keywords": [ "rollouts", "release", "launch", "toggle" ],
+  "style": "regular",
+  "id": "rollouts",
+  "description": "Rollouts entities. Also used the root navigation to indicate the Rollouts section."
+}

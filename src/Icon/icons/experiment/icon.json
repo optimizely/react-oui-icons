@@ -1,0 +1,7 @@
+{
+    "name": "Experiment",
+    "keywords": [ "experiment", "test", "optimization", "beaker" ],
+    "style": "regular",
+    "id": "experiment",
+    "description": "Experiment entities. Also visible in the root navigation for sidebar items."
+}

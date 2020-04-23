@@ -5,9 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+- [Feature] Add `environment`, `secure-environment`, and `no-lock` icons
 
 ## 2.7.0 - 2019-10-22
-- [Feature] Added `docs` icon
+- [Feature] Add `docs` icon
 
 ## 2.6.1 - 2019-07-16
 - [Chore] Upgrade to Babel 7, Node 12, Gulp 4 (#46)

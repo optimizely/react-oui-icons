@@ -43,7 +43,8 @@ It will start a local webserver served at `http://localhost:6006/`.
 ## Adding and editing icons
 
 1. Add icons to `assets/svgs/`.
-2. Run `yarn svgson` to update the icon internal data file in `src/Icon/icons.js`.
+2. Run `yarn svgson` to update the icon internal data file in `src/Icon/icons.json`.
+    - If this command is failing, try running `yarn install` first.
 3. Create a new release of `react-oui-icons` (see [Pre-Release](https://github.com/optimizely/react-oui-icons#warning-pre-release) and [Release a new version of react-oui-icons](https://github.com/optimizely/react-oui-icons#release-new-version-of-react-oui-icons))
 4. Create a [new release of OUI](https://github.com/optimizely/oui/blob/devel/CONTRIBUTING.md)
 

@@ -5,6 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+
+## 2.8.0 - 2020-04-23
 - [Feature] Add `environment`, `secure-environment`, and `no-lock` icons
 
 ## 2.7.0 - 2019-10-22

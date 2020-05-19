@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+- [Feature] Add `flag` icon
 
 ## 2.8.1 - 2020-04-24
 - [Fix] Update svgs for `environment`, `secure-environment`, and `no-lock` icons

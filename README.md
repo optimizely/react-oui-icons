@@ -53,7 +53,7 @@ It will start a local webserver served at `http://localhost:6006/`.
         - [Patch] Update react-oui-icons version to xx.xx.xx ([PR #](https://github.com/optimizely/oui/pull/PR #))
 5. Create a [new release of OUI](https://github.com/optimizely/oui/blob/devel/CONTRIBUTING.md)
 6. Bump the OUI version number in Optimizely's package.json
-    - Run `yarn upgrade react-oui-icons@99.xx.xx` in `src/ww/frontend`
+    - Run `yarn upgrade react-oui-icons@99.xx.xx` in `src/www/frontend`
 
 ## Test in Optimizely.git
 

@@ -1577,6 +1577,28 @@
   {
     "name": "svg",
     "attrs": {
+      "xmlns": "http://www.w3.org/2000/svg",
+      "viewBox": "0 0 24 24"
+    },
+    "childs": [
+      {
+        "name": "path",
+        "attrs": {
+          "d": "M2 19V3H0v18h24v-2z"
+        }
+      },
+      {
+        "name": "path",
+        "attrs": {
+          "d": "M5 13h2v4H5zm4-6h2v10H9zm4 3h2v7h-2zm4-5h2v12h-2z"
+        }
+      }
+    ],
+    "title": "graph"
+  },
+  {
+    "name": "svg",
+    "attrs": {
       "baseProfile": "tiny",
       "xmlns": "http://www.w3.org/2000/svg",
       "viewBox": "0 0 24 24"

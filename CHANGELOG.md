@@ -5,6 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+
+## 2.10.0 - 2020-08-04
 - [Feature] Add `chart` icon
 
 ## 2.9.0 - 2020-05-19

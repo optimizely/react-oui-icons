@@ -18,8 +18,8 @@ const propTypes = {
 
 function findIcon(name, iconsObj = icons) {
   const icon = iconsObj.filter(obj => obj.title.split(' ').join('-') === name);
-  if(icon.length > 1) throw new Error('More that one icons was found with same name');
-  if(icon.length < 1) throw new Error('No icon found with that name');
+  if(icon.length > 1) throw new Error(`More that one icon was found with same name ${name}`);
+  if(icon.length < 1) throw new Error(`No icon found with that name ${name}`);
   const iconObj = icon.length === 0 ? false : icon[0];
   return iconObj;
 }

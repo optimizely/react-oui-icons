@@ -6,6 +6,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 2.11.1 - 2020-08-28
+- [Patch] Fix typo
+
 ## 2.11.0 - 2020-08-28
 - [Feature] Add `SDK` icons, `hash`, and update `duplicate`
 

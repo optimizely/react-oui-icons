@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+- [Patch] Update svg for `hash`
 
 ## 2.11.2 - 2020-09-01
 - [Patch] Remove stroke color from `hash`

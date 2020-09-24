@@ -5,8 +5,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
-
-## 2.11.4 - 2020-09-24
 - [Patch] - [Patch] Updated component to be memoized to improve usage performance across all uses ([#60](https://github.com/optimizely/react-oui-icons/pull/60))
 
 ## 2.11.3 - 2020-09-02

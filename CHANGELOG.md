@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+- [Feature] Add `result` icon
 
 ## 2.11.4 - 2020-09-25
 - [Patch] Updated component to be memoized to improve usage performance across all uses ([#60](https://github.com/optimizely/react-oui-icons/pull/60))

@@ -5,6 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file is similar to the format suggested by [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog).
 
 ## Unreleased
+
+## 2.12.0 - 2020-10-28
 - [Feature] Add `result` icon
 
 ## 2.11.4 - 2020-09-25

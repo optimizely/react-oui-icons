@@ -6,7 +6,7 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
-## 2.13.0 - 2021-02-04
+## 3.0.0 - 2021-02-04
 - [Feature] Add `ruleset` icon
 - [Feature] Add `variations` icon
 

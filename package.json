@@ -1,6 +1,6 @@
 {
   "name": "react-oui-icons",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "dist/index.js",
   "module": "module/index.js",
   "private": false,

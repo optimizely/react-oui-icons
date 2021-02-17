@@ -6,6 +6,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 3.0.1 - 2021-02-17
+- [Patch] Update `ruleset` and `variations` svgs
+
 ## 3.0.0 - 2021-02-04
 - [Feature] Add `ruleset` icon
 - [Feature] Add `variations` icon

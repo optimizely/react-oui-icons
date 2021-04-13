@@ -6,6 +6,9 @@ This file is similar to the format suggested by [Keep a CHANGELOG](https://githu
 
 ## Unreleased
 
+## 3.1.0 - 2021-04-13
+- [Feature] Updated component to display custom title.
+
 ## 3.0.1 - 2021-02-17
 - [Patch] Update `ruleset` and `variations` svgs
 

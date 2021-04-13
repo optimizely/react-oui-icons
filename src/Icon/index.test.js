@@ -69,23 +69,77 @@ describe('<Icon/> Component', () => {
     expect(component.contains(<desc>ab</desc>)).toEqual(true);
   });
 
-  it('should contain <title> with name of the icon', () => {
-    const component = shallow(
-      <Icon
-        name="ab"
-      />);
-    expect(component.contains(<title>ab</title>)).toEqual(true);
+  describe('When title prop is provided', () => {
+    let props;
+    const testTitle='test title';
+
+    beforeEach(() => {
+      props = {
+        title: testTitle,
+        name: 'winner'
+      };
+    });
+
+    describe('When component mounts', () => {
+      let wrapper;
+
+      beforeEach(() => {
+        wrapper = shallow(<Icon {...props} />);
+      });
+
+      it('should contain <title> with the provided title', () => {
+        expect(wrapper.contains(<title>{testTitle}</title>)).toBeTruthy();
+      });
+    })
   });
 
-  it('should not contain <title> when the "help" icon is used', () => {
-    const component = shallow(
-      <Icon
-        name="help"
-      />);
-    expect(component.contains(<title>help</title>)).toEqual(false);
-  });
-  //
+  describe('When title prop is not provided', () => {
+    let props;
 
-  // const component = shallow(<Icon name='bell' />)
-  // console.log(component);
+    describe('When icon is different than "help"', () => {
+      const testName = 'ab';
+
+      beforeEach(() => {
+        props = {
+          name: testName
+        };
+      });
+
+      describe('When component mounts', () => {
+        let wrapper;
+
+        beforeEach(() => {
+          wrapper = shallow(<Icon {...props} />)
+        });
+
+        it('should contain <title> with the name of the icon', () => {
+          expect(wrapper.find('title').exists()).toBeTruthy();
+          expect(wrapper.contains(<title>{testName}</title>)).toBeTruthy();
+        });
+      });
+    });
+
+    describe('When the "help" icon is used', () => {
+      const testName = 'help';
+
+      beforeEach(() => {
+        props = {
+          name: testName
+        };
+      });
+
+      describe('When component mounts', () => {
+        let wrapper;
+
+        beforeEach(() => {
+          wrapper = shallow(<Icon {...props} />);
+        });
+
+        it('should not contain a <title> element', () => {
+          expect(wrapper.contains(<title>{testName}</title>)).toBeFalsy();
+          expect(wrapper.find('title').exists()).toBeFalsy();
+        });
+      });
+    });
+  });
 });

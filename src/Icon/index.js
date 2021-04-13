@@ -13,6 +13,7 @@ const propTypes = {
   role: PropTypes.string,
   size: PropTypes.string,
   style: PropTypes.object,
+  title: PropTypes.string,
   viewBox: PropTypes.string,
 };
 
@@ -61,6 +62,7 @@ const Icon = ({
   size = "medium",
   stroke = "none",
   style = {},
+  title = "",
 }) => {
   const icon = findIcon(`${name}`);
   let sizeNumber;
@@ -92,7 +94,7 @@ const Icon = ({
 
   return (
     <svg data-oui-component={true} {...props}>
-      {icon.title !== HELP_ICON_TITLE && <title>{icon.title}</title>}
+      {icon.title !== HELP_ICON_TITLE && <title>{title || icon.title}</title>}
       <desc>{description}</desc>
       {content}
     </svg>
